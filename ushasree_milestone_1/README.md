@@ -33,28 +33,6 @@ This milestone implements the complete pipeline for:
 
 ------------------------------------------------------------------------
 
-# 📂 Folder Structure
-
-    your_name_milestone_1/
-    │── scripts/
-    │     ├── main.py
-    │     ├── preprocess.py
-    │     ├── chunking.py
-    │     ├── embeddings.py
-    │     ├── build_faiss.py
-    │
-    │── raw_data/
-    │     ├── *.pdf
-    │     ├── *.txt
-    │
-    │── outputs/
-    │     ├── embeddings.npy
-    │     ├── faiss_index.bin
-    │
-    └── README.md
-
-------------------------------------------------------------------------
-
 # 🔍 Step-by-Step Pipeline
 
 ## 1️⃣ Preprocessing (PDF/Text → Clean Text)
