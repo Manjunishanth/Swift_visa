@@ -36,15 +36,6 @@ def preprocess_pdf(pdf_path, output_dir="cleaned_texts"):
 # CHUNKER (Split cleaned text into small chunks)
 
 def chunk_text(cleaned_file, max_length=800, output_dir="chunks"):
-    """
-    Splits cleaned text into word-based chunks with overlap.
-    Example:
-        max_length = 500 words
-        overlap = 100 words
-        Chunk1: words 0–499
-        Chunk2: words 400–899
-        Chunk3: words 800–1299
-    """
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -175,6 +166,7 @@ if __name__ == "__main__":
     run_pipeline_for_folder(folder)
 
  
+
 
 
 
