@@ -1,0 +1,8 @@
+transformers
+sentence-transformers
+torch
+numpy
+faiss-cpu
+pdfplumber
+nltk
+tqdm
