@@ -1,0 +1,6 @@
+{
+  "source_pdf": "Ireland_Visa_Screening_Details.pdf",
+  "n_chunks": 3,
+  "chunk_size": 1000,
+  "overlap": 200
+}
