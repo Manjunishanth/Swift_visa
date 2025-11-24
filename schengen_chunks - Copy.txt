@@ -1,0 +1,77 @@
+--- CHUNK 1 ---
+{
+  "visa_type": "Schengen",
+  "last_updated": "November 2025",
+  "overview": {
+    "coverage": "29 European countries",
+    "main_categories": [
+      "Short-stay visas (Type C) - for tourism, business, family visits, transit",
+      "Long-stay / National visas (Type D) - for work, study, or residence in a specific Schengen country"
+    ]
+  },
+  "key_updates_2025": {
+    "fee_increase": {
+      "effective_date": "June 11, 2024",
+
+
+--- CHUNK 2 ---
+      "adults": "\u00e2\u201a\u00ac90 (previously \u00e2\u201a\u00ac80)",
+      "children_6_12": "\u00e2\u201a\u00ac45 (previously \u00e2\u201a\u00ac40)"
+    },
+    "ees_implementation": {
+      "start_date": "October 2025",
+      "description": "EU's new biometric Entry/Exit System (EES) rollout for non-EU travellers"
+    }
+  },
+  "visa_categories": {
+    "short_stay_type_c": {
+      "purpose": [
+        "Tourism",
+        "Business",
+        "Cultural/sports events",
+        "Family visits",
+
+
+--- CHUNK 3 ---
+        "Transit"
+      ],
+      "stay_limit": "Up to 90 days within any 180-day period",
+      "required_documents": [
+        "Valid passport (at least 3 months beyond planned exit)",
+        "Visa application form",
+        "Passport-size color photographs",
+        "Travel itinerary and accommodation proof",
+        "Travel medical insurance (minimum \u00e2\u201a\u00ac30,000)",
+        "Proof of financial means"
+      ]
+    },
+    "long_stay_type_d": {
+      "purpose": [
+        "Work",
+
+
+--- CHUNK 4 ---
+        "Study",
+        "Residence in specific Schengen country"
+      ],
+      "fee": "Varies by country",
+      "special_notes": "Days may or may not count against 90/180 rule depending on visa specifics"
+    }
+  },
+  "general_requirements": {
+    "passport_validity": "At least 3 months beyond planned exit date",
+    "blank_pages": "At least two blank pages",
+    "biometrics": "Fingerprints + photo may be required",
+
+
+--- CHUNK 5 ---
+    "insurance": "Mandatory for Type C visa (minimum \u00e2\u201a\u00ac30,000 coverage)"
+  },
+  "processing": {
+    "standard_time": "~15 calendar days",
+    "extended_time": "Up to 45-60 days in some cases",
+    "service_fees": "Applicable if using external providers (e.g., VFS)"
+  }
+}
+
+
