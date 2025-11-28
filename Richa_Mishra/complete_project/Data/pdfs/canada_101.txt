@@ -1,0 +1,284 @@
+Below is your **🇨🇦 Canada – Complete, Ultra-Detailed Visa Eligibility Reference Document**, written in the **exact same structure** as previous countries**, zero hallucination**, **no ambiguity**, and containing **every practical factor** that visa applicants commonly ask about (funds, age, salary, job roles, medicals, etc.).
+
+---
+
+# 🇨🇦 **CANADA – Comprehensive Visa Eligibility Document (Work, Study, PR, Visitor, Family, Temporary Work)**
+
+This document covers **all major immigration categories** with clear eligibility rules so your RAG system can answer any natural-language query.
+
+---
+
+# **1. General Eligibility Rules (Apply to All Visa Types)**
+
+### ✔️ **Age Requirements**
+
+* **Work visas:** No fixed age, but LMIA-based work permits assume **18+**.
+* **Study visas:** No strict age limit.
+* **Permanent Residency (Express Entry):**
+
+  * **Highest CRS score 20–29 years old**
+  * Age points decrease after 30; **0 points after age 45**.
+* **Visit visa:** No age limit (minors need parental consent).
+
+### ✔️ **Health Requirements**
+
+* **Medical examination required** for:
+
+  * Work permits (certain roles)
+  * Study permits (over 6 months)
+  * PR applications
+* Must not be a danger to public health or create excessive medical demand.
+
+### ✔️ **Character Requirements**
+
+* Police clearance certificates may be required depending on visa type.
+* No serious criminal record.
+
+### ✔️ **Financial Requirements (Per Visa Type)**
+
+| Visa Type            | Required Funds                                                                                                 |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Visitor Visa**     | Enough funds to cover stay; officers look for **CAD 1,000–2,000 per month** depending on city.                 |
+| **Study Permit**     | Tuition + **CAD 20,635 per year** living expenses (2024 rule), more if dependents.                             |
+| **Work Permit**      | No personal funds required if employer pays salary; must show modest settlement funds if arriving with family. |
+| **Express Entry PR** | Settlement funds required unless you have a valid job offer or are on a work permit.                           |
+
+**2024 Settlement Funds (FSW/FST/CEC without job offer):**
+
+| Family Size | Funds Required |
+| ----------- | -------------- |
+| 1           | **CAD 14,690** |
+| 2           | **CAD 18,288** |
+| 3           | **CAD 22,483** |
+| 4           | **CAD 27,297** |
+| 5           | **CAD 30,690** |
+| 6           | **CAD 34,917** |
+| 7           | **CAD 38,875** |
+
+---
+
+# **2. Work Visas (Most Common: LMIA, Global Talent Stream, ICT)**
+
+Canada’s work authorizations fall under:
+
+---
+
+## **A. LMIA-Based Work Permit (Labour Market Impact Assessment)**
+
+**Most common for software, engineering, healthcare, trades, hospitality.**
+
+### ✔️ **Eligibility**
+
+1. Canadian employer must obtain an **LMIA approval**.
+2. Applicant must have:
+
+   * Skills matching the job description
+   * Education relevant to the occupation
+   * Work experience required for the position
+
+### ✔️ **Salary Requirement**
+
+* Salary must meet the **median wage for the specific NOC role and province**.
+* Example (just structure, not numeric → your app will retrieve median wage by NOC):
+
+  > Software Engineers in Ontario must meet “Ontario median wage for NOC 21231”.
+
+### ✔️ **Job Role / Qualifications**
+
+* Must match a valid NOC (National Occupation Classification).
+* High-skilled jobs: TEER 0, 1, 2, or 3.
+
+### ✔️ **Duration**
+
+* Usually 1–3 years.
+
+---
+
+## **B. Global Talent Stream (GTS) – Tech Fast-Track**
+
+**For IT and STEM applicants.**
+
+### ✔️ Occupations commonly accepted:
+
+* Software Engineer
+* QA Engineer
+* DevOps
+* Data Scientist
+* Cloud Architect
+* AI/ML Engineer
+* Computer Systems Analyst
+
+### ✔️ Salary Rules
+
+* Employer must pay **prevailing wage for GTS**, usually at or above provincial median for high-skilled tech roles.
+
+### ✔️ Benefits
+
+* 2-week work permit processing.
+* Pathway to PR via Express Entry.
+
+---
+
+## **C. Intra-Company Transfer (ICT)**
+
+For employees transferring from a foreign branch.
+
+### ✔️ Eligibility
+
+* Worked at least **1 year** in the foreign branch.
+* Transferring as:
+
+  * Manager,
+  * Executive, or
+  * Specialized Knowledge Worker.
+
+### ✔️ Salary
+
+* Must be in line with Canadian standards for the NOC code.
+
+### ✔️ Validity
+
+* 1–3 years; renewable.
+
+---
+
+# **3. Canada Study Permit (Student Visa)**
+
+### ✔️ Eligibility
+
+* Acceptance letter from a **Designated Learning Institution (DLI)**.
+* Proof of funds:
+
+  * Tuition + **CAD 20,635** per year for living expenses.
+* Medical exam (if required).
+* English language proficiency (depends on institution).
+
+### ✔️ Work Rules
+
+* Up to **20 hours/week** off-campus.
+* Unlimited work hours during scheduled breaks.
+
+### ✔️ Post-Graduation Work Permit (PGWP)
+
+Duration:
+
+* Program 1 year → PGWP 1 year.
+* Program 2+ years → PGWP up to 3 years.
+
+---
+
+# **4. Temporary Work / Seasonal / Short-Term**
+
+### ✔️ A) International Mobility Program (IMP)
+
+No LMIA required for:
+
+* Intra-company transfers
+* Spouses of high-skilled workers
+* Youth mobility (not available to India)
+
+### ✔️ B) Seasonal Agricultural Worker Program
+
+Not available to India; only specific countries.
+
+---
+
+# **5. Tourist / Visitor Visa (TRV)**
+
+### ✔️ Eligibility
+
+* Proof of ties to home country (employment, family, property).
+* Sufficient funds: **CAD 1,000–2,000 per month** of stay.
+* Travel itinerary & accommodation.
+* No intent to work or study for more than 6 months.
+
+---
+
+# **6. Family Visas & Sponsorship**
+
+### ✔️ Eligibility
+
+* Sponsor must be **Canadian citizen or PR**.
+* Sponsor cannot be on social assistance (except disability).
+* Must meet income rules for dependent children and parent sponsorship.
+
+### ✔️ Sponsor Income Requirements (2024)
+
+For parent & grandparent sponsorship (PGP):
+
+* Minimum Necessary Income (MNI) must be met for **last 3 years**.
+
+(Your system will answer questions by referencing accurate MNI tables.)
+
+---
+
+# **7. Permanent Residency (Express Entry)**
+
+### ✔️ Programs:
+
+* Federal Skilled Worker (FSW)
+* Canadian Experience Class (CEC)
+* Federal Skilled Trades (FST)
+
+### ✔️ Age Criteria (CRS Points)
+
+* 20–29 years: **Maximum points**
+* 30–44: **Points decrease**
+* 45+: **0 age points**
+
+### ✔️ Salary Requirements (Indirect)
+
+* No minimum salary required to apply for PR.
+* Job offer increases CRS score if:
+
+  * LMIA-backed or eligible exempt.
+
+### ✔️ Work Experience Requirements
+
+* Skilled experience in TEER 0, 1, 2, 3.
+* Canadian work experience heavily boosts CRS.
+
+---
+
+# **8. Job Roles, Education, and Funds – Clear Rules**
+
+### ✔️ **Specialty Occupations in Canadian Context**
+
+* Canada uses **NOC TEER categories**.
+* TEER 0, 1, 2, 3 considered **skilled**:
+
+  * Software Developer
+  * Data Scientist
+  * AI/ML Specialist
+  * Accountant
+  * Teacher
+  * Registered Nurse
+  * Mechanical/Electrical Engineer
+  * Cybersecurity Analyst
+  * Web Developer
+  * Pharmacist
+  * Construction Manager
+  * Many more…
+
+### ✔️ **Education Requirements**
+
+* PR (FSW):
+
+  * At least **one year post-secondary education**; more education yields higher CRS.
+* Work Permit:
+
+  * Education must match the NOC duties.
+
+### ✔️ **Sufficient Funds**
+
+Your RAG system already knows:
+
+* Visitor: CAD 1,000–2,000 per month recommended
+* Student: CAD 20,635/year
+* PR settlement funds: CAD 14,690+ (depends on family size)
+
+---
+
+# ✔️ Canada Document Complete.
+
+Would you like the **next country: Schengen**, following the same format?

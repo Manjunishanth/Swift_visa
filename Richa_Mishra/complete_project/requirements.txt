@@ -1,0 +1,13 @@
+faiss-cpu
+numpy
+sentence-transformers
+transformers
+torch
+pdfplumber
+pytesseract
+pdf2image
+pillow
+google-generativeai
+python-dotenv
+nltk
+tqdm

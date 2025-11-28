@@ -1,0 +1,223 @@
+# ✅ **DOCUMENT 2 — UNITED KINGDOM (UK) — VISA ELIGIBILITY (CLEAN TEXT)**
+
+**Covers:** Skilled Worker Visa, Student Visa (Tier 4).
+
+---
+
+## **Skilled Worker Visa (Work Visa) Eligibility**
+
+**Requirements:**
+
+1. Job offer from a **Home Office licensed sponsor**.
+2. **Certificate of Sponsorship (CoS)** issued by employer.
+3. Job must be on the **eligible occupations list**.
+4. Minimum salary:
+
+   * Standard: **£38,700 per year** (or going rate for the job).
+5. English level: **B1**.
+6. Applicant must maintain financial funds (unless employer certifies maintenance).
+
+**Eligibility Notes:**
+
+* Applicant’s **income at home does not affect eligibility**.
+* Age does not matter.
+* Salary offered by UK employer must meet **threshold**, not applicant’s current salary.
+
+---
+
+## **UK Student Visa Eligibility**
+
+1. **CAS letter** from a licensed education provider.
+2. Proof of **financial capacity**:
+
+   * Tuition first year + 9 months living cost.
+3. English requirement (varies by level).
+4. Genuine student test during visa interview (sometimes).
+5. Passport + biometrics.
+
+**Critical Case:**
+
+* If the student has **CAS but no financial proof**, visa will likely be refused.
+United Kingdom — Visa eligibility reference (Skilled Worker, Student, Visitor, key evidence)
+
+OVERVIEW
+This note summarizes the principal public rules and the typical evidence required for UK Skilled Worker (employer-sponsored), Student, and Visitor visas. Always consult gov.uk for the final up-to-date rules.
+
+Skilled Worker (employer-sponsored) — core tests
+- You must have a confirmed job offer from a UK sponsor who holds a sponsor licence; the job must meet the required skill level and you must be paid the required salary — either the standard salary threshold (typically a published “standard” rate) or the “going rate” for that occupation, whichever is higher. Exact thresholds and going rates are published by the UK government. :contentReference[oaicite:7]{index=7}
+- Some jobs on the immigration salary list allow lower minimum salaries (80% rule, etc.); check the official immigration salary list for your occupation code. :contentReference[oaicite:8]{index=8}
+
+Student visa — funds & CAS
+- You need a Confirmation of Acceptance for Studies (CAS) and to show enough money to cover course fees for one academic year (up to 9 months) and living costs (amounts differ for London vs. outside London). The CAS contains the course fee amount to be proved. :contentReference[oaicite:9]{index=9}
+
+Visitor / short stay
+- Show purpose of visit, funds, travel itinerary, and strong ties/home return evidence. Visa officers assess credibility and supporting documents.
+
+HEALTH / AGE / FAMILY / JOB ROLE / INCOME
+- Health checks: some visa types (e.g., long-term settlement routes) require TB tests, and healthcare surcharge is charged for many visa types; specific medical tests depend on the route.
+- Age is not a universal disqualifier; eligibility focuses on the route and criteria (sponsor, salary, CAS, funds).
+- Family: dependents may be allowed for certain sponsored routes—check specific rules.
+
+UNITED KINGDOM — COMPLETE VISA ELIGIBILITY REFERENCE
+(File: UK_Eligibility_Full.txt)
+
+INTRODUCTION
+This document is a factual summary of UK visa eligibility rules for common non-immigrant and limited-stay migrant routes. It is based on official GOV.UK guidance and Home Office publications. Numbers (salary thresholds, maintenance amounts, IHS rates) are explicitly taken from GOV.UK pages cited below. Where policy varies by occupation code or sponsor, the document points to the authoritative tables (going-rates / immigration salary list). Do not treat this as legal advice — final decisions are made by UKVI caseworkers at application time.
+
+────────────────────────────────────────────────────────────
+SECTION A — SUPPORTED ROUTES (covered here)
+────────────────────────────────────────────────────────────
+1. Skilled Worker (sponsored work visa)
+2. Student (Student route — academic & postgraduate study)
+3. Visitor / Standard Visitor (tourism, family, business)
+4. Temporary / Short-term work (Youth Mobility Scheme, Temporary Work)
+5. Dependants & family connections
+6. General items: Health (IHS), TB tests, evidence, refusal reasons
+
+────────────────────────────────────────────────────────────
+SECTION B — SKILLED WORKER (employer-sponsored)
+────────────────────────────────────────────────────────────
+
+OVERVIEW
+The Skilled Worker route requires a UK employer with a sponsor licence to issue a Certificate of Sponsorship (CoS) for a named job. Applicants must meet job, salary and (where required) English language requirements. Final eligibility and supporting evidence are assessed by UKVI. :contentReference[oaicite:0]{index=0}
+
+KEY RULES (must be satisfied):
+• Sponsor: job must be sponsored by a Home Office-licensed sponsor who issues a valid Certificate of Sponsorship (CoS). :contentReference[oaicite:1]{index=1}  
+• Skill level: the job must meet the minimum occupation skill level (RQF level 3 or above — check official occupation codes). :contentReference[oaicite:2]{index=2}  
+• Salary requirement: **you must be paid the higher of**:
+  1. The **standard salary** threshold for the Skilled Worker route, OR  
+  2. The **going rate** (annual going rate) for the specific occupation code (SOC code).  
+  Current standard salary (public guidance): **£41,700 per year** (usual standard annual salary). If the going rate for the specific job is higher, that higher figure applies. Some listed occupations have a **reduced minimum (80% rule)**; consult the immigration salary list for details. :contentReference[oaicite:3]{index=3}
+
+• Exceptions / lower thresholds:
+  - If the job appears on the **Immigration Salary List** (shortage occupations or listed routes), a lower minimum salary (for example 80% of the usual rate) may apply — check the salary list for exact codes and rates. :contentReference[oaicite:4]{index=4}
+
+• English language: applicants must meet the specified English language level or hold an acceptable qualification unless exempt. :contentReference[oaicite:5]{index=5}
+
+EVIDENCE (commonly requested):
+• Certificate of Sponsorship (CoS) with job details and SOC code. :contentReference[oaicite:6]{index=6}  
+• Contract / employer letter specifying duties, hours, salary and start date. :contentReference[oaicite:7]{index=7}  
+• Proof employer is a licensed sponsor (sponsor licence number appears on CoS). :contentReference[oaicite:8]{index=8}
+
+AGE, INCOME & OTHER NOTES:
+• **Age:** No statutory maximum or minimum age for Skilled Worker applicants; eligibility hinges on job, sponsor, skill level and salary. (Age alone is not a legal disqualifier.) :contentReference[oaicite:9]{index=9}  
+• **Applicant’s prior/home-country income:** Not relevant for meeting the Skilled Worker route salary rule — the UK job salary is the key metric. :contentReference[oaicite:10]{index=10}
+
+COMMON REFUSAL REASONS:
+• Salary below the required threshold (standard or going rate). :contentReference[oaicite:11]{index=11}  
+• Incorrect/invalid CoS or sponsor issues. :contentReference[oaicite:12]{index=12}
+
+────────────────────────────────────────────────────────────
+SECTION C — STUDENT ROUTE (STUDENT VISA)
+────────────────────────────────────────────────────────────
+
+OVERVIEW
+Applicants must have an unconditional or conditional offer from a Student-route licensed sponsor, receive a Confirmation of Acceptance for Studies (CAS), and show they have enough maintenance funds and course fees as specified on the CAS. :contentReference[oaicite:13]{index=13}
+
+MONEY / MAINTENANCE REQUIREMENT (explicit amounts)
+• For applications **on or after 2 Jan 2025** the published maintenance (living cost) amounts are:  
+  - **£1,483 per month** (up to 9 months) if studying in **London**. :contentReference[oaicite:14]{index=14}  
+  - **£1,136 per month** (up to 9 months) if studying **outside London**. :contentReference[oaicite:15]{index=15}
+
+• Applicants must also show funds for tuition as stated on the CAS (first year tuition or other amounts indicated by the sponsor). Exact acceptable documents and timeframes for showing funds are described on GOV.UK (bank statements, sponsor letters, loan letters, scholarship letters). :contentReference[oaicite:16]{index=16}
+
+EVIDENCE (documents accepted)
+• Bank statements (personal or sponsor) showing required funds held for the required period. :contentReference[oaicite:17]{index=17}  
+• Official scholarship or loan award letters. :contentReference[oaicite:18]{index=18}  
+• CAS (Confirmation of Acceptance for Studies) issued by the sponsor; CAS includes exact tuition to be shown. :contentReference[oaicite:19]{index=19}
+
+AGE, HEALTH & STUDY RULES:
+• **Age:** No universal maximum age for Student visas; decisions focus on course suitability and genuine student intent. :contentReference[oaicite:20]{index=20}  
+• **Health / NHS surcharge (IHS):** Students must usually pay the Immigration Health Surcharge (IHS) as part of the online application — typical published student IHS rate is **£776 per year** (verify at application time). Paying IHS gives access to NHS services from the start of the immigration permission. :contentReference[oaicite:21]{index=21}
+
+COMMON REASONS FOR REFUSAL:
+• Insufficient maintenance funds or unclear provenance of funds. :contentReference[oaicite:22]{index=22}  
+• CAS discrepancies or sponsor issues. :contentReference[oaicite:23]{index=23}
+
+────────────────────────────────────────────────────────────
+SECTION D — VISITOR / STANDARD VISITOR
+────────────────────────────────────────────────────────────
+
+OVERVIEW
+Standard Visitor visas cover tourism, family visits, business meetings, short study (under 6 months), and medical treatment. Applicants must show purpose and sufficient funds, and intend to leave the UK at the end of the visit. :contentReference[oaicite:24]{index=24}
+
+KEY REQUIREMENTS:
+• Valid passport or travel document. :contentReference[oaicite:25]{index=25}  
+• Evidence of purpose (itinerary, invitation, letters). :contentReference[oaicite:26]{index=26}  
+• Evidence of funds for stay (bank statements, payslips), accommodation and return travel. :contentReference[oaicite:27]{index=27}
+
+HEALTH / TB TESTS:
+• TB testing is required for certain nationalities applying for a visa to stay more than 6 months; consult GOV.UK TB requirements for details. (Check by nationality and visa length.) :contentReference[oaicite:28]{index=28}
+
+COMMON REFUSAL REASONS:
+• Doubts about intention to leave the UK at the end of the visit (214(b)-type concerns). :contentReference[oaicite:29]{index=29}  
+• Insufficient funds or unreliable documentation. :contentReference[oaicite:30]{index=30}
+
+────────────────────────────────────────────────────────────
+SECTION E — TEMPORARY / SHORT-TERM WORK (Youth Mobility, Temporary Workers)
+────────────────────────────────────────────────────────────
+
+OVERVIEW
+• **Youth Mobility Scheme**: eligibility limited to specific nationalities and age range (usually 18–30 or 18–30/35 depending on scheme rules) — check scheme guidance. Youth Mobility applicants pay IHS at the student/young person rate if applicable. :contentReference[oaicite:31]{index=31}  
+• **Temporary Worker (T5)**: various subcategories require certificates of sponsorship and/or proofs tailored to each subcategory. :contentReference[oaicite:32]{index=32}
+
+────────────────────────────────────────────────────────────
+SECTION F — DEPENDANTS & FAMILY RULES
+────────────────────────────────────────────────────────────
+
+DEPENDANTS
+• Spouses/partners and children of many visa holders (Skilled Worker, Student, etc.) may apply as dependants. Rules (right to work, access to NHS, fees) depend on the primary route. Evidence: marriage/civil partnership certificates, birth certificates, relationship proof. :contentReference[oaicite:33]{index=33}
+
+FAMILY VISAS (joining family in UK)
+• Separate family visa rules apply (spouse, partner, parent, child routes) with different financial and suitability tests. Consult GOV.UK family route pages for precise thresholds and requirements. :contentReference[oaicite:34]{index=34}
+
+────────────────────────────────────────────────────────────
+SECTION G — HEALTH: IMMIGRATION HEALTH SURCHARGE (IHS)
+────────────────────────────────────────────────────────────
+
+WHAT & WHO
+• Many visa applicants must pay the Immigration Health Surcharge (IHS) as part of the visa application to access NHS services during their stay. IHS payment is usually required unless exempt. :contentReference[oaicite:35]{index=35}
+
+RATES (official guidance; check live before applying)
+• Example published rates (see GOV.UK Pay for UK healthcare page):  
+  - **Students / Youth Mobility / their dependants**: **£776 per year**. :contentReference[oaicite:36]{index=36}  
+  - **Most other applicants**: **£1,035 per year** (may be higher for certain periods; check live page). :contentReference[oaicite:37]{index=37}
+
+HOW TO PAY
+• IHS is paid online as part of the visa application process; evidence of payment is required for biometric appointment. :contentReference[oaicite:38]{index=38}
+
+────────────────────────────────────────────────────────────
+SECTION H — DOCUMENTATION CHECKLIST (high-value items)
+────────────────────────────────────────────────────────────
+(Keep originals + certified translations where applicable)
+
+1. Passport (valid, with blank pages) — mandatory. :contentReference[oaicite:39]{index=39}  
+2. Certificate of Sponsorship (Skilled Worker / T5) — sponsor-issued. :contentReference[oaicite:40]{index=40}  
+3. CAS (Student route) — sponsor-issued. :contentReference[oaicite:41]{index=41}  
+4. Bank statements / proof of funds (as per route amounts). :contentReference[oaicite:42]{index=42}  
+5. Employment contracts, payslips, HR letters. :contentReference[oaicite:43]{index=43}  
+6. Marriage/birth certificates for dependants (certified translations). :contentReference[oaicite:44]{index=44}
+
+────────────────────────────────────────────────────────────
+SECTION I — COMMON CLARIFICATIONS (no ambiguity)
+────────────────────────────────────────────────────────────
+Q: Is there a universal age limit for Skilled Worker / Student visas?  
+A: No. There is no universal statutory maximum age. Eligibility assessments focus on job, skill, funds, sponsor and genuine intent. :contentReference[oaicite:45]{index=45}
+
+Q: Are specific monthly maintenance figures fixed nationwide?  
+A: The Student route publishes specific monthly maintenance amounts based on where you study (London vs outside London). Use the official GOV.UK figures at application time. :contentReference[oaicite:46]{index=46}
+
+Q: Does a high income in the home country guarantee a UK visa?  
+A: No. Home-country income may support proof of funds but does not replace route-specific salary or funding tests (e.g., Skilled Worker salary requirement or Student maintenance). :contentReference[oaicite:47]{index=47}
+
+────────────────────────────────────────────────────────────
+SECTION J — SOURCES & LINKS (authoritative)
+────────────────────────────────────────────────────────────
+• Skilled Worker route — job, sponsorship and salary rules: GOV.UK. :contentReference[oaicite:48]{index=48}  
+• Skilled Worker immigration salary list (going rates & exceptions): GOV.UK. :contentReference[oaicite:49]{index=49}  
+• Student route — money you need & financial evidence guidance: GOV.UK. :contentReference[oaicite:50]{index=50}  
+• Immigration Health Surcharge (IHS) — pay for UK healthcare: GOV.UK. :contentReference[oaicite:51]{index=51}  
+• Standard Visitor — documents and application guidance: GOV.UK. :contentReference[oaicite:52]{index=52}
+
+────────────────────────────────────────────────────────────
+END OF FILE — UK_Eligibility_Full.txt

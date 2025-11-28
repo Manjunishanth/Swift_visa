@@ -1,0 +1,14 @@
+{
+  "c2edae7db74ffb3757e23c509089f9f095beba15": [
+    {
+      "role": "user",
+      "text": "My salary offer is $78,000 per year for a Software Engineer role. Is this enough to qualify for an H-1B specialty occupation",
+      "ts": "2025-11-28T01:58:30.155198"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"decision\": \"Insufficient information\",\n  \"explanation\": \"To qualify for an H-1B specialty occupation, the salary offered must meet the prevailing wage for the specific occupation and location [1]. While you have provided your salary offer of $78,000 per year, the provided context does not include the prevailing wage for a Software Engineer in any specific region. Therefore, it's impossible to determine if",
+      "ts": "2025-11-28T01:58:30.156667"
+    }
+  ]
+}
