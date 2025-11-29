@@ -2,23 +2,43 @@
 import os
 import json
 from datetime import datetime
+from pathlib import Path
 
-LOG_DIR = "logs"
-os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, "decision_log.jsonl")
+LOG_DIR = Path("logs")
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+DECISION_LOG_FILE = LOG_DIR / "decision_log.jsonl"
+CONVERSATION_LOG_FILE = LOG_DIR / "conversation_log.jsonl"
 
 def log_decision(query: str, user_profile: dict, retrieved: list, answer_json: dict, raw_prompt: str = None):
+    """Log individual visa eligibility decisions"""
     try:
         entry = {
             "timestamp": datetime.utcnow().isoformat() + "Z",
             "query": query,
             "user_profile": user_profile,
-            "retrieved": [{"uid": r.get("uid"), "score": r.get("score"), "meta": r.get("meta")} for r in (retrieved or [])],
-            "answer": answer_json,
-            "prompt": (raw_prompt[:2000] + "...") if raw_prompt and len(raw_prompt) > 2000 else raw_prompt
+            "retrieved_count": len(retrieved or []),
+            "retrieved": [{"uid": r.get("uid"), "score": r.get("score"), "source": r.get("meta", {}).get("source", "unknown")} for r in (retrieved or [])],
+            "decision": answer_json.get("parsed", {}).get("decision"),
+            "confidence": answer_json.get("parsed", {}).get("confidence"),
+            "final_confidence": answer_json.get("final_confidence"),
+            "citations": answer_json.get("parsed", {}).get("citations", []),
         }
-        with open(LOG_FILE, "a", encoding="utf-8") as f:
+        with open(DECISION_LOG_FILE, "a", encoding="utf-8") as f:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
     except Exception as e:
-        # Do not crash the flow if logging fails
-        print(f"[logger] Failed to write log: {e}")
+        print(f"[logger] Failed to write decision log: {e}")
+
+def log_conversation(profile_key: str, role: str, text: str, metadata: dict = None):
+    """Log each conversation turn (user query or assistant response)"""
+    try:
+        entry = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "profile_key": profile_key,
+            "role": role,
+            "text": text[:500] if len(text) > 500 else text,  # truncate very long responses
+            "metadata": metadata or {}
+        }
+        with open(CONVERSATION_LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    except Exception as e:
+        print(f"[logger] Failed to write conversation log: {e}")

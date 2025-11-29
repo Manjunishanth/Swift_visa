@@ -63,29 +63,25 @@ def build_prompt(query: str,
 
     if mode == "decision":
         prompt = f"""
-You are an expert immigration assistant named SwiftVisa. Use ONLY the provided information below to make a strict eligibility decision.
+Visa Eligibility Assessment
+
 {memory_text}{profile_text}
-CONTEXT (numbered snippets):
+RELEVANT DOCUMENTS:
 {context_text}
 
-QUESTION:
-{query}
+QUESTION: {query}
 
-TASK:
-1) Decide: one of "Eligible", "Not Eligible", or "Insufficient information".
-2) Provide a concise explanation (2-5 sentences) citing snippet numbers like [1], [2].
-3) Provide a confidence score between 0.0 and 1.0.
-4) List the snippet numbers used in "citations".
-5) If decision is "Insufficient information", provide an array "additional_facts_required" listing exact missing factual items.
+Based on the documents provided, answer these questions:
 
-IMPORTANT: Output EXACTLY ONE JSON object and NOTHING else. The JSON schema:
-{{
-  "decision": "...",
-  "explanation": "...",
-  "confidence": 0.0,
-  "citations": [1,2],
-  "additional_facts_required": []
-}}
+1. What is your primary eligibility assessment? (Choose ONE: Eligible / Not Eligible / Need More Information)
+
+2. Brief explanation (2-3 sentences explaining the decision):
+
+3. Which document numbers support your assessment? (e.g., [1], [2])
+
+4. Your confidence level (0.0 to 1.0):
+
+Important: Provide ONE clear decision only. Do not provide multiple conflicting decisions.
 """
     else:
         # info mode

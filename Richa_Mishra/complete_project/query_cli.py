@@ -33,50 +33,46 @@ def ask_profile():
     return prof
 
 def format_llm_response(parsed: dict, yes_no: str = None) -> str:
-    # If model returned raw text (not JSON)
-    if parsed.get("raw"):
-        return f"**🤖 SwiftVisa Assistant (info):**\n\n{parsed['raw']}"
-
+    # Extract fields from parsed response
     decision = parsed.get("decision", "No decision")
     explanation = parsed.get("explanation", "")
     citations = parsed.get("citations", []) or []
     additional = parsed.get("additional_facts_required", []) or []
     confidence = parsed.get("confidence", None)
+    raw = parsed.get("raw", "")
 
     out = "**🤖 SwiftVisa Assistant:**\n\n"
-    out += f"Decision: {decision}\n"
+    
+    # If we have a structured decision, show it
+    if decision:
+        out += f"**Decision:** {decision}\n"
     if yes_no:
-        out += f"Yes/No: {yes_no}\n"
+        out += f"**Yes/No:** {yes_no}\n"
     if confidence is not None:
-        out += f"Confidence (LLM): {confidence}\n"
+        out += f"**Confidence:** {confidence:.2f}\n"
+    
     out += "\n"
+    
+    # Show explanation - prefer parsed explanation, fallback to raw
     if explanation:
-        out += f"Explanation: {explanation}\n\n"
+        out += f"**Explanation:** {explanation}\n\n"
+    elif raw:
+        out += f"**Analysis:** {raw}\n\n"
+    
     if citations:
-        out += "Citations (snippets): " + ", ".join(str(c) for c in citations) + "\n\n"
+        out += "**Documents Used:** " + ", ".join(f"[{c}]" for c in citations) + "\n\n"
     if additional:
-        out += "Missing information:\n"
+        out += "**Additional Information Needed:**\n"
         for item in additional:
-            out += f"* {item}\n"
+            out += f"• {item}\n"
+    
     return out.strip()
-
-def show_memory(profile_key):
-    mem = get_memory(profile_key, max_items=8)
-    if not mem:
-        return
-    print("\n--- 🔁 Recent conversation memory ---")
-    for e in mem[-8:]:
-        role = e.get("role")
-        txt = e.get("text")
-        ts = e.get("ts", "")[:19].replace("T", " ")
-        print(f"{ts} | {role}: {txt}")
-    print("------------------------------------\n")
 
 def main():
     print("SwiftVisa — RAG + Gemini query CLI\n")
     profile = ask_profile()
     profile_key = make_profile_key(profile)
-    show_memory(profile_key)
+    print("\n✓ Profile created. Your conversation history will be remembered in this session.\n")
 
     while True:
         q = input("\nAsk your visa question (or 'exit'): ").strip()

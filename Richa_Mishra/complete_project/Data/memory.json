@@ -10,5 +10,111 @@
       "text": "{\n  \"decision\": \"Insufficient information\",\n  \"explanation\": \"To qualify for an H-1B specialty occupation, the salary offered must meet the prevailing wage for the specific occupation and location [1]. While you have provided your salary offer of $78,000 per year, the provided context does not include the prevailing wage for a Software Engineer in any specific region. Therefore, it's impossible to determine if",
       "ts": "2025-11-28T01:58:30.156667"
     }
+  ],
+  "023227d4232a34c6a02e74cb84d5cee0d27a3d94": [
+    {
+      "role": "user",
+      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
+      "ts": "2025-11-29T17:20:05.641706"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: sequence item 0: expected str instance, Content found",
+      "ts": "2025-11-29T17:20:05.644713"
+    },
+    {
+      "role": "user",
+      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
+      "ts": "2025-11-29T17:21:21.675909"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: sequence item 0: expected str instance, Content found",
+      "ts": "2025-11-29T17:21:21.680663"
+    }
+  ],
+  "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f": [
+    {
+      "role": "user",
+      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
+      "ts": "2025-11-29T17:22:03.354893"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: Model returned no text parts — output filtered or empty response.",
+      "ts": "2025-11-29T17:22:03.358348"
+    },
+    {
+      "role": "user",
+      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
+      "ts": "2025-11-29T17:23:59.718001"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Model returned no text parts — output filtered or empty response.",
+      "ts": "2025-11-29T17:23:59.720083"
+    },
+    {
+      "role": "user",
+      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
+      "ts": "2025-11-29T17:27:25.241056"
+    },
+    {
+      "role": "assistant",
+      "text": "**Decision:** Need More Info\n\n**Brief reason:** To be eligible for an H-1B visa, you",
+      "ts": "2025-11-29T17:27:25.244607"
+    },
+    {
+      "role": "user",
+      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
+      "ts": "2025-11-29T17:29:55.765034"
+    },
+    {
+      "role": "assistant",
+      "text": "**Decision:** Need More Info\n\n**Brief reason:** To be eligible for an H-1B visa, you must have a completed bachelor's degree (or equivalent practical experience) and a valid job offer from a US employer for a specialty occupation. As a current BCA student, it's unclear if you have completed your degree or secured a qualifying job offer.\n\n**Document numbers you used:** [1]\n\n**Confidence:** 0.9",
+      "ts": "2025-11-29T17:29:55.766486"
+    },
+    {
+      "role": "user",
+      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
+      "ts": "2025-11-29T17:34:03.373278"
+    },
+    {
+      "role": "assistant",
+      "text": "1. Need More Information\n\n2. While a BCA degree could potentially meet the educational requirements for a specialty occupation, H-1B eligibility fundamentally requires a valid job offer from a US employer and that employer's sponsorship through filing the necessary petitions (LCA and Form I-129). This crucial information is missing from your query.\n\n3. [1]\n\n4. 1.0",
+      "ts": "2025-11-29T17:34:03.375274"
+    },
+    {
+      "role": "user",
+      "text": "i have valid job offer",
+      "ts": "2025-11-29T17:34:47.987346"
+    },
+    {
+      "role": "assistant",
+      "text": "1. What is your primary eligibility assessment? Need More Information\n\n2. Brief explanation (2-3 sentences explaining the decision): While you have a valid job offer, the provided document outlines several other requirements for a Skilled Worker visa that are not addressed. To assess eligibility, information such as your job's occupation code, the specific salary offered, the 'going rate' for that job, and confirmation that your employer is approved by the Home Office is needed.\n\n3. Which document numbers support your assessment? [1]\n\n4. Your confidence level (0.0 to 1.0): 1.0",
+      "ts": "2025-11-29T17:34:47.994147"
+    },
+    {
+      "role": "user",
+      "text": "I got an I-20 but i don't have full funding support. what financial documents are needed for F1?",
+      "ts": "2025-11-29T17:42:21.713505"
+    },
+    {
+      "role": "assistant",
+      "text": "1. **What is your primary eligibility assessment?** Not Eligible\n\n2. **Brief explanation:** A major part of U.S. student visa screening is verifying that the applicant can afford their education. Students must show they have enough money from acceptable sources to cover the estimated costs for at least the first year, as listed on the I-20. The user explicitly states they do not have full funding support, which is a direct contradiction of this requirement.\n\n3. **Which document numbers support your assessment?** [1]\n\n4. **Your confidence level:** 1.0",
+      "ts": "2025-11-29T17:42:21.718921"
+    }
+  ],
+  "438ee16a1c5d178248ef8fe9ab0617e838cc66ac": [
+    {
+      "role": "user",
+      "text": "I got an I-20 but i don't have full funding support. what financial documents are needed for F1?",
+      "ts": "2025-11-29T17:44:58.723982"
+    },
+    {
+      "role": "assistant",
+      "text": "1. **What is your primary eligibility assessment?** Not Eligible\n\n2. **Brief explanation:** U.S. student visa screening requires applicants to demonstrate they have sufficient funds to cover their education and living expenses for at least the first year, as estimated on the I-20. Since you stated you do not have full funding support, you currently do not meet this critical financial requirement. To become eligible, you would need to provide documents such as bank statements, fixed deposits, scholarship letters, approved educational loan letters, or evidence of sponsor income to prove you have the required funds.\n\n3. **Which document numbers support your assessment?** [1]\n\n4",
+      "ts": "2025-11-29T17:44:58.735066"
+    }
   ]
 }
