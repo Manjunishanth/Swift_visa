@@ -30,17 +30,28 @@ def extract_json(text: str) -> Dict[str, Any]:
         if clean.startswith("json"):
             clean = clean[4:].strip()
     
-    # Try to find and parse JSON first
-    start = clean.find("{")
-    end = clean.rfind("}")
-    if start != -1 and end != -1 and start < end:
-        candidate = clean[start:end + 1]
-        try:
-            parsed = json.loads(candidate)
-            if isinstance(parsed, dict) and parsed.get("decision"):
-                return parsed
-        except Exception:
-            pass
+    # Try to parse the entire cleaned text as JSON first
+    try:
+        parsed_json = json.loads(clean)
+        if isinstance(parsed_json, dict):
+            # Map new keys to old ones for compatibility with existing code
+            result = {
+                "decision": parsed_json.get("eligibility_status"),
+                "confidence": float(parsed_json.get("confidence_score", 0.0)),
+                "explanation": parsed_json.get("explanation_of_decision"),
+                "top_relevant_chunks": parsed_json.get("top_relevant_chunks"),
+                "suggestions": parsed_json.get("suggestions"),
+                "raw": clean, # Keep raw for debugging/logging if needed
+                "citations": parsed_json.get("top_relevant_chunks", []) # Use top_relevant_chunks as citations initially
+            }
+            # Ensure confidence is a float
+            try:
+                result["confidence"] = float(result["confidence"])
+            except (ValueError, TypeError):
+                result["confidence"] = 0.0
+            return result
+    except json.JSONDecodeError:
+        pass # Fallback to regex parsing if not valid JSON
     
     # If no valid JSON, parse text response manually
     result = {
@@ -49,30 +60,32 @@ def extract_json(text: str) -> Dict[str, Any]:
         "explanation": "",
         "confidence": 0.5,
         "citations": [],
-        "additional_facts_required": []
+        "additional_facts_required": [],
+        "top_relevant_chunks": [],
+        "suggestions": ""
     }
     
     # Split by decision keywords to find the main decision (last one mentioned is most authoritative)
     import re
     
     # Find ALL decision statements in the text
-    decision_pattern = r'(?:decision|assessment)\s*:?\s*([^.\n,]*(?:eligible|need more|insufficient)[^.\n,]*)'
+    # Updated to capture new eligibility statuses
+    decision_pattern = r'Eligibility Status\s*:?\s*([^.\n]*(?:Eligible|Not Eligible|Partially Eligible - Need More Information)[^.\n]*)'
     matches = list(re.finditer(decision_pattern, clean, re.IGNORECASE))
     
     if matches:
-        # Use the LAST decision mentioned as it's likely the final answer
         last_decision = matches[-1].group(1).strip()
         lower_decision = last_decision.lower()
         
         if "not eligible" in lower_decision:
             result["decision"] = "Not Eligible"
-        elif "eligible" in lower_decision and "not" not in lower_decision[:20]:
+        elif "partially eligible" in lower_decision or "need more information" in lower_decision:
+            result["decision"] = "Partially Eligible - Need More Information"
+        elif "eligible" in lower_decision:
             result["decision"] = "Eligible"
-        elif "need more" in lower_decision or "insufficient" in lower_decision:
-            result["decision"] = "Insufficient information"
     
     # Extract confidence - look for last mentioned confidence value
-    conf_matches = list(re.finditer(r'confidence\s*:?\s*([0-9.]+)', clean, re.IGNORECASE))
+    conf_matches = list(re.finditer(r'Confidence Score\s*:?\s*([0-9.]+)', clean, re.IGNORECASE))
     if conf_matches:
         try:
             result["confidence"] = float(conf_matches[-1].group(1))
@@ -82,36 +95,59 @@ def extract_json(text: str) -> Dict[str, Any]:
         except:
             result["confidence"] = 0.5
     
-    # Extract citations [1], [2], etc. - get all unique ones
+    # Extract explanation - look for lines starting with "Explanation of Decision:"
+    explanation_match = re.search(r'Explanation of Decision\s*:?\s*(.*?)(?:\nTop 5 Most Relevant Chunks:|\nSuggestions for Eligibility & Future Steps:|$)', clean, re.IGNORECASE | re.DOTALL)
+    if explanation_match:
+        explanation = explanation_match.group(1).strip()
+        result["explanation"] = re.sub(r'\s+', ' ', explanation).strip()
+        if not result["explanation"].endswith('.') and result["explanation"]:
+            result["explanation"] += '.'
+    else:
+        # Fallback to previous explanation extraction logic if new pattern fails
+        lines = clean.split('\n')
+        explanation_lines = []
+        
+        for i, line in enumerate(lines):
+            lower_line = line.lower()
+            if any(skip in lower_line for skip in ['eligibility status:', 'confidence score:', 'top 5 most relevant chunks:', 'suggestions for eligibility & future steps:']):
+                continue
+            if line.strip() and len(line.strip()) > 10 and not line.strip().startswith('['):
+                explanation_lines.append(line.strip())
+        
+        explanation = ' '.join(explanation_lines[:4])
+        explanation = re.sub(r'\s+', ' ', explanation).strip()
+        if explanation and not explanation.endswith('.'):
+            last_period = explanation.rfind('.')
+            if last_period > 0:
+                explanation = explanation[:last_period + 1]
+            else:
+                explanation = explanation + '.'
+        result["explanation"] = explanation if explanation else "Please see the documents for detailed analysis."
+    
+    # Extract top 5 most relevant chunks
+    top_chunks_match = re.search(r'Top 5 Most Relevant Chunks(?: \(list the document numbers.*?\))?\s*:?\s*(.*?)(?:\nSuggestions for Eligibility & Future Steps:|$)', clean, re.IGNORECASE | re.DOTALL)
+    if top_chunks_match:
+        chunks_str = top_chunks_match.group(1).strip()
+        # Extract numbers in brackets, e.g., [1], [2]
+        chunk_numbers = re.findall(r'\[(\d+)\]', chunks_str)
+        result["top_relevant_chunks"] = sorted([int(c) for c in chunk_numbers])
+    else:
+        result["top_relevant_chunks"] = []
+    
+    # Extract suggestions for eligibility and future steps
+    suggestions_match = re.search(r'Suggestions for Eligibility & Future Steps\s*:?\s*(.*)', clean, re.IGNORECASE | re.DOTALL)
+    if suggestions_match:
+        suggestions = suggestions_match.group(1).strip()
+        result["suggestions"] = re.sub(r'\s+', ' ', suggestions).strip()
+    else:
+        result["suggestions"] = ""
+    
+    # Original citations extraction, can keep as a general list of all cited documents
     citations = set(re.findall(r'\[(\d+)\]', clean))
-    result["citations"] = sorted([int(c) for c in citations])
-    
-    # Extract explanation - look for lines with "reason" or "explanation" or just take main content
-    # Remove decision lines, take meaningful content
-    lines = clean.split('\n')
-    explanation_lines = []
-    
-    for i, line in enumerate(lines):
-        lower_line = line.lower()
-        # Skip decision lines, confidence lines, citation-only lines
-        if any(skip in lower_line for skip in ['decision:', 'confidence:', 'reason:', 'document numbers', 'documents used:', 'brief reason']):
-            continue
-        if line.strip() and len(line.strip()) > 10 and not line.strip().startswith('['):
-            explanation_lines.append(line.strip())
-    
-    # Join first few substantial lines as explanation
-    explanation = ' '.join(explanation_lines[:4])
-    # Clean up excessive spacing
-    explanation = re.sub(r'\s+', ' ', explanation).strip()
-    if explanation and not explanation.endswith('.'):
-        # Find the last sentence boundary
-        last_period = explanation.rfind('.')
-        if last_period > 0:
-            explanation = explanation[:last_period + 1]
-        else:
-            explanation = explanation + '.'
-    
-    result["explanation"] = explanation if explanation else "Please see the documents for detailed analysis."
+    # If JSON parsing was successful, 'citations' might already be populated by 'top_relevant_chunks'.
+    # Otherwise, use regex-extracted citations.
+    if not result.get("citations") and citations:
+        result["citations"] = sorted([int(c) for c in citations])
     
     return result
 
@@ -180,18 +216,20 @@ def run_rag(query: str, user_profile: Dict[str, Any] = None, top_k: int = 5):
     # 8) Map to yes/no for convenience - check "not" prefix FIRST to avoid conflicts
     decision = parsed.get("decision", None)
     yes_no = None
+    requested_for_information = False
     if isinstance(decision, str):
         d = decision.lower().strip()
         # Check for "Not Eligible" FIRST (most specific)
-        if "not eligible" in d or "not eligible" in d:
-            yes_no = "No"
+        if "not eligible" in d:
+            yes_no = 0 # Not Eligible
+        # Check for partially eligible / need more information
+        elif "partially eligible" in d or "need more information" in d or "insufficient information" in d:
+            yes_no = 0.5 # Partially Eligible / Need More Information
+            requested_for_information = True
         # Then check positive indicators
         elif "eligible" in d or "yes" in d:
-            yes_no = "Yes"
-        # Check for insufficient info
-        elif "insufficient" in d or "need more" in d:
-            yes_no = "Need more information"
-        # Default fallback
+            yes_no = 1 # Eligible
+        # Default fallback if no clear match
         else:
             yes_no = None
 
@@ -206,7 +244,8 @@ def run_rag(query: str, user_profile: Dict[str, Any] = None, top_k: int = 5):
                 "decision": parsed.get("decision"),
                 "explanation": parsed.get("explanation"),
                 "confidence": parsed.get("confidence"),
-                "citations": parsed.get("citations")
+                "citations": parsed.get("citations"),
+                "requested_for_information": requested_for_information # Add this field to memory
             }, ensure_ascii=False)
         else:
             ass_text = parsed.get("raw") if "raw" in parsed else raw_resp
@@ -221,7 +260,8 @@ def run_rag(query: str, user_profile: Dict[str, Any] = None, top_k: int = 5):
         "retrieval_score_mean": float(np.mean(scores)) if scores else 0.0,
         "retrieved": retrieved,
         "raw_llm": raw_resp,
-        "yes_no": yes_no
+        "yes_no": yes_no,
+        "requested_for_information": requested_for_information # Add this field to the return object
     }
 
     # 11) Log decision (to your logger module)

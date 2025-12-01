@@ -1,120 +1,1004 @@
 {
-  "c2edae7db74ffb3757e23c509089f9f095beba15": [
-    {
-      "role": "user",
-      "text": "My salary offer is $78,000 per year for a Software Engineer role. Is this enough to qualify for an H-1B specialty occupation",
-      "ts": "2025-11-28T01:58:30.155198"
-    },
-    {
-      "role": "assistant",
-      "text": "{\n  \"decision\": \"Insufficient information\",\n  \"explanation\": \"To qualify for an H-1B specialty occupation, the salary offered must meet the prevailing wage for the specific occupation and location [1]. While you have provided your salary offer of $78,000 per year, the provided context does not include the prevailing wage for a Software Engineer in any specific region. Therefore, it's impossible to determine if",
-      "ts": "2025-11-28T01:58:30.156667"
-    }
-  ],
-  "023227d4232a34c6a02e74cb84d5cee0d27a3d94": [
-    {
-      "role": "user",
-      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
-      "ts": "2025-11-29T17:20:05.641706"
-    },
-    {
-      "role": "assistant",
-      "text": "ERROR: Gemini API error: sequence item 0: expected str instance, Content found",
-      "ts": "2025-11-29T17:20:05.644713"
-    },
-    {
-      "role": "user",
-      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
-      "ts": "2025-11-29T17:21:21.675909"
-    },
-    {
-      "role": "assistant",
-      "text": "ERROR: Gemini API error: sequence item 0: expected str instance, Content found",
-      "ts": "2025-11-29T17:21:21.680663"
-    }
-  ],
   "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f": [
     {
       "role": "user",
-      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
-      "ts": "2025-11-29T17:22:03.354893"
+      "text": "Do I qualify for a UK Startup visa if my business plan is not approved yet?",
+      "ts": "2025-12-01T17:09:24.621340"
     },
     {
       "role": "assistant",
-      "text": "ERROR: Gemini API error: Model returned no text parts — output filtered or empty response.",
-      "ts": "2025-11-29T17:22:03.358348"
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents discuss the 'Skilled Worker visa' and its requirements, such as financial evidence, proof of English, and certificate of sponsorship. There is no information within the given documents regarding a 'UK Startup visa' or the approval process for a business plan related to such a visa. Therefore, based solely on the provided text, it's not possible to assess eligibility for a UK Startup visa.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To assess eligibility for a UK Startup visa, you would need to consult official UK government guidance specifically for the Startup visa route. This guidance would detail requirements such as endorsement from an approved body, a viable business plan, and any necessary investment funds.\"\n}",
+      "ts": "2025-12-01T17:09:24.625068"
     },
     {
       "role": "user",
-      "text": "i have a 3 year bachelor's degree from india. am i eligible for H1B visa ?",
-      "ts": "2025-11-29T17:23:59.718001"
+      "text": "I studied in a university on the HPI approved list. Am I eligible for the HPI visa?",
+      "ts": "2025-12-01T17:09:29.145517"
     },
     {
       "role": "assistant",
-      "text": "ERROR: Model returned no text parts — output filtered or empty response.",
-      "ts": "2025-11-29T17:23:59.720083"
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"While studying at an HPI-approved university is a primary requirement, eligibility for the HPI visa also depends on several other factors. These include the date your qualification was awarded (must be within the last 5 years), the level of your qualification (must be equivalent to a UK bachelor's, postgraduate, or PhD), and that the university was on the eligible list for the specific year you graduated and was not a UK university.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To confirm your eligibility, please provide the following details: the exact date your qualification was awarded, the level of your qualification, and confirm that the university was on the HPI-approved list for the year you graduated and is not a UK university. You will also need to apply to Ecctis to verify your qualification.\"\n}",
+      "ts": "2025-12-01T17:09:29.148156"
     },
     {
       "role": "user",
-      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
-      "ts": "2025-11-29T17:27:25.241056"
+      "text": "Am I eligible for work permit without job offer letter?",
+      "ts": "2025-12-01T17:09:30.131380"
     },
     {
       "role": "assistant",
-      "text": "**Decision:** Need More Info\n\n**Brief reason:** To be eligible for an H-1B visa, you",
-      "ts": "2025-11-29T17:27:25.244607"
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 30.031325455s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 30\n}\n]",
+      "ts": "2025-12-01T17:09:30.135364"
     },
     {
       "role": "user",
-      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
-      "ts": "2025-11-29T17:29:55.765034"
+      "text": "I want to visit Ireland for tourism and have strong financials and travel history. Am I eligible?",
+      "ts": "2025-12-01T17:09:30.919153"
     },
     {
       "role": "assistant",
-      "text": "**Decision:** Need More Info\n\n**Brief reason:** To be eligible for an H-1B visa, you must have a completed bachelor's degree (or equivalent practical experience) and a valid job offer from a US employer for a specialty occupation. As a current BCA student, it's unclear if you have completed your degree or secured a qualifying job offer.\n\n**Document numbers you used:** [1]\n\n**Confidence:** 0.9",
-      "ts": "2025-11-29T17:29:55.766486"
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 29.208148513s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+      "ts": "2025-12-01T17:09:30.921714"
     },
     {
       "role": "user",
-      "text": "i am a bca student from india. am i eligible for H1B visa of us ?",
-      "ts": "2025-11-29T17:34:03.373278"
+      "text": "I overstayed earlier. Can I still apply for a US tourist visa?",
+      "ts": "2025-12-01T17:09:31.704994"
     },
     {
       "role": "assistant",
-      "text": "1. Need More Information\n\n2. While a BCA degree could potentially meet the educational requirements for a specialty occupation, H-1B eligibility fundamentally requires a valid job offer from a US employer and that employer's sponsorship through filing the necessary petitions (LCA and Form I-129). This crucial information is missing from your query.\n\n3. [1]\n\n4. 1.0",
-      "ts": "2025-11-29T17:34:03.375274"
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 28.431540528s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+      "ts": "2025-12-01T17:09:31.713743"
     },
     {
       "role": "user",
-      "text": "i have valid job offer",
-      "ts": "2025-11-29T17:34:47.987346"
+      "text": "I have an offer from an Irish university, funds, and accommodation. Am I eligible for study visa?",
+      "ts": "2025-12-01T17:09:32.484773"
     },
     {
       "role": "assistant",
-      "text": "1. What is your primary eligibility assessment? Need More Information\n\n2. Brief explanation (2-3 sentences explaining the decision): While you have a valid job offer, the provided document outlines several other requirements for a Skilled Worker visa that are not addressed. To assess eligibility, information such as your job's occupation code, the specific salary offered, the 'going rate' for that job, and confirmation that your employer is approved by the Home Office is needed.\n\n3. Which document numbers support your assessment? [1]\n\n4. Your confidence level (0.0 to 1.0): 1.0",
-      "ts": "2025-11-29T17:34:47.994147"
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 27.640335992s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+      "ts": "2025-12-01T17:09:32.490142"
     },
     {
       "role": "user",
-      "text": "I got an I-20 but i don't have full funding support. what financial documents are needed for F1?",
-      "ts": "2025-11-29T17:42:21.713505"
+      "text": "Do I qualify for a Graduate Trainee Visa if my company doesn’t have an overseas branch?",
+      "ts": "2025-12-01T17:09:49.055952"
     },
     {
       "role": "assistant",
-      "text": "1. **What is your primary eligibility assessment?** Not Eligible\n\n2. **Brief explanation:** A major part of U.S. student visa screening is verifying that the applicant can afford their education. Students must show they have enough money from acceptable sources to cover the estimated costs for at least the first year, as listed on the I-20. The user explicitly states they do not have full funding support, which is a direct contradiction of this requirement.\n\n3. **Which document numbers support your assessment?** [1]\n\n4. **Your confidence level:** 1.0",
-      "ts": "2025-11-29T17:42:21.718921"
-    }
-  ],
-  "438ee16a1c5d178248ef8fe9ab0617e838cc66ac": [
+      "text": "{\n  \"eligibility_status\": \"Need More Information\",\n  \"confidence_score\": \"0.9\",\n  \"explanation_of_decision\": \"The provided documents do not contain any information regarding a 'Graduate Trainee Visa.' Therefore, it is not possible to assess eligibility for this specific visa type based on the given text.\",\n  \"top_relevant_chunks\": \"[1]\",\n  \"suggestions\": \"Consult official USCIS resources or an immigration attorney to determine if a 'Graduate Trainee Visa' exists and what its specific eligibility requirements are, including any requirements for overseas company branches.\"\n}",
+      "ts": "2025-12-01T17:09:49.064685"
+    },
     {
       "role": "user",
-      "text": "I got an I-20 but i don't have full funding support. what financial documents are needed for F1?",
-      "ts": "2025-11-29T17:44:58.723982"
+      "text": "Am I eligible for Schengen visa with 1 lakh bank balance?",
+      "ts": "2025-12-01T17:09:54.748851"
     },
     {
       "role": "assistant",
-      "text": "1. **What is your primary eligibility assessment?** Not Eligible\n\n2. **Brief explanation:** U.S. student visa screening requires applicants to demonstrate they have sufficient funds to cover their education and living expenses for at least the first year, as estimated on the I-20. Since you stated you do not have full funding support, you currently do not meet this critical financial requirement. To become eligible, you would need to provide documents such as bank statements, fixed deposits, scholarship letters, approved educational loan letters, or evidence of sponsor income to prove you have the required funds.\n\n3. **Which document numbers support your assessment?** [1]\n\n4",
-      "ts": "2025-11-29T17:44:58.735066"
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document states there is no single EU-wide fixed bank balance mandated for a Schengen visa. Eligibility depends on whether the applicant has sufficient funds proportional to the duration of the trip and the cost-of-living in the destination country. Therefore, 1 lakh alone is not enough information to determine eligibility.\",\n  \"top_relevant_chunks\": [\n    151\n  ],\n  \"suggestions\": \"To assess eligibility, you need to consider the planned duration of your trip and the estimated daily expenses for your destination country. Consulates typically look for bank statements covering the last 3 months. You may also provide other proofs of means such as salary slips, confirmed paid hotel reservations, or a sponsorship letter if applicable.\"\n}",
+      "ts": "2025-12-01T17:09:54.758397"
+    },
+    {
+      "role": "user",
+      "text": "I work for an MNC abroad for 2 years and they want to transfer me to US branch. Am I eligible for L1 visa?",
+      "ts": "2025-12-01T17:09:58.526932"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"You meet the requirement of having been employed abroad for one continuous year within the preceding three years by a qualifying organization. However, eligibility for an L-1 visa also depends on whether your transfer to the U.S. branch will be in a managerial, executive, or specialized knowledge capacity, which is not specified in your request.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Please specify the capacity of the position you will hold in the U.S. branch (e.g., managerial, executive, or requiring specialized knowledge) to fully assess your L-1 visa eligibility. You may be eligible for an L1-A (manager/executive) or L1-B (specialized knowledge) visa.\"\n}",
+      "ts": "2025-12-01T17:09:58.532678"
+    },
+    {
+      "role": "user",
+      "text": "My spouse is studying in Canada and has a valid study permit. Am I eligible for spouse open work permit?",
+      "ts": "2025-12-01T17:10:02.449125"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"Based on Document [1], you are eligible to apply for a work permit from inside Canada because your spouse has a valid study permit. The document explicitly states that you can apply if 'your spouse or common-law partner, or parents have a valid study or work permit'.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should proceed with gathering all required documents for a work permit application, specifically noting that you are applying from inside Canada based on your spouse's valid study permit. Ensure you also meet the general eligibility requirements for all work permit applicants, such as proving you will leave Canada, having sufficient funds, and having no criminal record, as outlined in Document [1].\"\n}",
+      "ts": "2025-12-01T17:10:02.453799"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for a UK Student Visa with an IELTS overall 5.5 score?",
+      "ts": "2025-12-01T17:10:06.440071"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible - Need More Information\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document exclusively details the eligibility criteria for a High Potential Individual (HPI) visa, not a UK Student Visa. Therefore, it does not contain information regarding the IELTS score requirements for a UK Student Visa.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To assess eligibility for a UK Student Visa, please provide documents specifically related to the UK Student Visa requirements, or consult the official UK government website for student visas.\"\n}",
+      "ts": "2025-12-01T17:10:06.444388"
+    },
+    {
+      "role": "user",
+      "text": "Can I bring my parents on B2 visa for graduation ceremony?",
+      "ts": "2025-12-01T17:10:11.409713"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document outlines requirements for a student's visa application, including proof of relationship to parents for the student's application, previous sponsorship, and academic qualifications. It does not contain any information regarding B2 visas, UK visitor visas for parents, or the process for family members to attend a graduation ceremony in the UK.\",\n  \"top_relevant_chunks\": [\n    264\n  ],\n  \"suggestions\": \"To assess eligibility for parents to visit the UK for a graduation ceremony, you should consult official UK government immigration resources (e.g., GOV.UK) regarding 'Standard Visitor visas'. This is the appropriate visa category for short visits, including attending events like graduations. Information needed would typically include financial proof, ties to their home country, and the purpose of their visit.\"\n}",
+      "ts": "2025-12-01T17:10:11.413288"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for TRV if I am a freelancer?",
+      "ts": "2025-12-01T17:10:17.107756"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.1,\n  \"explanation_of_decision\": \"The provided documents discuss eligibility for Canadian Express Entry (permanent residence) and various UK visas (Skilled Worker, Student, Visitor, Family, Temporary Work). Neither document contains information specifically about Temporary Resident Visas (TRV) for Canada, nor do they detail eligibility criteria for freelancers under any visa category. Therefore, it is not possible to assess your eligibility based on the given information.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine your eligibility for a TRV as a freelancer, you should consult the official immigration website for Canada (Canada.ca) for specific TRV requirements. You will need to understand if your freelance activities are permissible under a TRV or if a different type of visa (e.g., a work permit) is required for your intended activities in Canada.\"\n}",
+      "ts": "2025-12-01T17:10:17.112498"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for a dependent visa if I’m living with my partner but not legally married?",
+      "ts": "2025-12-01T17:10:21.187959"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document explicitly states that eligibility for family reunification as a partner is for a 'Spouse or civil partner' and requires a 'Marriage certificate or civil partnership certificate'. There is no mention of eligibility for partners who are not legally married or in a civil partnership. Therefore, living with a partner without legal marriage does not meet the criteria outlined.\",\n  \"top_relevant_chunks\": [\n    109\n  ],\n  \"suggestions\": \"To be eligible under the 'Spouse or civil partner' category, you would need to be legally married or in a civil partnership. If this is not an option, you should explore other visa categories that might be applicable to your situation, or consult the full Policy Document on Non-EEA Family Reunification (specifically Chapters 17 and 18, and para. 16.4) for any other potential avenues not detailed in this excerpt.\"\n}",
+      "ts": "2025-12-01T17:10:21.191414"
+    },
+    {
+      "role": "user",
+      "text": "I completed a 1-year program in Canada and have a full-time skilled job offer. Am I eligible for CEC PR?",
+      "ts": "2025-12-01T17:10:34.573953"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The document states that eligibility for permanent residence through Express Entry programs requires applicants to 'Gain one year of full-time paid skilled Canadian work experience.' While you have a skilled job offer, you have not yet met the requirement of having *gained* this work experience. A job offer is not equivalent to having completed the required work experience.\",\n  \"top_relevant_chunks\": [\n    74\n  ],\n  \"suggestions\": \"To become eligible, you should apply for a post-graduation work permit (if eligible) and then work full-time in a skilled occupation (TEER 0, 1, 2, or 3) for at least one year in Canada. After gaining this experience, you may be eligible to apply for permanent residence through Express Entry.\"\n}",
+      "ts": "2025-12-01T17:10:34.585151"
+    },
+    {
+      "role": "user",
+      "text": "Do I qualify for Express Entry with CRS score of 380?",
+      "ts": "2025-12-01T17:10:46.707572"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided documents explain that the Comprehensive Ranking System (CRS) ranks candidates, and Invitations to Apply (ITAs) are issued to the highest-scoring candidates in each round. However, the documents do not specify a minimum CRS score required to receive an ITA, as this cut-off score varies with each invitation round. Therefore, while 380 is a valid score within the Express Entry pool, it's not possible to determine if it qualifies for an ITA without knowing the specific cut-off score of an invitation round.\",\n  \"top_relevant_chunks\": [\n    78,\n    11\n  ],\n  \"suggestions\": \"To assess your chances, you would need to compare your CRS score of 380 with the cut-off scores from recent Express Entry invitation rounds, which are published in Ministerial Instructions. Consider exploring options to increase your CRS score, such as improving language proficiency, gaining more work experience, securing a valid job offer supported by an LMIA, or obtaining a provincial/territorial nomination, as these factors award additional points.\"\n}",
+      "ts": "2025-12-01T17:10:46.713600"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for long-stay visa through Netherlands?",
+      "ts": "2025-12-01T17:10:50.050715"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided documents exclusively describe Schengen visas, which are for short, temporary visits of up to 90 days. There is no information within the given text regarding 'long-stay visas' or the application process for such visas through the Netherlands. Therefore, it's not possible to assess eligibility for a long-stay visa based on the current documents.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To assess eligibility for a long-stay visa, you would need to consult official sources specifically detailing long-stay visa requirements for the Netherlands. The provided documents only cover short-stay Schengen visas.\"\n}",
+      "ts": "2025-12-01T17:10:50.059372"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for UK Global Talent Visa without awards but with strong publications?",
+      "ts": "2025-12-01T17:10:53.922942"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document details eligibility requirements for a UK Standard Visitor visa, specifically for professional artists, entertainers, musicians, sportspersons, and lawyers. It does not contain any information regarding the UK Global Talent Visa, therefore, an assessment for that specific visa type cannot be made based on the given text.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To assess eligibility for a UK Global Talent Visa, you need to consult official UK government guidance specifically for the Global Talent Visa. This visa has different criteria, often focusing on endorsement by an approved body in specific fields (e.g., science, arts, digital technology).\"\n}",
+      "ts": "2025-12-01T17:10:53.932061"
+    },
+    {
+      "role": "user",
+      "text": "I want to visit my sister in London. Am I eligible for a family visitor visa?",
+      "ts": "2025-12-01T17:11:00.780276"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The provided documents refer to a 'Standard Visitor visa' for visits to the UK, not a specific 'family visitor visa' category. While visiting family is a common reason for a Standard Visitor visa, your eligibility cannot be fully assessed without more information, such as your nationality and age, as requirements vary.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": [\n    \"Clarify if you are referring to a 'Standard Visitor visa' to visit your sister.\",\n    \"Check if your nationality requires a visa to visit the UK, as some nationalities can visit for up to 6 months without a visa or an ETA (Document 1).\",\n    \"Provide your age, as there are specific requirements for minors (under 18) travelling to the UK, including parental consent and accommodation details (Document 1).\",\n    \"Review the general requirements for a Standard Visitor visa, which typically include proving your intention to leave the UK at the end of your visit, having sufficient funds for your stay, and suitable accommodation.\"\n  ]\n}",
+      "ts": "2025-12-01T17:11:00.787420"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for dependent visa if married recently?",
+      "ts": "2025-12-01T17:11:05.232434"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Document [1] defines a dependant partner as a 'husband, wife, civil partner or unmarried partner' and requires evidence of the relationship. There is no mention of a minimum duration for the marriage, implying that being recently married does not prevent an application, provided the necessary evidence can be supplied.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Gather all necessary evidence of your marriage, such as a marriage certificate, to provide with your application. Ensure that the main applicant's visa category (e.g., Skilled Worker visa, as mentioned in chunk [1]) permits dependants to join or stay in the UK.\"\n}",
+      "ts": "2025-12-01T17:11:05.238058"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a UK Family Visa if my partner earns minimum wage?",
+      "ts": "2025-12-01T17:11:23.023445"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents detail financial requirements for partners and children applying as dependents under a High Potential Individual (HPI) visa, specifying fixed amounts of money that must be available to support themselves. They do not provide eligibility criteria for a general 'UK Family Visa' based on a partner's minimum wage earnings.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Seek information specific to the type of UK Family Visa being considered, as different family visa routes have distinct financial requirements, which may include income thresholds for the sponsoring partner. The documents provided do not cover a general 'UK Family Visa' or its specific income requirements based on a partner's earnings.\"\n}",
+      "ts": "2025-12-01T17:11:23.026782"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Ireland Tourist Visa with 2 lakhs bank balance?",
+      "ts": "2025-12-01T17:11:27.362812"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The document recommends having €500–€700 per week for a Tourist/Visit visa. To assess eligibility, the 2 lakhs bank balance needs to be converted to Euros and compared against the recommended weekly amount for the intended duration of stay. Without the exact duration of stay and the current exchange rate, a definitive 'Eligible' or 'Not Eligible' cannot be determined.\",\n  \"top_relevant_chunks\": [\n    116\n  ],\n  \"suggestions\": \"1. Convert your 2 lakhs INR bank balance to Euros to understand the exact amount you have in the required currency. 2. Determine the exact duration of your intended tourist stay in Ireland. 3. Calculate the total recommended funds needed based on €500–€700 per week for your planned duration. 4. Ensure your converted funds meet or exceed this total requirement.\"\n}",
+      "ts": "2025-12-01T17:11:27.367379"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for work permit after visitor visa?",
+      "ts": "2025-12-01T17:11:32.860317"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"Based on the provided documents, visitors to Canada are explicitly stated as not eligible to apply for a work permit from inside Canada. Therefore, if you are currently in Canada on a visitor visa, you cannot apply for a work permit from within the country.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"If you wish to obtain a work permit, you should apply for it from outside Canada before you travel. Alternatively, review the full eligibility requirements in document [1] to see if you qualify under any other specific categories for applying from inside Canada (e.g., if your spouse has a valid permit, or if you are eligible for a post-graduation work permit), as being a visitor alone does not grant eligibility.\"\n}",
+      "ts": "2025-12-01T17:11:32.864056"
+    },
+    {
+      "role": "user",
+      "text": "My employer is not on the sponsor list — can I still apply?",
+      "ts": "2025-12-01T17:11:39.061221"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"To apply for a Skilled Worker visa, you need a certificate of sponsorship reference number and your employer's sponsor licence number, both of which are provided by a licensed sponsor. If your employer is not on the sponsor list, they cannot provide these essential documents, making you ineligible to apply based on the provided information.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should confirm with your employer if they are a licensed sponsor. If they are not, they would need to apply for a sponsor licence to be able to sponsor skilled workers from outside the UK.\"\n}",
+      "ts": "2025-12-01T17:11:39.069189"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for visa if my passport expires in 8 months?",
+      "ts": "2025-12-01T17:11:45.209820"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.6,\n  \"explanation_of_decision\": \"The provided document discusses the validity of a U.S. visa in an expired passport for travel and admission, but it does not specify any minimum passport validity period required to *apply* for a new visa. Therefore, based solely on the given text, it's not possible to determine if an 8-month passport validity is sufficient for a visa application.\",\n  \"top_relevant_chunks\": [\n    317\n  ],\n  \"suggestions\": \"You should consult the official U.S. Department of State website or the specific U.S. Embassy/Consulate where you plan to apply for the most current and accurate information regarding passport validity requirements for visa applications. Typically, passports are recommended to be valid for at least six months beyond your intended period of stay in the U.S.\"\n}",
+      "ts": "2025-12-01T17:11:45.215290"
+    },
+    {
+      "role": "user",
+      "text": "Do I qualify for a UK student visa with distance learning course?",
+      "ts": "2025-12-01T17:12:03.778012"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"",
+      "ts": "2025-12-01T17:12:03.785003"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for EB-3 visa as a chef?",
+      "ts": "2025-12-01T17:12:07.422577"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.5,\n  \"explanation_of_decision\": \"The provided document mentions 'Employment-Based Immigrant Visas' as a topic but does not offer any specific details or requirements for an EB-3 visa. Therefore, it is not possible to assess eligibility for an EB-3 visa as a chef based solely on the given information.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To determine eligibility for an EB-3 visa as a chef, you would need to consult documents specifically detailing the requirements for Employment-Based Third Preference (EB-3) visas. This typically includes criteria related to skilled workers, professionals, or other workers, and often requires a job offer and labor certification.\"\n}",
+      "ts": "2025-12-01T17:12:07.435414"
+    },
+    {
+      "role": "user",
+      "text": "Can I get a US visa if my bank balance is low but sponsor will pay?",
+      "ts": "2025-12-01T17:12:13.531859"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document outlines general requirements for an Exchange Visitor Visa (J visa), including forms, fees, and passport validity. However, it does not contain information regarding personal bank balance requirements or the specific role of a sponsor in covering living expenses for visa eligibility. Financial proof beyond application fees is typically required for most non-immigrant visas, but this document does not detail it.\",\n  \"top_relevant_chunks\": [\n    332\n  ],\n  \"suggestions\": \"You should review the specific financial requirements for your visa category on the website of the U.S. Embassy or Consulate where you plan to apply. Typically, applicants need to demonstrate sufficient funds to cover their expenses in the U.S., and if a sponsor is paying, documentation from the sponsor (e.g., an affidavit of support, bank statements, or a letter from the program sponsor detailing financial coverage) is often required. The DS-2019 form, mentioned in the document, is issued by your program sponsor and usually includes details about your funding source.\"\n}",
+      "ts": "2025-12-01T17:12:13.541714"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for F1 visa with a 3-year bachelor’s degree?",
+      "ts": "2025-12-01T17:12:19.290867"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document for F-1 visa eligibility does not specify any minimum length for a bachelor's degree. Eligibility primarily depends on acceptance into a SEVP-approved school, issuance of Form I-20, proof of financial capability, and strong ties to the home country. The 3-year bachelor's degree itself is not listed as a disqualifying factor for the F-1 visa.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To assess full F-1 eligibility, the applicant needs to confirm if they have been accepted into a SEVP-approved school and issued a Form I-20. They must also be able to prove financial capability for tuition and living expenses, and demonstrate strong ties to their home country to show non-immigrant intent.\"\n}",
+      "ts": "2025-12-01T17:12:19.302270"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Schengen work visa with 1 year experience?",
+      "ts": "2025-12-01T17:12:23.950513"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The provided documents do not specify any minimum work experience requirement for a Schengen work visa, including those for France. Eligibility is primarily determined by the duration of the work contract (short-stay vs. long-stay) and the specific nature of the employment (e.g., temporary worker, trainee, executive). Therefore, 1 year of experience alone is not enough to confirm eligibility without knowing the job offer details.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To assess eligibility, you need to provide details about your potential work contract in the Schengen Area, specifically: the duration of the contract (less than 90 days, 3 months to 1 year, or longer), the type of work you will be doing (e.g., temporary worker, trainee, executive), and the specific Schengen country you intend to work in. You should also check with the relevant authorities of the specific country for any unmentioned requirements.\"\n}",
+      "ts": "2025-12-01T17:12:23.970137"
+    },
+    {
+      "role": "user",
+      "text": "My US citizen sister invited me, and I have sufficient ties and travel history. Am I eligible for B2 visa?",
+      "ts": "2025-12-01T17:12:28.248253"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The B-2 visa is for temporary visitors for pleasure, which includes visiting friends or relatives. Your stated purpose of visiting your US citizen sister aligns directly with the permitted activities for a B-2 visa. While 'sufficient ties and travel history' are generally considered by consular officers, the documents confirm the B-2 visa category is appropriate for your stated intent.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"Ensure you can provide documentation of your sufficient ties to your home country and travel history during the visa application process to demonstrate non-immigrant intent. Be prepared to articulate the temporary nature of your visit and your plans while in the US.\"\n}",
+      "ts": "2025-12-01T17:12:28.253002"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for PR as a cook under NOC?",
+      "ts": "2025-12-01T17:12:33.208856"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document exclusively details temporary worker visa categories for the United States and does not contain any information regarding Permanent Residency (PR) or the National Occupational Classification (NOC) system. Therefore, it is not possible to assess eligibility for PR as a cook under NOC based on this document.\",\n  \"top_relevant_chunks\": [\n    325\n  ],\n  \"suggestions\": \"To assess eligibility for Permanent Residency as a cook under NOC, you would need to consult resources related to permanent immigration programs, likely for Canada (where NOC is primarily used), or US green card processes, as the provided document only covers temporary US work visas.\"\n}",
+      "ts": "2025-12-01T17:12:33.215858"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for work permit if salary is paid in cash?",
+      "ts": "2025-12-01T17:12:45.688424"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": \"0.8\",\n  \"explanation_of_decision\": \"The provided documents detail requirements for a Skilled Worker Visa, such as minimum salary thresholds, a licensed sponsor, and a Certificate of Sponsorship. However, they do not specify the acceptable method of salary payment (e.g., bank transfer vs. cash), making it impossible to determine eligibility based solely on this factor from the given text.\",\n  \"top_relevant_chunks\": \"[1]\",\n  \"suggestions\": \"Consult official UK government guidance (gov.uk) or an immigration expert to confirm if salary paid in cash is an acceptable method for a Skilled Worker Visa, as this specific detail is not covered in the provided documents. Typically, salaries for sponsored visas are expected to be paid via traceable methods like bank transfers.\"\n}",
+      "ts": "2025-12-01T17:12:45.695982"
+    },
+    {
+      "role": "user",
+      "text": "Do I qualify for Schengen Visa if I’m self-employed?",
+      "ts": "2025-12-01T17:12:52.582039"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Being self-employed does not automatically disqualify you from a Schengen visa. For a short-stay Schengen work visa (under 90 days), you will need to provide specific documents such as a copy of your business license, a company bank statement for the last six months, and an income tax return. For stays exceeding 90 days, a national D-type work visa from the specific country you plan to work in is required, not a Schengen work visa.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine full eligibility, please clarify the duration and specific purpose of your trip to the Schengen Area. If your trip is for work and less than 90 days, gather your business license, company bank statements for the last six months, and income tax returns. If you plan to work for longer than 90 days, you will need to research and apply for a national work visa (Type D) from the specific European country you intend to work in, as a 'Schengen work visa' for long periods does not exist.\"\n}",
+      "ts": "2025-12-01T17:12:52.594204"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Ireland work permit as a chef?",
+      "ts": "2025-12-01T17:13:00.249573"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The document outlines general requirements for an Ireland General Employment Permit, including a job offer, a salary of €30,000+, relevant qualifications, and a Labour Market Needs Test. However, it does not specify if 'chef' is an eligible occupation or if it meets the Labour Market Needs Test criteria, which are crucial for a definitive assessment.\",\n  \"top_relevant_chunks\": [\n    112\n  ],\n  \"suggestions\": \"1. Check the official Irish government's Department of Enterprise, Trade and Employment (DETE) website for the most current eligible occupations list for General Employment Permits to confirm if 'chef' is an eligible role. 2. Secure a job offer from an Irish employer as a chef. 3. Ensure the offered salary meets or exceeds the minimum threshold (usually €30,000+). 4. Gather proof of your relevant qualifications and experience as a chef.\"\n}",
+      "ts": "2025-12-01T17:13:00.254009"
+    },
+    {
+      "role": "user",
+      "text": "I am a registered nurse with a UK Health & Care Worker job offer and salary £27,000. Am I eligible?",
+      "ts": "2025-12-01T17:13:18.234306"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The document states that healthcare jobs have different salary rules based on national pay scales, but it does not specify the minimum salary for a registered nurse under these rules. The applicant's salary of £27,000 is below the general standard (£41,700) and reduced (£33,400) salary thresholds mentioned for other jobs, making it impossible to confirm eligibility without the specific healthcare pay scale information.\",\n  \"top_relevant_chunks\": [\n    1,\n    1,\n    1,\n    1,\n    1\n  ],\n  \"suggestions\": \"You need to check",
+      "ts": "2025-12-01T17:13:18.247243"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for short stay visa with no travel history?",
+      "ts": "2025-12-01T17:13:24.045015"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided documents outline the specific requirements for a visitor visa, which include demonstrating a temporary purpose, a limited period of stay, sufficient funds, and binding ties outside the United States to ensure departure. Travel history is not explicitly mentioned as a requirement or a disqualifying factor for visa eligibility in these documents. Therefore, based solely on the information provided, you can apply.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"While travel history is not explicitly listed as a requirement, you must still provide strong evidence for all other criteria, especially 'binding ties' to your home country (e.g., family, employment, property) to demonstrate your intent to depart the U.S. at the end of your visit. Prepare documentation to prove your financial capability to cover expenses and the temporary nature of your trip. Review travel.state.gov and the specific U.S. Embassy or Consulate website for detailed documentation requirements.\"\n}",
+      "ts": "2025-12-01T17:13:24.056013"
+    },
+    {
+      "role": "user",
+      "text": "Can I switch from UK student visa to skilled worker visa without completing my degree?",
+      "ts": "2025-12-01T17:13:29.632404"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"You might be able to switch from a UK Student visa to a Skilled Worker visa without completing your degree, but only under specific conditions. These conditions include either your job start date being after your course has finished, or if you are studying for a PhD full-time and have been for at least 24 months.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To determine your full eligibility, please clarify if your job start date is after your course has finished, or if you are a full-time PhD student who has been studying for at least 24 months. If neither of these applies and you have not completed your course, you would not be eligible to switch.\"\n}",
+      "ts": "2025-12-01T17:13:29.643477"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a UK Transit Visa while traveling to Canada?",
+      "ts": "2025-12-01T17:13:35.710602"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided documents outline the specific eligibility requirements for a UK Transit Visa, including being genuinely in transit to a country outside the common travel area (such as Canada), intending to leave the UK within 48 hours, and having assured entry to the destination country. However, the information provided does not include personal details about your specific travel plans or circumstances, which are necessary to confirm if you meet all these criteria.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine your full eligibility, you need to confirm that you meet the following requirements:\\n1. Your main purpose for entering the UK is to genuinely transit to Canada, and you are taking a reasonable transit route (V 7.5(a)).\\n2. You will not access public funds, medical treatment, work, or study in the UK during your transit (V 7.5(b)).\\n3. You genuinely intend and are able to leave the UK within 48 hours of your arrival (V 7.5(c)).\\n4. You have assured entry to Canada and any other countries you might be transiting on your way there (V 7.5(d)).\\nAdditionally, consider if you might be eligible for the Transit Without Visa Scheme (V 7.6 – V 7.8) if you are a visa national, as this could be an alternative.\"\n}",
+      "ts": "2025-12-01T17:13:35.715263"
+    },
+    {
+      "role": "user",
+      "text": "My UK Master’s degree is completed and I have the final mark sheet. Am I eligible for the Graduate Route?",
+      "ts": "2025-12-01T17:13:41.151881"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.2,\n  \"explanation_of_decision\": \"The provided documents detail eligibility for several UK visas, including Skilled Worker, Student, Visitor, Family, and Temporary Work routes. However, neither document contains any information regarding the 'Graduate Route' visa, which is the specific visa type the question asks about. Therefore, it is not possible to assess eligibility for the Graduate Route based on the given text.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine eligibility for the UK Graduate Route, you will need to consult official UK government guidance or documents specifically outlining the requirements for this visa. The provided documents do not contain the necessary information.\"\n}",
+      "ts": "2025-12-01T17:13:41.162357"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for job seeker visa in Ireland?",
+      "ts": "2025-12-01T17:13:44.503553"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents do not mention a 'job seeker visa' for Ireland. The available permits, such as the General Employment Permit and Critical Skills Employment Permit, require a job offer in Ireland prior to application. There is no information suggesting a visa type that allows entry solely for the purpose of seeking employment.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Review official Irish government immigration websites (e.g., DETE / Citizens Information) for any specific 'job seeker' schemes or post-study work options not covered in these documents. If your goal is to work in Ireland, focus on securing a job offer that meets the criteria for a General Employment Permit or Critical Skills Employment Permit before applying for a visa.\"\n}",
+      "ts": "2025-12-01T17:13:44.516666"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for US visa if my passport has only 1 year validity left?",
+      "ts": "2025-12-01T17:13:49.944528"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The provided document discusses the validity of a U.S. visa in an expired passport and how it can be used with a new valid passport. However, it does not specify any minimum passport validity period (e.g., 6 months or 1 year) required at the time of applying for a US visa. Therefore, it is not possible to determine eligibility based solely on the information provided.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"The applicant should consult the official U.S. Department of State website or contact the U.S. Embassy or Consulate directly to inquire about specific passport validity requirements for visa applications. Many countries typically require a passport to be valid for at least six months beyond the intended period of stay.\"\n}",
+      "ts": "2025-12-01T17:13:49.957632"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a UK Health and Care Worker visa with 1 year experience as a nurse?",
+      "ts": "2025-12-01T17:13:58.379187"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Nurses are explicitly listed as eligible occupations for the Health and Care Worker Visa. While 1 year of experience is noted, the primary requirement for nurses is NMC registration, which is not confirmed. Full eligibility also depends on securing a job offer from a licensed sponsor, meeting English language requirements, and other general visa conditions.\",\n  \"top_relevant_chunks\": [\n    \"272\",\n    \"2.1\",\n    \"1.6\",\n    \"1.4\",\n    \"1.7\"\n  ],\n  \"suggestions\": \"To confirm eligibility, you must: 1) Ensure you have NMC registration. 2) Secure a job offer from a licensed sponsor in the UK. 3) Obtain a Certificate of Sponsorship (CoS) from your employer. 4) Meet the English language requirement (e.g., IELTS UKVI B1/B2). 5) Obtain a mandatory TB test certificate. 6) Ensure the job offer meets the salary threshold and matches an eligible SOC code.\"\n}",
+      "ts": "2025-12-01T17:13:58.385033"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for H1B if my employer is a small startup?",
+      "ts": "2025-12-01T17:14:14.745492"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": \"0.9\",\n  \"explanation_of_decision\": \"The provided documents outline the H-1B application process for a 'U.S. company' without specifying any minimum or maximum size for the employer. There is no information within the documents to suggest that being a small startup employer would make an applicant ineligible for an H-1B visa. Therefore, based on the available information, a small startup can apply.\",\n  \"top_relevant_chunks\": \"[1]\",\n  \"suggestions\": \"Ensure the small startup employer can meet all general H-1B requirements, such as filing a Labor Condition Attestation (LCA), providing information on salary, and complying with notification requirements. Note that if the business relies heavily on H-1B workers, the process might be more complicated.\"\n}",
+      "ts": "2025-12-01T17:14:14.753988"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for B1 visa for business meeting with only invitation letter?",
+      "ts": "2025-12-01T17:14:20.722225"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The document indicates that a letter from an authorized company representative is often required for business visa applicants, particularly for walk-ins or expedited appointments. While this suggests an invitation letter is a crucial piece of documentation, the document does not state that it is the *only* requirement for B1 visa eligibility. Overall B1 eligibility typically involves demonstrating a legitimate business purpose, non-immigrant intent, and financial means.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"While an invitation letter is a strong supporting document, you should also be prepared to demonstrate your legitimate business purpose, your intent to return to your home country after the business meeting, and your financial ability to cover your expenses during your stay. Check the specific requirements on the American Embassy website for your country of residence for a comprehensive list of necessary documents and procedures.\"\n}",
+      "ts": "2025-12-01T17:14:20.728713"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Dependent/Partner visa without marriage registered?",
+      "ts": "2025-12-01T17:14:24.980479"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document explicitly states that eligibility for a dependent/partner visa based on a relationship requires a 'Marriage certificate or civil partnership certificate'. It does not mention any provisions for unmarried partners or de facto relationships. Therefore, without a registered marriage or civil partnership, you are not eligible under the criteria outlined.\",\n  \"top_relevant_chunks\": [\n    109\n  ],\n  \"suggestions\": \"You should consult the full Policy Document on Non-EEA Family Reunification (as referenced in the provided text) or the official Irish immigration website to determine if there are alternative visa categories or provisions for unmarried partners or de facto relationships that are not covered in this specific excerpt. If such categories exist, you would need to understand their specific eligibility criteria and required evidence.\"\n}",
+      "ts": "2025-12-01T17:14:24.987012"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for work permit if my employer is not verified?",
+      "ts": "2025-12-01T17:14:38.947128"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The document states that an applicant must not plan to work for an employer listed with the status 'ineligible' on a specific list. It does not explicitly state that an employer must be 'verified' to be eligible. Therefore, the status of an employer being 'not verified' does not directly equate to being 'ineligible' based on the provided text, and more information is needed to determine if 'not verified' implies 'ineligible' in this context.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Clarify what 'not verified' means in the context of Canadian work permits. Check if the employer is listed as 'ineligible' on the official list of employers who failed to comply with conditions, as this is the specific disqualifying factor mentioned.\"\n}",
+      "ts": "2025-12-01T17:14:38.958380"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for re-entry visa as an Indian?",
+      "ts": "2025-12-01T17:14:57.264658"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"The provided document does not explicitly mention a 're-entry visa'. However, it details eligibility for an 'Entry Visa' for 'Persons of Indian Origin (PIOs)', which may be relevant if the applicant is a foreign citizen of Indian origin seeking to re-enter India. Eligibility for an Entry",
+      "ts": "2025-12-01T17:14:57.272099"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Express Entry with 1 year experience as a data analyst?",
+      "ts": "2025-12-01T17:15:02.661007"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"You meet the requirement of at least 12 months of skilled work experience for Express Entry. However, the provided documents do not specify which TEER category a 'data analyst' role falls under, which is essential to confirm if your work experience is considered 'skilled' (TEER 0, 1, 2, or 3) for the program.\",\n  \"top_relevant_chunks\": [\n    2,\n    1\n  ],\n  \"suggestions\": \"You need to determine the specific TEER (Training, Education, Experience, and Responsibilities) category for your data analyst role. You can typically find this information by searching for the National Occupational Classification (NOC) code associated with your job duties on the official Canada.ca website. Once you confirm your TEER category, you can proceed with assessing your full eligibility for Express Entry.\"\n}",
+      "ts": "2025-12-01T17:15:02.674052"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply if I’m already holding UK visa?",
+      "ts": "2025-12-01T17:15:06.544031"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"Based on the provided document, you can apply to extend your visa while in the UK, as long as you and your child meet the specific eligibility requirements for the 'Parent of a Child Student visa'. This process allows you to stay in the UK until a decision is made on your extension application, provided you apply before your current visa expires.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Review the specific eligibility requirements for the 'Parent of a Child Student visa' extension to ensure you and your child qualify. Ensure you apply online before your current visa expires and gather all necessary supporting documents and biometric information.\"\n}",
+      "ts": "2025-12-01T17:15:06.549746"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a UK startup visa if I’m already running my company from India?",
+      "ts": "2025-12-01T17:15:12.668280"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document, 'Indian_Visa.txt', details eligibility criteria and requirements for various Indian visa categories such as Business, Conference, and Employment visas. It contains no information regarding UK startup visas or the eligibility criteria for immigrating to the UK. Therefore, based solely on the provided document, it is not possible to assess your eligibility for a UK startup visa.\",\n  \"top_relevant_chunks\": [],\n  \"suggestions\": \"To assess your eligibility for a UK startup visa, you should consult official UK government immigration websites (e.g., GOV.UK) or seek advice from a qualified immigration lawyer specializing in UK visas. You will need to research the specific requirements for the UK Startup Visa, which typically include having an innovative business idea endorsed by an authorized body, meeting English language requirements, and demonstrating sufficient funds.\"\n}",
+      "ts": "2025-12-01T17:15:12.672127"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a UK Skilled Worker visa if my salary is £28,000 and I have a job offer in Manchester?",
+      "ts": "2025-12-01T17:15:20.119139"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Based on the provided documents, the standard salary requirement for a Skilled Worker visa is £41,700 per year. While there are provisions for lower salaries, the minimum threshold for these exceptions is generally £33,400 per year. Your proposed salary of £28,000 falls below both the standard requirement and the minimum for reduced salary eligibility, unless the job is in healthcare or education with specific national pay scales, which is not specified.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To become eligible, you would need a job offer with a salary of at least £33,400 per year, and meet one of the specific criteria for lower salary eligibility (e.g., under 26, STEM PhD, etc.), or a salary of £41,700 or more. If your job is in healthcare or education, investigate the specific national pay scales for your role, as different rules apply. You will also need a job offer from an approved UK employer (sponsor) who can provide a Certificate of Sponsorship.\"\n}",
+      "ts": "2025-12-01T17:15:20.123676"
+    },
+    {
+      "role": "user",
+      "text": "Can I travel on B1/B2 for attending my sister’s wedding?",
+      "ts": "2025-12-01T17:15:23.222836"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"Attending a sister's wedding is permissible under a B-2 visitor visa. The document explicitly states that 'Visit with friends or relatives' is an activity allowed for tourism (B-2) purposes. A wedding is a social event and a visit with a relative.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"When applying for the B-2 visa, clearly state the purpose of your visit as attending your sister's wedding and visiting relatives. Be prepared to provide documentation supporting your ties to your home country and the temporary nature of your stay.\"\n}",
+      "ts": "2025-12-01T17:15:23.226911"
+    },
+    {
+      "role": "user",
+      "text": "I earn £30,000 and my wife and I are legally married. Can she apply for a dependent visa?",
+      "ts": "2025-12-01T17:15:29.754188"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Your wife is eligible based on being legally married, which is a recognised relationship for a dependent visa. However, the documents state that your partner needs £285 and you, as the main applicant, need £1,270 available to support yourselves. The provided income of £30,00",
+      "ts": "2025-12-01T17:15:29.766883"
+    },
+    {
+      "role": "user",
+      "text": "Can I travel to UK with Ireland visa?",
+      "ts": "2025-12-01T17:15:34.040298"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document exclusively details eligibility and requirements for various types of visas for Ireland. It contains no information regarding the use of an Irish visa for travel to the United Kingdom, nor does it mention any reciprocal agreements that would permit such travel. Therefore, based solely on this document, an Ireland visa does not grant permission to travel to the UK.\",\n  \"top_relevant_chunks\": [\n    116\n  ],\n  \"suggestions\": \"To determine eligibility for travel to the UK, you must research the specific visa requirements for the United Kingdom separately. An Irish visa is generally only valid for entry into Ireland.\"\n}",
+      "ts": "2025-12-01T17:15:34.051723"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Critical Skills Permit with 2 years experience only?",
+      "ts": "2025-12-01T17:15:38.270450"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"The provided documents do not contain specific information regarding the 'Critical Skills Permit' for Ireland, nor do they detail any experience requirements for such a permit. Document [2] mentions the 'Ireland General Employment Permit' but does not cover the 'Critical Skills Permit' or its criteria. Therefore, it's not possible to assess eligibility based solely on the given information.\",\n  \"top_relevant_chunks\": [\n    2\n  ],\n  \"suggestions\": \"To assess eligibility for a Critical Skills Permit in Ireland, you need to consult official Irish immigration resources or the Department of Enterprise, Trade and Employment website. Look for specific criteria related to the Critical Skills Employment Permit, which typically includes details on required qualifications, relevant work experience, and the Critical Skills Occupations List.\"\n}",
+      "ts": "2025-12-01T17:15:38.282140"
+    },
+    {
+      "role": "user",
+      "text": "I hold a valid US visa and have good travel history. Am I eligible for Schengen tourist visa?",
+      "ts": "2025-12-01T17:15:43.302688"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents exclusively detail the requirements and application process for U.S. visitor visas. They do not contain any information regarding Schengen tourist visa eligibility, nor do they mention any correlation between holding a U.S. visa and eligibility for a Schengen visa. Therefore, based solely on the given information, eligibility for a Schengen visa cannot be assessed.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To assess eligibility for a Schengen tourist visa, you would need to consult official sources for Schengen visa requirements. These typically include proof of purpose of visit, accommodation, financial means, travel insurance, and intent to return to your home country. Holding a valid US visa and having good travel history might be beneficial for a Schengen application, but they are not the sole determining factors.\"\n}",
+      "ts": "2025-12-01T17:15:43.311835"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for business visa with only invitation email?",
+      "ts": "2025-12-01T17:15:55.269213"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The document states that posts allowing walk-ins usually require applicants to present a letter issued by an authorized representative of their company. It also mentions collecting examples of company letterheads and signatures, strongly implying that a formal letter, rather than just an email, is the expected form of invitation for a business visa application.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Obtain a formal invitation letter on company letterhead, signed by an authorized representative, to support your business visa application. This letter should include details typically found in such formal communications.\"\n}",
+      "ts": "2025-12-01T17:15:55.275775"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Schengen study visa for short course?",
+      "ts": "2025-12-01T17:16:03.456182"
+    },
+    {
+      "role": "assistant",
+      "text": "{",
+      "ts": "2025-12-01T17:16:03.466550"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Canada Study Permit with 5.5 IELTS in one module?",
+      "ts": "2025-12-01T17:16:17.749246"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents list several eligibility criteria for a Canada Study Permit, such as a Letter of Acceptance, proof of financial support, and no inadmissibility. However, none of the documents mention any specific IELTS score or general language proficiency requirement for the study permit itself. Therefore, eligibility cannot be fully assessed based on the IELTS score with the given information.\",\n  \"top_relevant_chunks\": [\n    60\n  ],\n  \"suggestions\": \"The applicant should verify the language proficiency requirements directly with their Designated Learning Institution (DLI) as well as check the official IRCC website for any language test requirements for the Canada Study Permit, especially if applying through specific streams like the Student Direct Stream (SDS).\"\n}",
+      "ts": "2025-12-01T17:16:17.773456"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for F1 Visa with IELTS score instead of TOEFL?",
+      "ts": "2025-12-01T17:16:21.190236"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document pertains exclusively to the 'Skilled Worker visa' in the UK and details the accepted methods for proving English language proficiency for that specific visa type. It does not contain any information regarding F1 visas (which are US student visas) or the acceptance of IELTS or TOEFL for such a visa.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To determine if you can apply for an F1 Visa with an IELTS score, you should consult official US government immigration websites (e.g., U.S. Citizenship and Immigration Services or the Department of State) or the specific requirements of the US educational institution you plan to attend. The requirements for an F1 visa are distinct from those for a UK Skilled Worker visa.\"\n}",
+      "ts": "2025-12-01T17:16:21.197602"
+    },
+    {
+      "role": "user",
+      "text": "I have £10,000 funds and CAS from a UK university for September intake. Am I eligible for UK Student Visa?",
+      "ts": "2025-12-01T17:16:26.363590"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The applicant has a CAS letter, which is a primary requirement for a UK Student Visa. However, eligibility also hinges on proving financial capacity, which includes the first year's tuition fees plus 9 months of living costs. The provided documents do not specify the exact amounts required for tuition or living costs, making it impossible to determine if £10,000 is sufficient.\",\n  \"top_relevant_chunks\": [\n    267\n  ],\n  \"suggestions\": \"The applicant needs to find out the exact tuition fees for their first year of study and the specific amount required for 9 months of living costs, which varies depending on whether the university is in London or outside London. They must then ensure their £10,000 funds cover this total amount.\"\n}",
+      "ts": "2025-12-01T17:16:26.373203"
+    },
+    {
+      "role": "user",
+      "text": "Can I bring my spouse under open work permit while I study?",
+      "ts": "2025-12-01T17:16:34.163407"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Based on the provided document, if you have a valid study permit in Canada, your",
+      "ts": "2025-12-01T17:16:34.176286"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Canada work visa as a truck driver?",
+      "ts": "2025-12-01T17:16:39.539906"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The document states that LMIA-based work permits are common for 'trades,' which can include truck driving. Eligibility hinges on a Canadian employer obtaining an LMIA approval and the applicant possessing the specific skills, education, and work experience required for the truck driving position.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To confirm eligibility, you would need to secure a job offer from a Canadian employer for a truck driving position. This employer must then obtain a Labour Market Impact Assessment (LMIA) approval for that role. Additionally, ensure your skills, education, and work experience as a truck driver match the job description and that the offered salary meets the median wage for that NOC role and province.\"\n}",
+      "ts": "2025-12-01T17:16:39.549698"
+    },
+    {
+      "role": "user",
+      "text": "Do I need job experience to get H1B?",
+      "ts": "2025-12-01T17:16:45.936614"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The H-1B visa requires applicants to meet educational requirements, which can be satisfied by a bachelor's degree or higher in a specific field. Alternatively, 'equivalent practical experience' can be used to meet these educational requirements if a degree is not held. Therefore, job experience is not strictly required if the applicant possesses the necessary degree.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Clarify if you possess a bachelor's degree or higher in a specialty occupation field. If you do not have a degree, you would need to demonstrate 'equivalent practical experience' to meet the educational requirements for the H-1B visa.\"\n}",
+      "ts": "2025-12-01T17:16:45.942919"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for L1 visa if my company does not have a US branch?",
+      "ts": "2025-12-01T17:16:51.167688"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The L-1 visa allows entrepreneurs to establish a new branch, subsidiary, or office in the USA. Therefore, a company does not need to have an existing US branch to be eligible; the visa can be used for the purpose of setting one up. This is explicitly stated as a condition for eligibility.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To proceed, you should focus on the requirements for 'Establishing a branch, subsidiary or office in the USA' as outlined for the L-1 visa. Ensure your company meets all other L-1 visa criteria, such as ongoing business activities in your home country and the specific requirements for the L-1 visa applicant (e.g., managerial position or specialized knowledge).\"\n}",
+      "ts": "2025-12-01T17:16:51.175136"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Ireland visa if my passport expires soon?",
+      "ts": "2025-12-01T17:16:54.135997"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"To apply for an Ireland visa, your current passport must be valid for at least 12 months after your intended date of arrival in Ireland. If your passport expires soon, and this period is less than 12 months from your arrival date, you are not eligible.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should renew your passport to ensure it is valid for at least 12 months beyond your planned arrival date in Ireland before applying for the visa.\"\n}",
+      "ts": "2025-12-01T17:16:54.145455"
+    },
+    {
+      "role": "user",
+      "text": "I have IELTS 7.0 in all bands and CRS score 490. Am I eligible for Express Entry?",
+      "ts": "2025-12-01T17:17:07.209717"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"You have a CRS score of 490, which is used to rank candidates in the Express Entry pool. However, the documents state that Invitations to Apply (ITAs) are issued to the highest-scoring candidates, and the specific CRS cut-off score for each round of invitations is determined by Ministerial Instructions posted online, which is not provided here.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Check the official Ministerial Instructions online for the latest CRS cut-off scores to determine if 490 points would currently qualify for an Invitation to Apply (ITA).\"\n}",
+      "ts": "2025-12-01T17:17:07.221579"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for H1B transfer without paystubs?",
+      "ts": "2025-12-01T17:17:11.349239"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.6,\n  \"explanation_of_decision\": \"The provided document outlines the basic requirements for an initial H-1B visa, focusing on employer sponsorship, specialty occupation, and educational qualifications. It does not contain any information regarding H-1B transfers or whether paystubs are required for such a transfer. Therefore, a definitive answer cannot be given based solely on the provided text.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Consult official USCIS guidelines or an immigration attorney for specific requirements regarding H-1B transfers and the necessity of paystubs. The provided document only covers initial H-1B eligibility criteria.\"\n}",
+      "ts": "2025-12-01T17:17:11.361247"
+    },
+    {
+      "role": "user",
+      "text": "My spouse is on H1B and has an approved I-140. Am I eligible for H4 EAD?",
+      "ts": "2025-12-01T17:17:16.793530"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Need More Information\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents confirm that H-4 visas are for dependents of H-1B holders. However, they do not contain specific eligibility criteria for an H4 EAD, nor do they address whether an approved I-140 for the primary H-1B holder makes the spouse eligible for an H4 EAD. Document [2] explicitly poses this question but does not provide an answer.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine eligibility for an H4 EAD based on an approved I-140, you should consult official USCIS guidelines or an immigration attorney. The provided documents are insufficient to answer this specific query.\"\n}",
+      "ts": "2025-12-01T17:17:16.799165"
+    },
+    {
+      "role": "user",
+      "text": "I am an international award-winning researcher with strong citation record. Am I eligible for O1 visa?",
+      "ts": "2025-12-01T17:17:22.123948"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"The O-1A visa is available for individuals with extraordinary ability in sciences or education who have received ongoing national or international recognition. As an international award-winning researcher with a strong citation record, you appear to meet these general requirements. However, the document mentions a specific list of criteria for these fields that is not provided, making a definitive assessment impossible without further details.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should review the specific criteria for O-1A visas in the fields of science and education, which are mentioned but not detailed in the provided document. Gather evidence that directly addresses each of those criteria to strengthen your application. Consulting with an immigration attorney specializing in O visas is also recommended.\"\n}",
+      "ts": "2025-12-01T17:17:22.128357"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for study visa with Duolingo score?",
+      "ts": "2025-12-01T17:17:28.044557"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents outline the general requirements for a student visa, such as acceptance by a SEVP-approved school and obtaining a Form I-20. However, they do not contain any information regarding language proficiency requirements, including whether a Duolingo score is accepted or what score might be needed for a U.S. study visa.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should inquire directly with the SEVP-approved school you plan to attend regarding their specific language proficiency requirements and accepted tests, including Duolingo. Visa requirements often depend on the individual school's admission criteria, which are not detailed in these general visa overview documents. Also, check the official U.S. Department of State website for comprehensive and up-to-date visa requirements.\"\n}",
+      "ts": "2025-12-01T17:17:28.053422"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for spouse visa without marriage certificate?",
+      "ts": "2025-12-01T17:17:32.809437"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document states that visa applications based on marriage require specific guidance on documentation for derivative spouses. A marriage certificate is the fundamental document to prove a marriage, which is the basis for a spouse visa. The text does not suggest any alternative to proving a marriage for a spouse visa application.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You must obtain a marriage certificate. Consult the specific guidance on the U.S. embassy or consulate website for the visa category you are applying for, as it will detail the required documentation for derivative spouses.\"\n}",
+      "ts": "2025-12-01T17:17:32.827204"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for a UK Graduate Route visa if my results are not declared but course is completed?",
+      "ts": "2025-12-01T17:17:36.819781"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided document does not contain any information regarding the UK Graduate Route visa. It primarily discusses eligibility for Standard Visitor visas for study purposes, Short-term study visas, Student visas, and Child Student visas. Therefore, based on the given text, it is not possible to assess eligibility for a Graduate Route visa.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To determine eligibility for a UK Graduate Route visa, you need to consult official UK government guidance specifically for the Graduate Route. This guidance will detail requirements such as course completion, degree award, and application timelines relative to receiving results.\"\n}",
+      "ts": "2025-12-01T17:17:36.833873"
+    },
+    {
+      "role": "user",
+      "text": "Can I get Schengen visa if I have US visa refusal?",
+      "ts": "2025-12-01T17:17:40.005066"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.0,\n  \"explanation_of_decision\": \"The provided documents discuss US Exchange Visitor visas, including reasons for refusal and reapplication processes for US visas. However, neither document contains any information regarding Schengen visas or whether a US visa refusal impacts eligibility for a Schengen visa. Therefore, it is not possible to assess eligibility based solely on the given information.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine eligibility for a Schengen visa after a US visa refusal, you should consult the official website of the embassy or consulate of the Schengen country you intend to visit, or contact them directly. Information regarding Schengen visa requirements and the impact of previous visa refusals from other countries would be available from those sources.\"\n}",
+      "ts": "2025-12-01T17:17:40.008540"
+    },
+    {
+      "role": "user",
+      "text": "I have a job offer above €30,000 and degree qualification. Am I eligible for General Work Permit?",
+      "ts": "2025-12-01T17:17:44.868763"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The applicant meets the criteria for having a job offer above the €30,000 salary threshold and possessing a degree qualification. However, eligibility for the General Employment Permit also typically requires the employer to be registered in Ireland and, in most cases, for a Labour Market Needs Test to be satisfied, which are not addressed in the provided information.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To confirm full eligibility, the applicant should verify if their prospective employer is registered in Ireland and inquire whether a Labour Market Needs Test is required for their specific role and if it has been satisfied.\"\n}",
+      "ts": "2025-12-01T17:17:44.880850"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible if my salary is in foreign currency?",
+      "ts": "2025-12-01T17:17:49.792267"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"The provided document consistently specifies salary requirements in GBP (e.g., '£25,000' or 'going rate') but does not contain any information regarding the acceptance or conversion of salaries paid in foreign currency. Therefore, it is not possible to determine eligibility based on a foreign currency salary from this document alone.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"You should seek clarification from official UK government visa guidance or contact UK Visas and Immigration directly to understand if salaries in foreign currency are accepted and, if so, how they are assessed against the specified GBP requirements for the Skilled Worker visa.\"\n}",
+      "ts": "2025-12-01T17:17:49.816920"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for internship visa?",
+      "ts": "2025-12-01T17:17:54.716542"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"The provided document does not explicitly mention an 'internship visa' or specific eligibility criteria for internships. While an internship might be possible under an F-1 (Student) visa, the document does not detail the requirements for such activities (e.g., CPT or OPT). Therefore, more information is needed to assess eligibility.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To determine eligibility for an internship, you should investigate if the internship is part of an academic program that would qualify you for an F-1 student visa, potentially through Curricular Practical Training (CPT) or Optional Practical Training (OPT). Consult with the international student office of your educational institution or a Designated School Official (DSO) for specific guidance on F-1 visa regulations related to internships.\"\n}",
+      "ts": "2025-12-01T17:17:54.728798"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for HPI visa? I studied in top university in India.",
+      "ts": "2025-12-01T17:18:00.587274"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"To be eligible for an HPI visa, your qualification must be from an eligible university, which are listed based on global rankings, and awarded within the last 5 years. While non-UK universities can be eligible, it is crucial to check if your specific Indian university appears on the official list for the year you were awarded your qualification. The document explicitly states that UK universities are not eligible, implying other global universities can be.\",\n  \"top_relevant_chunks\": [\n    250\n  ],\n  \"suggestions\": \"1. Identify the exact date your qualification was awarded. 2. Check the relevant 'eligible universities' list on the GOV.UK website for the specific year your qualification was awarded (e.g., 2020-2021, 2021-2022, etc.) to see if your Indian university is included. 3. Ensure your qualification is at the same level as a UK bachelor's, postgraduate, or PhD/doctorate. 4. Confirm that your qualification was awarded within the last 5 years. 5. Be prepared to apply to Ecctis to check your qualification.\"\n}",
+      "ts": "2025-12-01T17:18:00.594411"
+    },
+    {
+      "role": "user",
+      "text": "I want to visit Canada and have funds, job, and travel history. Am I eligible for visitor visa?",
+      "ts": "2025-12-01T17:18:14.488352"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"Based on the provided document, you meet the financial requirement for a visitor visa by having 'funds'. However, the document also outlines general health and character requirements that you have not addressed. Your 'job' and 'travel history' are not explicitly mentioned as eligibility criteria for a visitor visa in the provided text.\",\n  \"top_relevant_chunks\": [\n    \"69\"\n  ],\n  \"suggestions\": \"To fully assess eligibility, you need to confirm you meet the health and character requirements outlined in the document. While having a job and travel history can be beneficial, they are not explicitly listed as eligibility criteria in the provided text for a visitor visa.\"\n}",
+      "ts": "2025-12-01T17:18:14.503024"
+    },
+    {
+      "role": "user",
+      "text": "Can I bring my dependent on Stamp 2 visa?",
+      "ts": "2025-12-01T17:18:19.394095"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.4,\n  \"explanation_of_decision\": \"The provided document outlines the requirements for proving financial and social dependency if an application is made on that basis. However, it does not specify whether a Stamp 2 visa holder is eligible to bring dependents or what visa types permit dependents. Therefore, more information is needed regarding the specific regulations for Stamp 2 visas and dependents.\",\n  \"top_relevant_chunks\": [\n    110\n  ],\n  \"suggestions\": \"You should consult the official immigration guidelines for the Stamp 2 visa category to determine if it permits dependents. Look for information specifically on 'family reunification' or 'bringing dependents' for Stamp 2 visa holders. The provided document only details what evidence is needed *if* you are making an application based on dependency, not *who* can sponsor a dependent.\"\n}",
+      "ts": "2025-12-01T17:18:19.397493"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for a US tourist visa if I am a student with no job?",
+      "ts": "2025-12-01T17:18:24.431890"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"While being a student with no job does not automatically disqualify you for a B-2 tourist visa, you must demonstrate the ability to pay for your expenses and show strong ties to your home country. The provided information does not confirm your financial capability, which is a critical requirement for eligibility.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To strengthen your eligibility, you should gather evidence of your ability to pay for your travel and living expenses (e.g., bank statements, sponsor letters, scholarship details). Additionally, prepare documentation to demonstrate strong ties to your home country, such as proof of school enrollment, family ties, or property ownership.\"\n}",
+      "ts": "2025-12-01T17:18:24.447996"
+    },
+    {
+      "role": "user",
+      "text": "Can I get PR through PNP with 2 years of experience?",
+      "ts": "2025-12-01T17:18:29.537384"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The document states that international students with work experience may be eligible for the Provincial Nominee Program (PNP), and while Express Entry generally requires at least 12 months of skilled work experience, PNP criteria vary between each province and territory. Having 2 years of experience likely meets or exceeds the minimum work experience requirements for many programs, but specific eligibility depends on the chosen province's unique criteria.\",\n  \"top_relevant_chunks\": [\n    74\n  ],\n  \"suggestions\": \"You should check the website of the specific province or territory you are interested in to learn more about their particular PNP criteria and work experience requirements. Also, ensure your 2 years of experience is in a skilled occupation (TEER 0, 1, 2, or 3).\"\n}",
+      "ts": "2025-12-01T17:18:29.551213"
+    },
+    {
+      "role": "user",
+      "text": "My company has an office in Ireland and wants to transfer me. Am I eligible for intra-company permit?",
+      "ts": "2025-12-01T17:18:30.302654"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 29.839566671s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 29\n}\n]",
+      "ts": "2025-12-01T17:18:30.307651"
+    },
+    {
+      "role": "user",
+      "text": "I completed 2 years on Stamp 1G and have full-time job offer. Am I eligible for Stamp 1?",
+      "ts": "2025-12-01T17:18:31.149537"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 28.985855403s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+      "ts": "2025-12-01T17:18:31.156129"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Schengen without travel insurance?",
+      "ts": "2025-12-01T17:18:32.192768"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 27.95248542s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+      "ts": "2025-12-01T17:18:32.201328"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for Super Visa if my income is below LICO?",
+      "ts": "2025-12-01T17:18:33.041948"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 27.169857306s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+      "ts": "2025-12-01T17:18:33.047254"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for CUAET if I’m not Ukrainian?",
+      "ts": "2025-12-01T17:18:34.104228"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 26.255987894s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 26\n}\n]",
+      "ts": "2025-12-01T17:18:34.115797"
+    },
+    {
+      "role": "user",
+      "text": "My partner is British and we meet the £29,000 income requirement. Am I eligible for UK Spouse Visa?",
+      "ts": "2025-12-01T17:18:38.474373"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided documents do not contain information regarding the UK Spouse Visa or its specific eligibility criteria, including any income requirements for this visa type. The documents focus on Skilled Worker and Student visas. Therefore, I cannot assess your eligibility for a UK Spouse Visa based solely on the given information.\",\n  \"top_relevant_chunks\": [\n    267\n  ],\n  \"suggestions\": \"To assess eligibility for a UK Spouse Visa, you would need to consult official UK government sources (gov.uk) for the specific requirements, including the current financial threshold for spouse visas, which is distinct from the Skilled Worker Visa. The provided documents do not cover this visa category.\"\n}",
+      "ts": "2025-12-01T17:18:38.477890"
+    },
+    {
+      "role": "user",
+      "text": "I studied online during Covid — can I still get PGWP?",
+      "ts": "2025-12-01T17:18:44.305727"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.4,\n  \"explanation_of_decision\": \"The provided documents discuss the process and location for applying for various work permits, including the restriction on applying for a Post-Graduation Work Permit (PGWP) at a Port of Entry. However, they do not contain any information regarding the eligibility criteria for a PGWP in relation to online studies undertaken during the COVID-19 pandemic. Therefore, it's not possible to assess eligibility based on the 'studied online during Covid' factor.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine PGWP eligibility after studying online during Covid, you should consult the official Immigration, Refugees and Citizenship Canada (IRCC) website. Look for specific policies or temporary measures related to distance learning or online studies for PGWP eligibility during the pandemic. You will need to check the specific dates of your online study period against IRCC's policy updates.\"\n}",
+      "ts": "2025-12-01T17:18:44.317348"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply through France if visiting Germany mostly?",
+      "ts": "2025-12-01T17:18:48.343295"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.4,\n  \"explanation_of_decision\": \"The provided documents detail the application process for work visas specifically for France and Germany, but they do not contain information regarding applying for a visa through France if Germany is the primary destination. Standard Schengen visa rules typically require applying to the country of your main destination, which is not addressed here.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"You should consult the official Schengen visa rules, which generally state that you must apply for a visa at the consulate or embassy of the Schengen country where you intend to spend the majority of your stay. If Germany is your primary destination, you should apply for a visa through the German authorities, not French. Contact the German consulate or embassy for precise requirements.\"\n}",
+      "ts": "2025-12-01T17:18:48.351121"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible if I’m sponsored by company?",
+      "ts": "2025-12-01T17:18:54.756101"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.7,\n  \"explanation_of_decision\": \"The document outlines requirements for 'Sponsored finances' (5.2), including a sponsor's bank statement, a letter confirming sponsorship, and a 'valid national identity document.' While a company can provide a bank statement and a letter, the requirement for a 'national identity document' typically applies to individuals, making it unclear if company sponsorship is fully covered under these specific terms. The document does not explicitly detail requirements for corporate",
+      "ts": "2025-12-01T17:18:54.768383"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for F1 visa with gap years?",
+      "ts": "2025-12-01T17:19:00.412527"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The provided document does not explicitly mention 'gap years' as a factor for F-1 visa eligibility. Eligibility primarily depends on acceptance to a SEVP-approved school, having an I-20, proving financial capability, and demonstrating strong ties to your home country. While gap years are not a direct disqualifier, you would need to meet all other F-1 visa requirements.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Ensure you have acceptance into a SEVP-approved school and have been issued Form I-20. Gather strong proof of financial capability for tuition and living expenses. Be prepared to demonstrate strong ties to your home country and explain the activities during your gap years to a consular officer, as this could be relevant to proving non-immigrant intent.\"\n}",
+      "ts": "2025-12-01T17:19:00.423556"
+    },
+    {
+      "role": "user",
+      "text": "Am I eligible for SDS category if I don’t have GIC?",
+      "ts": "2025-12-01T17:19:04.564063"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.1,\n  \"explanation_of_decision\": \"The provided documents discuss US employment-based immigrant visas (EB-2, EB-3) and general UK visa requirements, including English language and financial support. However, neither document contains any information regarding an 'SDS category' or the requirement for a 'GIC'. Therefore, it is not possible to assess eligibility based on the given information.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine eligibility for the 'SDS category' without a 'GIC', you should consult official immigration guidelines or websites specific to the country you are applying to, as the provided documents do not cover these terms. Look for information on student direct stream programs or specific visa categories that might use these acronyms.\"\n}",
+      "ts": "2025-12-01T17:19:04.573982"
+    },
+    {
+      "role": "user",
+      "text": "I have a valid US visa and confirmed flight with 3-hour layover in London. Am I eligible for UK Transit Visa?",
+      "ts": "2025-12-01T17:19:11.015902"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"Based on the provided information, you are eligible to transit through the UK without needing",
+      "ts": "2025-12-01T17:19:11.022940"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for work permit without LMIA?",
+      "ts": "2025-12-01T17:19:14.494835"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.2,\n  \"explanation_of_decision\": \"The provided documents outline general eligibility requirements for a work permit and where one can apply (outside, inside, or at a port of entry). However, neither document mentions the Labour Market Impact Assessment (LMIA) or any exemptions from it. Therefore, based solely on these documents, it's not possible to determine if you can apply for a work permit without an LMIA.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To determine if you can apply for a work permit without an LMIA, you would need to consult additional information regarding specific work permit streams (e.g., Global Skills Strategy, CUSMA, International Mobility Program) which often have LMIA exemptions. The provided documents do not cover these specific programs or the LMIA requirement.\"\n}",
+      "ts": "2025-12-01T17:19:14.515438"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for Schengen visa if I live in Dubai on work permit?",
+      "ts": "2025-12-01T17:19:29.901124"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.6,\n  \"explanation_of_decision\": \"The documents state that citizens of non-EU countries must apply for a work visa to work in Europe. However, the provided information does not specify whether living in Dubai on a work permit affects one's eligibility to apply for a Schengen visa, nor does it detail the geographical requirements for application.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"Check the specific requirements of the Schengen country's embassy or consulate in Dubai, as visa applications are typically processed in the applicant's country of legal residence.\"\n}",
+      "ts": "2025-12-01T17:19:29.924458"
+    },
+    {
+      "role": "user",
+      "text": "I got admission to a US university, paid SEVIS fee, and have I-20. Am I eligible for F1 visa?",
+      "ts": "2025-12-01T17:19:36.581568"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The user has obtained an I-20 and paid the SEVIS fee, which are explicitly stated as required to apply for an F-1 visa. However, the document also mentions that U.S. Embassies and Consulates adjudicate visa applications based on 'qualifications' and refers to a broader application process, implying that these two steps alone do not guarantee full eligibility without further assessment during the visa interview.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"The user should proceed with the visa application process, which typically includes scheduling an interview at a U.S. Embassy or Consulate. During the interview, they will need to demonstrate their qualifications for a student visa, which often involves proving non-immigrant intent, financial capability, and strong ties to their home country. Reviewing the 'How to Apply' section (not provided in the chunks) and preparing for the interview will be crucial next",
+      "ts": "2025-12-01T17:19:36.589344"
+    },
+    {
+      "role": "user",
+      "text": "Can I apply for O1 visa without international awards?",
+      "ts": "2025-12-01T17:19:42.806608"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Eligible\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"The O-1A visa requires individuals to have received 'ongoing national",
+      "ts": "2025-12-01T17:19:42.818613"
+    },
+    {
+      "role": "user",
+      "text": "I have booked a cruise covering Italy and Greece, and have full travel insurance. Am I eligible?",
+      "ts": "2025-12-01T17:19:49.205680"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"While your cruise covers Schengen countries (Italy and Greece) and you have travel insurance, several key requirements for a Schengen Tourist Visa are not mentioned.",
+      "ts": "2025-12-01T17:19:49.217803"
     }
   ]
 }

@@ -71,17 +71,19 @@ RELEVANT DOCUMENTS:
 
 QUESTION: {query}
 
-Based on the documents provided, answer these questions:
+Based on the documents provided, answer these questions. Your response MUST be in a structured JSON format, with the following keys:
 
-1. What is your primary eligibility assessment? (Choose ONE: Eligible / Not Eligible / Need More Information)
+```json
+{{
+  "eligibility_status": "[Eligible / Not Eligible / Partially Eligible - Need More Information]",
+  "confidence_score": "[0.0-1.0]",
+  "explanation_of_decision": "[2-3 sentences explaining the decision]",
+  "top_relevant_chunks": "[list of 5 most relevant document numbers, e.g., [1, 2, 3, 4, 5]]",
+  "suggestions": "[actionable suggestions for eligibility and future steps]"
+}}
+```
 
-2. Brief explanation (2-3 sentences explaining the decision):
-
-3. Which document numbers support your assessment? (e.g., [1], [2])
-
-4. Your confidence level (0.0 to 1.0):
-
-Important: Provide ONE clear decision only. Do not provide multiple conflicting decisions.
+Important: Provide ONE clear decision only. Do not provide multiple conflicting decisions. Your entire response should be valid JSON.
 """
     else:
         # info mode

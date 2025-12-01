@@ -13,7 +13,7 @@ from rag.memory import make_profile_key, get_memory, append_memory
 from dotenv import load_dotenv
 
 load_dotenv()
-TOP_K_DISPLAY = 10
+TOP_K_DISPLAY = 5
 
 def ask_profile():
     print("Enter user profile fields (press Enter to skip):")
@@ -34,37 +34,45 @@ def ask_profile():
 
 def format_llm_response(parsed: dict, yes_no: str = None) -> str:
     # Extract fields from parsed response
-    decision = parsed.get("decision", "No decision")
+    eligibility_status = parsed.get("decision", "No decision") # 'decision' now maps to eligibility_status
+    confidence_score = parsed.get("confidence", None)
     explanation = parsed.get("explanation", "")
-    citations = parsed.get("citations", []) or []
+    top_relevant_chunks = parsed.get("top_relevant_chunks", [])
+    suggestions = parsed.get("suggestions", "")
+    citations = parsed.get("citations", []) or [] # general citations, distinct from top_relevant_chunks
     additional = parsed.get("additional_facts_required", []) or []
-    confidence = parsed.get("confidence", None)
     raw = parsed.get("raw", "")
 
     out = "**🤖 SwiftVisa Assistant:**\n\n"
     
-    # If we have a structured decision, show it
-    if decision:
-        out += f"**Decision:** {decision}\n"
-    if yes_no:
-        out += f"**Yes/No:** {yes_no}\n"
-    if confidence is not None:
-        out += f"**Confidence:** {confidence:.2f}\n"
+    # Display new structured fields
+    if eligibility_status:
+        out += f"**Eligibility Status:** {eligibility_status}\n"
+    if confidence_score is not None:
+        out += f"**Confidence Score:** {confidence_score:.2f}\n"
     
-    out += "\n"
-    
-    # Show explanation - prefer parsed explanation, fallback to raw
     if explanation:
-        out += f"**Explanation:** {explanation}\n\n"
+        out += f"**Explanation of Decision:** {explanation}\n\n"
     elif raw:
         out += f"**Analysis:** {raw}\n\n"
     
-    if citations:
-        out += "**Documents Used:** " + ", ".join(f"[{c}]" for c in citations) + "\n\n"
+    if top_relevant_chunks:
+        out += "**Top 5 Most Relevant Chunks:** " + ", ".join(f"[{c}]" for c in top_relevant_chunks) + "\n\n"
+    
+    if suggestions:
+        out += f"**Suggestions for Eligibility & Future Steps:**\n{suggestions}\n\n"
+    
+    # Keep general citations and additional info needed, if any
+    if citations and not top_relevant_chunks: # Only show general citations if top 5 not present
+        out += "**Documents Used (General):** " + ", ".join(f"[{c}]" for c in citations) + "\n\n"
     if additional:
         out += "**Additional Information Needed:**\n"
         for item in additional:
             out += f"• {item}\n"
+    
+    # Remove the old yes_no display as it's now covered by Eligibility Status
+    # if yes_no:
+    #     out += f"**Yes/No:** {yes_no}\n"
     
     return out.strip()
 
@@ -91,8 +99,8 @@ def main():
         print("\n--- 📑 RELEVANT CHUNK UIDs ---")
         retrieved = result.get("retrieved", [])
         if retrieved:
-            uids = [str(c.get("uid", "No UID")) for c in retrieved]
-            print(f"Chunks Used (Top {TOP_K_DISPLAY} UIDs): {', '.join(uids[:TOP_K_DISPLAY])}")
+            uids = [str(c.get("uid", "No UID")) for c in retrieved[:TOP_K_DISPLAY]]
+            print(f"Chunks Used (Top {TOP_K_DISPLAY} UIDs): {', '.join(uids)}")
         else:
             print("No relevant documents were retrieved.")
 
