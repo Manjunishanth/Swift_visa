@@ -1,0 +1,266 @@
+{
+    "generated_at": "2025-12-02T14:46:40.038090",
+    "total_records": 6,
+    "results": [
+        {
+            "question": "i am a student can i get UK visa?",
+            "response": "COUNTRY: UK\n\nVISA TYPE:\nStudent visa (for courses longer than 6 months)\n\nELIGIBILITY:\n- Can support yourself financially and pay tuition fees.\n- Meet health and character requirements.\n- Have provided all mandatory supporting documents.\n\nDOCUMENTS REQUIRED:\n- Current passport or travel document.\n- Confirmation of Acceptance for Studies (CAS) issued by a licensed Student sponsor.\n- Financial evidence (if required).\n- If previously fully sponsored, a consent letter from the sponsor.\n\nNOTES:\n- If any required evidence is missing or doesn't meet format rules, the application can be refused.\n- The CAS must be for the course you intend to study and must not have been used in a previous application.\n- The consent letter from the previous sponsor must be on official letterhead, include specific details, and confirm support for the new course.\n\nFINAL SUMMARY:\nEligibility for a UK student visa depends on meeting financial, health, and character requirements, and providing all necessary documents, including a valid passport and CAS. If you were previously fully sponsored, you will need a consent letter from the sponsor.\n",
+            "confidence_value": 0.51,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 17,
+                    "score": 0.53
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 17,
+                    "score": 0.53
+                }    
+        
+                
+            ]
+        },
+        {
+            "question": "eligibility creiteria for india visa",
+            "response": "COUNTRY: India\n\nVISA TYPE: Intern Visa ['I']\n\nELIGIBILITY:\n- Foreigner intending to pursue internship in Indian companies, Educational Institutions and NGOs.\n- Restricted to the duration of the internship programme or one year, whichever is less.\n- Maximum of 50 interns per year for each Indian Mission/ Post (100 for countries with PIO population > 1 million).\n- Granted immediately after completion of graduation/ post graduation.\n- Gap between completion of graduation/ post graduation and commencement of internship should not be more than two years.\n\nDOCUMENTS REQUIRED:\n- Letter from the Indian company/ educational institution/ NGO.\n\nNOTES:\n- Data not present.\n\nFINAL SUMMARY:\nThe Intern Visa is for foreigners pursuing internships in India, with specific limitations on duration, number of interns, and timing relative to graduation. A letter from the host organization is required.\n",
+            "confidence_value": 0.56,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 93,
+                    "score": 0.6
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 133,
+                    "score": 0.588
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 31,
+                    "score": 0.564
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 90,
+                    "score": 0.562
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 115,
+                    "score": 0.559
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 94,
+                    "score": 0.548
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 91,
+                    "score": 0.548
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 65,
+                    "score": 0.54
+                }
+            ]
+        },
+        {
+            "question": "i am 30 years can i get an UK visa",
+            "response": "COUNTRY: UK\n\nVISA TYPE:\nStudent visa (for courses longer than 6 months)\n\nELIGIBILITY:\n- Can support yourself financially and pay tuition fees.\n- Meet health and character requirements.\n- Provide all mandatory supporting documents.\n\nDOCUMENTS REQUIRED:\n- Current passport or travel document.\n- If from a TB-listed country, a TB certificate.\n- Financial evidence (if required).\n- English evidence (if required).\n- ATAS certificate (if required).\n\nNOTES:\n- Applicants extending their visa from inside the UK after 12 continuous months of lawful residence may not need to show funds.\n\nFINAL SUMMARY:\nThe documents detail requirements for a UK Student visa, including financial and academic qualifications, and passport. Since you are 30, parental consent documents are not required.\n",
+            "confidence_value": 0.42,
+            "confidence_level": "Low",
+            "sources": [
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 1,
+                    "score": 0.446
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 1,
+                    "score": 0.446
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 15,
+                    "score": 0.423
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 15,
+                    "score": 0.423
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 8,
+                    "score": 0.411
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 8,
+                    "score": 0.411
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 11,
+                    "score": 0.401
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 11,
+                    "score": 0.401
+                }
+            ]
+        },
+        {
+            "question": "i own a company can i have india visa?",
+            "response": "COUNTRY: India\n\nVISA TYPE: Business Visa\n\nELIGIBILITY:\n- To establish an industrial/business venture, other than Proprietorship Firms and Partnership Firms, in India.\n- To purchase/sell industrial products or commercial products or consumer durables.\n\nDOCUMENTS REQUIRED:\n- Information not present in provided documents.\n\nNOTES:\n- Business Visa can be extended up to a maximum period of five years subject to the gross sales/turnover from the business activities is not less than Rs.1 crore per annum.\n- India Business Card will be issued to businessmen from SAARC countries who are eligible for a multiple entry Business Visa for a period of three years or more.\n\nFINAL SUMMARY:\nYou may be eligible for a Business Visa if you meet the criteria for establishing or exploring business ventures (excluding Proprietorship/Partnership Firms) or for buying/selling industrial or commercial products. Businessmen from SAARC countries may be eligible for an India Business Card.\n",
+            "confidence_value": 0.55,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 42,
+                    "score": 0.617
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 35,
+                    "score": 0.596
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 36,
+                    "score": 0.548
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 25,
+                    "score": 0.544
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 53,
+                    "score": 0.535
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 32,
+                    "score": 0.535
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 30,
+                    "score": 0.531
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 55,
+                    "score": 0.531
+                }
+            ]
+        },
+        {
+            "question": "i own a company in india can i have ireland visa?",
+            "response": "COUNTRY: IRELAND\n\nVISA TYPE:\nData not present\n\nELIGIBILITY:\nData not present\n\nDOCUMENTS REQUIRED:\nData not present\n\nNOTES:\nData not present\n\nFINAL SUMMARY:\nVisa details for Ireland are not available in the provided documents.\n",
+            "confidence_value": 0.43,
+            "confidence_level": "Low",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 35,
+                    "score": 0.464
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 42,
+                    "score": 0.457
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 53,
+                    "score": 0.432
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 1,
+                    "score": 0.424
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 36,
+                    "score": 0.422
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 33,
+                    "score": 0.421
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 32,
+                    "score": 0.42
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 55,
+                    "score": 0.42
+                }
+            ]
+        },
+        {
+            "question": "i own a company in india can i have indian visa?",
+            "response": "COUNTRY: India\n\nVISA TYPE:\nData not present\nSince you own a company in India, you would not need an Indian visa. Visas are for foreign nationals.\n\nELIGIBILITY:\nData not present\n\nDOCUMENTS REQUIRED:\nData not present\n\nNOTES:\nData not present\n\nFINAL SUMMARY:\nSince you own a company in India, you likely do not need a visa. Visas are for foreign nationals.\n",
+            "confidence_value": 0.56,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 42,
+                    "score": 0.628
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 35,
+                    "score": 0.593
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 36,
+                    "score": 0.567
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 25,
+                    "score": 0.557
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 32,
+                    "score": 0.55
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 53,
+                    "score": 0.546
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 30,
+                    "score": 0.534
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 55,
+                    "score": 0.534
+                }
+            ]
+        }
+    ]
+}
