@@ -1,6 +1,6 @@
 {
-    "generated_at": "2025-12-02T14:46:40.038090",
-    "total_records": 6,
+    "generated_at": "2025-12-02T15:06:46.243941",
+    "total_records": 10,
     "results": [
         {
             "question": "i am a student can i get UK visa?",
@@ -17,9 +17,37 @@
                     "file": "uk_visa_screening copy.pdf",
                     "chunk": 17,
                     "score": 0.53
-                }    
-        
-                
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 1,
+                    "score": 0.525
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 1,
+                    "score": 0.525
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 8,
+                    "score": 0.519
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 8,
+                    "score": 0.519
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 3,
+                    "score": 0.476
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 3,
+                    "score": 0.476
+                }
             ]
         },
         {
@@ -259,6 +287,188 @@
                     "file": "India Visa details.pdf",
                     "chunk": 55,
                     "score": 0.534
+                }
+            ]
+        },
+        {
+            "question": "i own a house in inida can i have a Schengen visa?",
+            "response": "COUNTRY: SCHENGEN AREA\n\nVISA TYPE:\nSHORT STAY VISAS: UNIFORM VISA or VISA WITH LIMITED TERRITORIAL VALIDITY; AIRPORT TRANSIT VISA\n\nELIGIBILITY:\n- Not specified if owning a house in India makes you eligible for a Schengen visa. General requirements include justifying the purpose and conditions of your stay and having sufficient means of subsistence.\n\nDOCUMENTS REQUIRED:\n- Documents justifying the purpose and conditions of the intended stay.\n- Proof of sufficient means of subsistence.\n\nNOTES:\n- Mere possession of a Schengen visa does not guarantee entry.\n- Visa holders may be asked to produce documents at the border.\n- Applications can be submitted to an external service provider.\n\nFINAL SUMMARY:\nThe document does not specify whether owning a house in India affects Schengen visa eligibility. Owning property is not mentioned as either a requirement or a disqualification.\n",
+            "confidence_value": 0.38,
+            "confidence_level": "Low",
+            "sources": [
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 18,
+                    "score": 0.467
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 20,
+                    "score": 0.399
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 8,
+                    "score": 0.379
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 2,
+                    "score": 0.374
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 7,
+                    "score": 0.372
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 1,
+                    "score": 0.357
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 9,
+                    "score": 0.353
+                },
+                {
+                    "file": "SCHENGEN.pdf",
+                    "chunk": 19,
+                    "score": 0.333
+                }
+            ]
+        },
+        {
+            "question": "What are eligibility criteria for Ireland visa",
+            "response": "COUNTRY: Ireland\n\nVISA TYPE:\nEmployment (based on Employment Permit), Intra-Company Transfer\n\nELIGIBILITY:\n- Holding a valid employment permit (Critical Skills, General, Intra-Company Transfer, Contract for Services, Exchange Agreement, Internship, Sports & Cultural).\n- For Intra-Company Transfer, the applicant must be legally resident and employed in another EU Member State.\n\nDOCUMENTS REQUIRED:\n- Full colour copy of residence permission (front and back if residence card)\n- Documentation on Previous Visa Refusals, Other immigration Issues and Criminal Convictions\n- Signed application letter (full contact details, reason for visit, family in Ireland/EU, length of stay, place of stay, undertaking to observe visa conditions, not become a burden, and leave on expiry)\n- Marriage/birth certificates\n- Explanation for missing documents\n- Employment permit copy\n- Employment contract copy\n- Letter from Irish employer (job details, salary, accommodation details if provided)\n- Evidence of qualifications and experience (payslips, salary payments, employment letter, tax statements, certificates)\n- Evidence of finances\n- For Intra-Company Transfer: Letter from EU employer (residency and employment confirmation, service details, return confirmation, contract details, Irish company contact)\n- For Intra-Company Transfer: Letter from Irish company (contract details, reason for employee)\n- For Intra-Company Transfer: Evidence of right to reside and work in the sending EU member state and of permission to return there.\n\nNOTES:\n- Must explain inability to provide required documents.\n\nFINAL SUMMARY:\nThe visa eligibility for Ireland depends on the type of employment and requires specific documents related to the employment and personal circumstances. For intra-company transfers, additional documentation is required from both the sending and host companies.\n",
+            "confidence_value": 0.64,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 1,
+                    "score": 0.729
+                },
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 2,
+                    "score": 0.715
+                },
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 3,
+                    "score": 0.696
+                },
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 4,
+                    "score": 0.673
+                },
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 6,
+                    "score": 0.523
+                },
+                {
+                    "file": "ireland.pdf",
+                    "chunk": 7,
+                    "score": 0.493
+                }
+            ]
+        },
+        {
+            "question": "What are eligibility criteria for US visa",
+            "response": "COUNTRY: United States of America\n\nVISA TYPE:\nBusiness Visa\n\nELIGIBILITY:\n- Not specified\n\nDOCUMENTS REQUIRED:\n- Not specified\n\nNOTES:\n- Business Visa may be granted with 10 years validity with multiple entry facility.\n- Continuous stay during each visit shall not exceed 180 days and registration not required.\n\nFINAL SUMMARY:\nThe documents specify the validity and conditions for a US citizen to obtain an India Business Visa. Other eligibility and document requirements are not detailed.\n",
+            "confidence_value": 0.45,
+            "confidence_level": "Low",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 47,
+                    "score": 0.471
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 11,
+                    "score": 0.465
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 11,
+                    "score": 0.465
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 31,
+                    "score": 0.46
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 91,
+                    "score": 0.458
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 150,
+                    "score": 0.439
+                },
+                {
+                    "file": "uk_visa_screening.pdf",
+                    "chunk": 1,
+                    "score": 0.438
+                },
+                {
+                    "file": "uk_visa_screening copy.pdf",
+                    "chunk": 1,
+                    "score": 0.438
+                }
+            ]
+        },
+        {
+            "question": "What are eligibility criteria for Student India visa",
+            "response": "COUNTRY: India\n\nVISA TYPE: Student Visa\n\nELIGIBILITY:\n- Foreigner whose sole objective is to pursue on-campus, full time courses at educational institutions recognized by a statutory regulatory body.\n- Must produce proof of admission to a full time course.\n- Institutions must comply with GST regulations.\n- For private institutions NIIT, APTECH, Tata Infotech, Software Technology Group, and DSK Global Education & Research Limited, Pune; must be conducting courses at their own premises, not franchise or off-campus.\n- Must open NRO account (Non Resident Ordinary) in India.\n- In case of extension, sponsorship by the Institution is required.\n\nDOCUMENTS REQUIRED:\n- Proof of admission to a full time course.\n- Details of NRO account.\n- Provisional admission certificate / letter of offer or advertisement for admission (for Provisional Student Visa)\n- Application for admission and letter from the educational institution confirming receipt of application (for extension of Provisional Student Visa).\n\nNOTES:\n- Student Visa will not be issued to foreign nationals sponsored by franchise Educational Institutes running off -campus centres, Study Centres of Open Universities offering distance learn ing programmes, Educational Institutes running “outreach” programmes and offering courses without any statutory sanction from regulatory authorities.\n- Student Visa will not be issued for pursuing ‘Short Term Courses’ in India which are not recognized.\n- Visa validity shall not exceed 5 years.\n- A maximum of four entries per academic year may be allowed to foreign students.\n- Prior clearance of the Ministry of Home Affairs may be required.\n- Dependents do not get a dependent visa.\n- Change of institution shall be allowed if student has reasonable ground of insufficient infrastructure, paucity of facility, unavailability of the course of their choice or either of them.\n- No special permission is required for completion of such industrial training / internship etc .\n\nFINAL SUMMARY:\nThe Student Visa is for individuals pursuing full-time education at recognized Indian institutions. Several eligibility criteria and conditions apply to the type of institution, course, and financial sustenance.\n",
+            "confidence_value": 0.69,
+            "confidence_level": "Medium",
+            "sources": [
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 61,
+                    "score": 0.704
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 93,
+                    "score": 0.703
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 69,
+                    "score": 0.692
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 65,
+                    "score": 0.69
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 68,
+                    "score": 0.686
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 67,
+                    "score": 0.674
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 63,
+                    "score": 0.668
+                },
+                {
+                    "file": "India Visa details.pdf",
+                    "chunk": 90,
+                    "score": 0.665
                 }
             ]
         }
