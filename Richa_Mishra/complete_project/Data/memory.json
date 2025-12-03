@@ -2,56 +2,6 @@
   "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f": [
     {
       "role": "user",
-      "text": "Do I qualify for a UK Startup visa if my business plan is not approved yet?",
-      "ts": "2025-12-01T17:09:24.621340"
-    },
-    {
-      "role": "assistant",
-      "text": "{\n  \"eligibility_status\": \"Not Eligible\",\n  \"confidence_score\": 1.0,\n  \"explanation_of_decision\": \"The provided documents discuss the 'Skilled Worker visa' and its requirements, such as financial evidence, proof of English, and certificate of sponsorship. There is no information within the given documents regarding a 'UK Startup visa' or the approval process for a business plan related to such a visa. Therefore, based solely on the provided text, it's not possible to assess eligibility for a UK Startup visa.\",\n  \"top_relevant_chunks\": [\n    1,\n    2\n  ],\n  \"suggestions\": \"To assess eligibility for a UK Startup visa, you would need to consult official UK government guidance specifically for the Startup visa route. This guidance would detail requirements such as endorsement from an approved body, a viable business plan, and any necessary investment funds.\"\n}",
-      "ts": "2025-12-01T17:09:24.625068"
-    },
-    {
-      "role": "user",
-      "text": "I studied in a university on the HPI approved list. Am I eligible for the HPI visa?",
-      "ts": "2025-12-01T17:09:29.145517"
-    },
-    {
-      "role": "assistant",
-      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"explanation_of_decision\": \"While studying at an HPI-approved university is a primary requirement, eligibility for the HPI visa also depends on several other factors. These include the date your qualification was awarded (must be within the last 5 years), the level of your qualification (must be equivalent to a UK bachelor's, postgraduate, or PhD), and that the university was on the eligible list for the specific year you graduated and was not a UK university.\",\n  \"top_relevant_chunks\": [\n    1\n  ],\n  \"suggestions\": \"To confirm your eligibility, please provide the following details: the exact date your qualification was awarded, the level of your qualification, and confirm that the university was on the HPI-approved list for the year you graduated and is not a UK university. You will also need to apply to Ecctis to verify your qualification.\"\n}",
-      "ts": "2025-12-01T17:09:29.148156"
-    },
-    {
-      "role": "user",
-      "text": "Am I eligible for work permit without job offer letter?",
-      "ts": "2025-12-01T17:09:30.131380"
-    },
-    {
-      "role": "assistant",
-      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 30.031325455s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 30\n}\n]",
-      "ts": "2025-12-01T17:09:30.135364"
-    },
-    {
-      "role": "user",
-      "text": "I want to visit Ireland for tourism and have strong financials and travel history. Am I eligible?",
-      "ts": "2025-12-01T17:09:30.919153"
-    },
-    {
-      "role": "assistant",
-      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 29.208148513s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 29\n}\n]",
-      "ts": "2025-12-01T17:09:30.921714"
-    },
-    {
-      "role": "user",
-      "text": "I overstayed earlier. Can I still apply for a US tourist visa?",
-      "ts": "2025-12-01T17:09:31.704994"
-    },
-    {
-      "role": "assistant",
-      "text": "ERROR: Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-2.5-flash\nPlease retry in 28.431540528s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 28\n}\n]",
-      "ts": "2025-12-01T17:09:31.713743"
-    },
-    {
-      "role": "user",
       "text": "I have an offer from an Irish university, funds, and accommodation. Am I eligible for study visa?",
       "ts": "2025-12-01T17:09:32.484773"
     },
@@ -999,6 +949,56 @@
       "role": "assistant",
       "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.8,\n  \"explanation_of_decision\": \"While your cruise covers Schengen countries (Italy and Greece) and you have travel insurance, several key requirements for a Schengen Tourist Visa are not mentioned.",
       "ts": "2025-12-01T17:19:49.217803"
+    },
+    {
+      "role": "user",
+      "text": "I am an Indian citizen with a valid passport until 2029. I have been accepted into a Master’s program in Computer Science at a U.S. university starting in Fall 2026. My academic background includes a B.Eng. in Software Engineering and three years of relevant work experience. I can show proof of financial support covering tuition and living expenses, and I have no prior visa violations. Am I eligible for a U.S. F‑1 study visa, and what is the typical processing time?",
+      "ts": "2025-12-02T19:00:40.999778"
+    },
+    {
+      "role": "assistant",
+      "text": "[2-3 sentences explaining the decision]",
+      "ts": "2025-12-02T19:00:41.005226"
+    },
+    {
+      "role": "user",
+      "text": "I am an Indian citizen with a valid passport until 2029. I have been accepted into a Master’s program in Computer Science at a U.S. university starting in Fall 2026. My academic background includes a B.Eng. in Software Engineering and three years of relevant work experience. I can show proof of financial support covering tuition and living expenses, and I have no prior visa violations. Am I eligible for a U.S. F‑1 study visa, and what is the typical processing time?",
+      "ts": "2025-12-02T19:06:06.682790"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Local LLM error: You need to specify either `text` or `text_target`.",
+      "ts": "2025-12-02T19:06:06.687773"
+    },
+    {
+      "role": "user",
+      "text": "I am  an indian with no criminal background.Hi, I received a job offer as a Senior Software Engineer at a Dublin tech firm with a salary of €55,000 per year. I hold a B.Eng. in Software Engineering and have 3 years of relevant experience. My passport is valid until 2029. Am I eligible for a Critical Skills Work Permit, and what’s the typical processing time?",
+      "ts": "2025-12-03T12:50:15.041793"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_",
+      "ts": "2025-12-03T12:50:15.048679"
+    },
+    {
+      "role": "user",
+      "text": "I am an indian with no criminal background.Hi, I received a job offer as a Senior Software Engineer at a Dublin tech firm with a salary of €55,000 per year. I hold a B.Eng. in Software Engineering and have 3 years of relevant experience. My passport is valid until 2029. Am I eligible for a Critical Skills Work Permit, and what’s the typical processing time?",
+      "ts": "2025-12-03T13:35:51.708336"
+    },
+    {
+      "role": "assistant",
+      "text": "{\n  \"eligibility_status\": \"Partially Eligible - Need More Information\",\n  \"confidence_score\": 0.9,\n  \"reason_for_decision\": \"Your salary of €55,000 meets the minimum threshold of €38,000 for some Critical Skills roles. However, the document states that a higher threshold of €64,000 may apply depending on the occupation. To confirm full eligibility, you need to verify if 'Senior Software Engineer' is on the Critical Skills occupations list and what the specific salary threshold is for that role.\",\n  \"top_relevant_chunks\": [1],\n  \"required_documents\": [\"Critical Skills checklist and occupations list (not provided in context)\"],\n  \"actions_to_improve\": [\"Consult the official Critical Skills checklist and occupations list to confirm if 'Senior Software Engineer' is an eligible occupation and its specific salary threshold.\"],\n  \"risks_or_warnings\": [],\n  \"processing_time\": \"not provided\",\n  \"official_reference\": \"not provided\"\n}",
+      "ts": "2025-12-03T13:35:51.719957"
+    },
+    {
+      "role": "user",
+      "text": "Hey, I’ve been accepted to the Master of Data Science program at the University of Toronto for Fall 2026. I have a (link unavailable) in Computer Science (GPA 3.7) and an IELTS score of 7.0. My bank statements show CAD 25,000 in savings and my parents will cover the remaining tuition of CAD 30,000. I also have a part‑time on‑campus job offer. Am I eligible for a Canadian study permit, and what documents should I prepare? I am an indian with no criminal activities.",
+      "ts": "2025-12-03T13:40:43.740111"
+    },
+    {
+      "role": "assistant",
+      "text": "ERROR: Model returned no text parts — output filtered or empty response.",
+      "ts": "2025-12-03T13:40:43.744168"
     }
   ]
 }

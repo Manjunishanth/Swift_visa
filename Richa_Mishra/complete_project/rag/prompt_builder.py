@@ -1,44 +1,15 @@
-# rag/prompt_builder.py
 from typing import List, Dict, Any
-from rag.memory import get_memory, make_profile_key
-
-def _format_memory(profile_key: str, max_entries: int = 6) -> str:
-    mem = get_memory(profile_key, max_items=max_entries)
-    if not mem:
-        return ""
-    lines = []
-    for i, e in enumerate(mem, start=1):
-        role = e.get("role")
-        txt = e.get("text", "").strip()
-        ts = e.get("ts", "")[:19].replace("T", " ")
-        lines.append(f"[M{i}] {role.upper()} ({ts}): {txt}")
-    return "PAST CONVERSATION (most recent first):\n" + "\n".join(lines) + "\n\n"
 
 def build_prompt(query: str,
                  retrieved: List[Dict[str, Any]],
-                 user_profile: Dict[str, Any] = None,
-                 max_chars: int = 2500,
+                 max_chars: int = 3000,
                  mode: str = "decision") -> str:
     """
-    Build prompt including:
-      - short user profile
-      - recent persistent memory (via profile key)
-      - numbered retrieved snippets (context)
-      - strict JSON decision prompt (if mode=="decision")
+    Stateless prompt builder: JSON-first, fallback-safe.
+    The primary goal is to get a definitive decision and a confidence score.
     """
-    profile_text = ""
-    profile_key = ""
-    if user_profile:
-        allowed_keys = ("age", "income", "family_status", "nationality")
-        lines = [f"{k}: {user_profile[k]}" for k in allowed_keys if k in user_profile and user_profile[k]]
-        if lines:
-            profile_text = "USER PROFILE:\n" + "\n".join(lines) + "\n\n"
-        # make profile_key to fetch memory
-        profile_key = make_profile_key(user_profile)
 
-    memory_text = _format_memory(profile_key) if profile_key else ""
-
-    # Build numbered context
+    # -------- DOCUMENT CONTEXT (trim to max_chars) -------- #
     ctx_parts = []
     total = 0
     for i, r in enumerate(retrieved or []):
@@ -47,58 +18,49 @@ def build_prompt(query: str,
         uid = r.get("uid", f"uid_{idx}")
         chunk_id = meta.get("chunk_id", uid)
         source = meta.get("source", meta.get("doc_id", "unknown"))
+
         header = f"[{idx}] Source: {source} | chunk_id: {chunk_id}\n"
         text = (r.get("text") or r.get("content") or "").strip()
         piece = header + text + "\n"
+
         if total + len(piece) > max_chars:
             remaining = max_chars - total
             if remaining > 0:
-                piece = piece[:remaining]
-                ctx_parts.append((idx, piece))
+                # Add only the remaining part of the current chunk's text
+                ctx_parts.append((idx, piece[:remaining]))
             break
+
         ctx_parts.append((idx, piece))
         total += len(piece)
 
-    context_text = "\n---\n".join([f"[{i}]\n{p}" for i, p in ctx_parts]) or "[no context available]"
+    context_text = "\n---\n".join([p for i, p in ctx_parts]) \
+                   if ctx_parts else "No context was retrieved. Use NULL where needed."
 
-    if mode == "decision":
-        prompt = f"""
-Visa Eligibility Assessment
+    # -------- FINAL PROMPT -------- #
+    prompt = f"""
+You are SwiftVisa, an expert immigration assistant.
+Your job is to decide YES or NO based **ONLY** on the policy extracts provided below.
 
-{memory_text}{profile_text}
-RELEVANT DOCUMENTS:
+**DOCUMENT CONTEXT:**
 {context_text}
 
-QUESTION: {query}
-
-Based on the documents provided, answer these questions. Your response MUST be in a structured JSON format, with the following keys:
-
-```json
-{{
-  "eligibility_status": "[Eligible / Not Eligible / Partially Eligible - Need More Information]",
-  "confidence_score": "[0.0-1.0]",
-  "explanation_of_decision": "[2-3 sentences explaining the decision]",
-  "top_relevant_chunks": "[list of 5 most relevant document numbers, e.g., [1, 2, 3, 4, 5]]",
-  "suggestions": "[actionable suggestions for eligibility and future steps]"
-}}
-```
-
-Important: Provide ONE clear decision only. Do not provide multiple conflicting decisions. Your entire response should be valid JSON.
-"""
-    else:
-        # info mode
-        prompt = f"""
-You are SwiftVisa, an expert immigration assistant. Use ONLY the numbered context snippets below and the recent conversation memory (if any) to answer.
-{memory_text}{profile_text}
-CONTEXT (numbered snippets):
-{context_text}
-
-QUESTION:
+**USER QUESTION:**
 {query}
 
-TASK:
-- Provide a concise, factual answer (3-8 sentences).
-- Cite context snippets inline as [n].
-- If information is missing, respond: "Insufficient information in the provided documents to answer fully." and list what is missing.
+**INSTRUCTIONS:**
+1. **Output:** Must be **JSON format only**. Do NOT wrap the JSON in markdown code blocks (e.g., no ```json ```).
+2. **Decision:** Must be **"eligible"**, **"not eligible"**, or **"partially eligible"**. Prioritize "eligible" or "not eligible".
+3. **Confidence:** Provide a numerical score from **0.0 (low)** to **1.0 (high)** reflecting the certainty based on the provided context.
+4. **Source:** Use **ONLY** provided context. Set missing data to "NULL" or [].
+5. **Conciseness:** Keep the 'reason' concise (2-4 sentences).
+
+**OUTPUT:**
+Return a JSON object with the following mandatory fields:
+{{
+  "eligibility_status": "eligible / not eligible / partially eligible",
+  "reason": "2-4 sentences based strictly on context",
+  "future_steps": ["steps based on context or to improve eligibility"],
+  "confidence": 0.0
+}}
 """
     return prompt.strip()
