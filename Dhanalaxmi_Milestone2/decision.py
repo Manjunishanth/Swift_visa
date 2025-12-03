@@ -24,7 +24,10 @@ POLICY INFORMATION:
 
 Return the result in this EXACT format:
 
+You must evaluate confidence strictly by the amount of supporting evidence in the policy documents.
+
 Eligibility: YES or NO
+Confidence Score (0.0 to 1.0): <decimal>
 Reason: short paragraph
 Missing Documents (if any): list or say NONE
 Citations: chunk filenames used
@@ -62,3 +65,4 @@ while True:
     if again not in ["yes","y"]:
         print("\n👋 Exiting SwiftVisa. Have a great day!")
         break
+
