@@ -10,7 +10,6 @@ This project combines **Natural Language Processing (NLP)**, **vector embeddings
 
 SwiftVisa allows users to:
 
-- Input their **personal profile** (age, nationality, family status, income, etc.)
 - Ask **visa-related questions** like eligibility, requirements, or criteria
 - Receive **document-backed responses** with citations from relevant legal documents
 - View a **confidence score** indicating how reliable the answer is
@@ -91,35 +90,43 @@ flowchart TB
 ```
 SwiftVisa/
 │
-├── Data/                      # PDF/TXT visa documents, embeddings, metadata
-│
-├── utils/                     # Utility scripts for NLP, chunking, embeddings
-│   ├── nltk_setup.py
-│   ├── pdf_utils.py
-│   ├── chunking.py
-│   ├── embedding.py
-│   └── vector_store.py
-│
-├── rag/                       # Core RAG system
-│   ├── llm_client.py          # LLM wrappers for Gemini/OpenAI
-│   ├── logger.py              # Logs queries, retrieval, and answers
-│   ├── pipeline.py            # Main RAG pipeline
-│   ├── prompt_builder.py      # Builds prompts for LLM
-│   └── retriever.py           # FAISS-based retrieval
-│
-├── Test_Debug/                # Testing and debugging files
-│   ├── analyze_embeddings.py
-│   ├── debug.py 
-│   ├── llm_api.py
-│   ├── llm_local.py 
-│   ├── query.py
-│   ├── rag_gemini.py 
-│   └── retrieval.py
-│
-├── main.py                    # Processes documents, chunks, embeds, builds index
-├── query_cli.py               # Command-line interface for asking visa questions
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
+└── Richa_Mishra/
+    │
+    └── complete_project/
+        │
+        ├── Data/                      # PDF/TXT visa documents, embeddings, metadata
+        │
+        ├── utils/                     # MILESTONE  - 01    -------   Utility scripts for NLP, chunking, embeddings
+        │   ├── nltk_setup.py
+        │   ├── pdf_utils.py           # extract text from documents and perform necessary preprocessing
+        │   ├── chunking.py            # chunk text into smaller pieces
+        │   ├── embedding.py           # create embeddings of 384 dimensions
+        │   └── vector_store.py        # store embeddings in FAISS vector store 
+        │
+        ├── rag/                       # Core RAG system
+        │   ├── llm_client.py          # LLM wrappers for Gemini/OpenAI
+        │   ├── logger.py              # Logs queries, retrieval, and answers
+        │   ├── pipeline.py            # Main RAG pipeline
+        │   ├── prompt_builder.py      # Builds prompts for LLM
+        │   └── retriever.py           # FAISS-based retrieval
+        │
+        ├── Test_Debug/                # Testing and debugging files
+        │   ├── analyze_embeddings.py
+        │   ├── debug.py 
+        │   ├── llm_api.py
+        │   ├── llm_local.py 
+        │   ├── query.py
+        │   ├── rag_gemini.py 
+        │   └── retrieval.py
+        │
+        ├── main.py                    # Processes documents, chunks, embeds, builds index
+        ├── query_cli.py               # Command-line interface for asking visa questions
+        ├── requirements.txt           # Python dependencies
+        ├── streamlit_app.py           # frontend for the bot
+        ├── user_queries.json          
+        ├── query_results.json
+        ├── process_test_queries.py    # processes queries from user_queries.json and give output in JSON format and store in query_results.json
+        └── README.md                  # This file
 ```
 
 ---
@@ -142,7 +149,8 @@ SwiftVisa/
 - Provides a final blended confidence score for each answer
 
 ### 4. **User Interaction**
-- CLI interface collects **user profile** information
+- CLI interface
+- Streamlit Dashboard for enhanced user experience
 - Provides **conversational responses**, relevant document chunks, and reasoning
 
 ---
@@ -211,6 +219,12 @@ python main.py
 ```bash
 python query_cli.py
 ```
+**OR**
+
+7. **Start the Streamlit Dashboard:**
+```bash
+python streamlit_app.py
+```
 
 8. **Interact with the system:**
 - Enter your profile details (age, nationality, income, etc.)
@@ -219,41 +233,12 @@ python query_cli.py
 
 ---
 
-## 🤝 Contributing
-
-This is an internship project. If you're a team member:
-
-1. **Create a new branch for your feature:**
-```bash
-git checkout -b feature/your-feature-name
-```
-
-2. **Make your changes and commit:**
-```bash
-git add .
-git commit -m "Description of your changes"
-```
-
-3. **Push to the repository:**
-```bash
-git push origin feature/your-feature-name
-```
-
-4. **Create a Pull Request** on GitHub for review
-
-### Branch Naming Convention
-- `feature/` - for new features
-- `bugfix/` - for bug fixes
-- `docs/` - for documentation updates
-- `test/` - for testing improvements
-
----
 
 ## 📂 Deliverables
 
 - ✅ Processed visa documents (JSON chunks + FAISS index)
 - ✅ Python scripts for document processing, embeddings, retrieval, and RAG
-- ✅ CLI chatbot to query visa eligibility
+- ✅ CLI chatbot + Sreamlit Dasboard to query visa eligibility
 - ✅ Logs of queries, retrieved chunks, and final answers
 - ✅ Confidence scoring and citations for each response
 
@@ -281,7 +266,6 @@ git push origin feature/your-feature-name
 
 ## 🚀 Future Enhancements
 
-- [ ] Web-based user interface (Streamlit/Gradio)
 - [ ] Support for additional countries and visa types
 - [ ] Multi-language support
 - [ ] Real-time document updates and incremental indexing
@@ -321,4 +305,4 @@ For questions or contributions, please open an issue or submit a pull request.
 
 ## 🙏 Acknowledgments
 
-Special thanks to the open-source community for the amazing tools and libraries that made this project possible.
+Thanks to our mentor Siddarth Sir. Special thanks to the open-source community for the amazing tools and libraries that made this project possible.
