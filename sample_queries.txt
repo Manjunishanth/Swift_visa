@@ -1,0 +1,33 @@
+
+**US Visa Queries (based on `US_Visa.txt`)**
+
+I am an Indian citizen applying for a B-1 visa. I will be attending a 3-week business conference in Seattle, Washington. I have a stable job as a marketing manager in India, over $5000 in savings, and own property in my home country. My passport is valid for another 5 years. Am I eligible?
+I am a German citizen with a Master's degree in Computer Science, and I have a job offer from a tech company in California as a software engineer with a salary of $120,000 annually. My company has an approved LCA. I plan to apply for an H-1B visa. Am I eligible?
+I am a German citizen and the direct owner of a trading company in Germany that has substantial and regular trade in goods and services with a US company. I want to apply for an E-1 visa to live and work in the US. My company in the US is 60% owned by German citizens. Am I eligible?
+I am an Irish national applying for an H-2B visa. I have an offer for a seasonal non-agricultural job at a resort in Florida for 6 months. The employer has filed a Temporary Labor Certification and a petition with USCIS, and no suitable US candidates were found. My passport is valid, and I have all the required skills for the position. Am I eligible?
+
+**Schengen Visa Queries (based on `Schengen_visa.txt`)**
+
+I am a citizen of Brazil applying for a Schengen Type C visa. I plan to visit France for tourism for 10 days. I have a valid passport (valid for 6 months beyond my planned departure), confirmed flight tickets, hotel bookings, travel medical insurance with €30,000 coverage, and a bank statement showing sufficient funds (e.g., €2000). Am I eligible?
+I am an Indian student accepted into a Master's program at a university in Germany. I have paid my tuition fees and can demonstrate proof of €12,000 for living expenses for one year. I also have private medical insurance and have passed the Goethe-Zertifikat B2 German language exam. I am applying for a Long-Stay National Student Visa (Type D). Am I eligible?
+I am an Argentine citizen attending a business meeting in Italy for 5 days. I have an invitation letter from the Italian company, my flight and accommodation are booked, and I have travel insurance. My passport is valid for more than 3 months after my trip. Am I eligible for a Schengen business visa?
+
+**Canada Visa Queries (based on `Canada_Visa.txt`)**
+
+I am a UK citizen applying for a visitor visa to Canada. I intend to visit my sister in Vancouver for 2 weeks. I have a valid passport, a letter of invitation from my sister, sufficient funds of $2000 CAD for my stay, and proof of my full-time employment in the UK, demonstrating strong ties to my home country. Am I eligible?
+I am a French citizen with a valid study permit for a university in Montreal. I want to apply for an open work permit from inside Canada. My study permit is valid for another year. Am I eligible?
+I am a Mexican national with an approved employer-specific work permit. I have a job offer as a civil engineer in Calgary. I will be applying for my work permit at a port of entry. I have all the required documents, including my passport and the port of entry letter of introduction. Am I eligible?
+
+**UK Visa Queries (based on `UK_101.txt`)**
+
+I am an Indian national applying for a Skilled Worker visa. I have a job offer as a Civil Engineer (SOC code 2121) from a licensed UK sponsor. My annual salary will be £40,000, which is above the general threshold and the going rate for my occupation. I have a Bachelor's degree in Civil Engineering, an IELTS UKVI (B1 level), and a valid TB test certificate. I also have £1,300 in my bank account for maintenance. Am I eligible?
+I am a Nigerian national applying for a Student visa to the UK. I have a Confirmation of Acceptance for Studies (CAS) from the University of Manchester for a Master's degree in Data Science. I have paid my first year's tuition fees (£15,000) and have £10,000 in my bank account for living costs (outside London) held for 28 days. I have an IELTS UKVI (B2 level) and a TB test certificate. Am I eligible?
+I am a US citizen visiting London for 5 days for tourism. I have a valid passport, confirmed flights and hotel bookings, and sufficient funds (>$1000) for my trip. I intend to return to the US after my visit. Am I eligible for a UK Visitor visa?
+I am an Indian national applying for a Health and Care Worker visa. I have a job offer as a Registered Nurse from an NHS hospital in London with an annual salary of £30,000. I have NMC registration, an IELTS UKVI (B2 level), and a valid TB test certificate. My employer will certify my maintenance. Am I eligible?
+
+**Ireland Visa Queries (based on `ireland_101.txt`)**
+
+I am a South African citizen applying for an Ireland Critical Skills Employment Permit. I have a job offer as a Software Engineer in Cork with an annual salary of €55,000. I have a Level 8 Bachelor's Degree in Software Engineering and a 2-year employment contract. Am I eligible?
+I am a Chinese national applying for an Ireland Student Visa. I have been accepted into a PhD program at Trinity College Dublin. I have paid my tuition fees and can show proof of €13,000 for living expenses for one year. I also have private medical insurance and a TOEFL iBT score of 95. Am I eligible?
+I am a Pakistani national with a job offer as a Physiotherapist in Limerick, Ireland, with an annual salary of €35,000. This job is not on the Critical Skills list but is a highly skilled role. My employer has completed the Labour Market Needs Test, advertising the job for 28 days and finding no suitable EU/EEA candidates. I have a Bachelor's degree in Physiotherapy and a 1-year employment contract. Am I eligible for a General Employment Permit?
+
