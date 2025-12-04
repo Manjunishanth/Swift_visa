@@ -31,3 +31,500 @@ I am a South African citizen applying for an Ireland Critical Skills Employment 
 I am a Chinese national applying for an Ireland Student Visa. I have been accepted into a PhD program at Trinity College Dublin. I have paid my tuition fees and can show proof of €13,000 for living expenses for one year. I also have private medical insurance and a TOEFL iBT score of 95. Am I eligible?
 I am a Pakistani national with a job offer as a Physiotherapist in Limerick, Ireland, with an annual salary of €35,000. This job is not on the Critical Skills list but is a highly skilled role. My employer has completed the Labour Market Needs Test, advertising the job for 28 days and finding no suitable EU/EEA candidates. I have a Bachelor's degree in Physiotherapy and a 1-year employment contract. Am I eligible for a General Employment Permit?
 
+[
+  {
+    "query": "I am employed with ₹1 lakh monthly salary and want to visit France for 10 days. Am I eligible?"
+  },
+  {
+    "query": "Can I stay longer by extending my visitor visa?"
+  },
+  {
+    "query": "I have a valid UK visa and sufficient funds. Am I eligible for Schengen short-stay visa?"
+  },
+  {
+    "query": "Do I qualify for visa if my accommodation is not finalized?"
+  },
+  {
+    "query": "I have a job offer but my CoS is delayed — can I still apply?"
+  },
+  {
+    "query": "Am I eligible for UK spouse visa if I earn in foreign currency?"
+  },
+  {
+    "query": "Am I eligible for Schengen visa if my documents are in Hindi?"
+  },
+  {
+    "query": "Am I eligible if I don’t have income tax returns?"
+  },
+  {
+    "query": "Am I eligible for tourist visa if I already have Schengen refusal?"
+  },
+  {
+    "query": "Am I eligible for H1B visa without a bachelor’s degree but 10 years experience?"
+  },
+  {
+    "query": "Am I eligible for visitor visa if I’m unemployed?"
+  },
+  {
+    "query": "Can I get study visa with 1 year gap?"
+  },
+  {
+    "query": "Can I travel all Schengen countries with single-country visa?"
+  },
+  {
+    "query": "Am I eligible for a UK fiancé visa if we have met only once?"
+  },
+  {
+    "query": "Am I eligible for an H4 EAD if my spouse’s I-140 is not approved?"
+  },
+  {
+    "query": "Can I apply without confirmed bookings?"
+  },
+  {
+    "query": "Can I apply for Schengen visa if I’m a student in India?"
+  },
+  {
+    "query": "I have LMIA-approved job offer as a software engineer. Am I eligible for work permit?"
+  },
+  {
+    "query": "My spouse holds Stamp 4 and we are legally married. Am I eligible for dependent visa?"
+  },
+  {
+    "query": "Am I eligible for Stamp 1G after completing master’s?"
+  },
+  {
+    "query": "Can I get a UK visa if I have a US refusal from last year?"
+  },
+  {
+    "query": "Am I eligible for visa if I have US refusal?"
+  },
+  {
+    "query": "My salary offer for Critical Skills Permit is €45,000 for ICT category. Am I eligible?"
+  },
+  {
+    "query": "Am I eligible for J1 visa if I have already done a J1 previously?"
+  },
+  {
+    "query": "I’m from India, can I get a UK tourist visa if I have 3 months of bank statements only?"
+  },
+  {
+    "query": "Am I eligible for Critical Skills Permit with €28k salary?"
+  },
+  {
+    "query": "Can I switch from tourist visa to work visa?"
+  },
+  {
+    "query": "Am I eligible for Ireland Study Visa with 60% in bachelors?"
+  },
+  {
+    "query": "I have confirmed flight + hotel booking, insurance, and ₹3 lakh funds. Am I eligible for Schengen tourist visa?"
+  },
+  {
+    "query": "Am I eligible for Schengen visa for 20-day trip?"
+  },
+  {
+    "query": "I completed my Master’s in Ireland and have official results. Am I eligible for Stamp 1G?"
+  },
+  {
+    "query": "My parents meet LICO requirements and have medical insurance purchased. Am I eligible for Super Visa?"
+  },
+  {
+    "query": "Am I eligible for a UK Visitor Visa if my passport expires in 5 months?"
+  },
+  {
+    "query": "I have $15,000 savings — can I apply for US B2 visa?"
+  },
+  {
+    "query": "Am I eligible for DV lottery if I’m from India?"
+  },
+  {
+    "query": "I have a bachelor’s degree in Computer Science and a US employer offering prevailing wage. Am I eligible for H1B?"
+  },
+  {
+    "query": "Am I eligible for multiple-entry visa on first attempt?"
+  },
+  {
+    "query": "Can I bring my spouse on a UK dependent visa if my salary is £23k?"
+  },
+  {
+    "query": "I have a UK Skilled Worker job offer with salary £32,000 and CoS from a licensed sponsor. Am I eligible?"
+  },
+  {
+    "query": "My college program is 2 years long and DLI-approved. Am I eligible for PGWP?"
+  },
+  {
+    "query": "Can I apply for Express Entry if my education is from open university?"
+  },
+  {
+    "query": "Can I apply for Schengen visa with sponsorship from friend?"
+  },
+  {
+    "query": "Can I apply for H1B if I worked part-time last year?"
+  },
+  {
+    "query": "Can I apply for Schengen using Ireland study visa?"
+  },
+  {
+    "query": "Am I eligible for Canada visitor visa with no travel history?"
+  },
+  {
+    "query": "My partner is working in Germany on work permit and I want to visit him. Am I eligible for family visit visa?"
+  },
+  {
+    "query": "Can I apply for Schengen if my passport expires in 5 months?"
+  },
+  {
+    "query": "My employer is sending me for a 7-day business trip with invitation. Am I eligible for business Schengen visa?"
+  },
+  {
+    "query": "Do I need a job offer from a licensed sponsor for a Skilled Worker Visa?"
+  },
+  {
+    "query": "I want to visit USA for tourism, have $20,000 savings and full-time job. Am I eligible for B2 visa?"
+  },
+  {
+    "query": "I’m from an eligible country for DV and have high school education. Am I eligible for DV lottery?"
+  },
+  {
+    "query": "Can I apply for dependent visa if my spouse is on Stamp 4?"
+  },
+  {
+    "query": "Am I eligible for Schengen tourist visa with no travel history?"
+  },
+  {
+    "query": "Can I bring my wife on F2 visa while studying in the US?"
+  },
+  {
+    "query": "Do I need medical exam for visitor visa?"
+  },
+  {
+    "query": "Am I eligible for business visa with invitation letter only?"
+  },
+  {
+    "query": "I had a Schengen refusal. Will this affect my US visa?"
+  },
+  {
+    "query": "I have NOC B experience for 3 years. Am I eligible for Express Entry FSW?"
+  },
+  {
+    "query": "I got admission for a certified 3-month course in Germany and have acceptance letter. Am I eligible for Schengen study visa?"
+  },
+  {
+    "query": "Can I apply for H1B with salary paid in foreign currency?"
+  },
+  {
+    "query": "Can I apply for spouse visa while on Stamp 1G?"
+  },
+  {
+    "query": "Am I eligible for Schengen visa if unmarried but traveling with partner?"
+  },
+  {
+    "query": "Am I eligible for PGWP if my program is 8 months long?"
+  },
+  {
+    "query": "Am I eligible with old passport having 2 blank pages only?"
+  },
+  {
+    "query": "Can I apply for Skilled Worker Visa if my job is at RQF Level 4?"
+  },
+  {
+    "query": "Do I qualify for a UK Startup visa if my business plan is not approved yet?"
+  },
+  {
+    "query": "I studied in a university on the HPI approved list. Am I eligible for the HPI visa?"
+  },
+  {
+    "query": "Am I eligible for work permit without job offer letter?"
+  },
+  {
+    "query": "I want to visit Ireland for tourism and have strong financials and travel history. Am I eligible?"
+  },
+  {
+    "query": "I overstayed earlier. Can I still apply for a US tourist visa?"
+  },
+  {
+    "query": "I have an offer from an Irish university, funds, and accommodation. Am I eligible for study visa?"
+  },
+  {
+    "query": "Do I qualify for a Graduate Trainee Visa if my company doesn’t have an overseas branch?"
+  },
+  {
+    "query": "Am I eligible for Schengen visa with 1 lakh bank balance?"
+  },
+  {
+    "query": "I work for an MNC abroad for 2 years and they want to transfer me to US branch. Am I eligible for L1 visa?"
+  },
+  {
+    "query": "My spouse is studying in Canada and has a valid study permit. Am I eligible for spouse open work permit?"
+  },
+  {
+    "query": "Can I apply for a UK Student Visa with an IELTS overall 5.5 score?"
+  },
+  {
+    "query": "Can I bring my parents on B2 visa for graduation ceremony?"
+  },
+  {
+    "query": "Am I eligible for TRV if I am a freelancer?"
+  },
+  {
+    "query": "Can I apply for a dependent visa if I’m living with my partner but not legally married?"
+  },
+  {
+    "query": "I completed a 1-year program in Canada and have a full-time skilled job offer. Am I eligible for CEC PR?"
+  },
+  {
+    "query": "Do I qualify for Express Entry with CRS score of 380?"
+  },
+  {
+    "query": "Can I apply for long-stay visa through Netherlands?"
+  },
+  {
+    "query": "Am I eligible for UK Global Talent Visa without awards but with strong publications?"
+  },
+  {
+    "query": "I want to visit my sister in London. Am I eligible for a family visitor visa?"
+  },
+  {
+    "query": "Can I apply for dependent visa if married recently?"
+  },
+  {
+    "query": "Am I eligible for a UK Family Visa if my partner earns minimum wage?"
+  },
+  {
+    "query": "Can I apply for Ireland Tourist Visa with 2 lakhs bank balance?"
+  },
+  {
+    "query": "Am I eligible for work permit after visitor visa?"
+  },
+  {
+    "query": "My employer is not on the sponsor list — can I still apply?"
+  },
+  {
+    "query": "Can I apply for visa if my passport expires in 8 months?"
+  },
+  {
+    "query": "Do I qualify for a UK student visa with distance learning course?"
+  },
+  {
+    "query": "Am I eligible for EB-3 visa as a chef?"
+  },
+  {
+    "query": "Can I get a US visa if my bank balance is low but sponsor will pay?"
+  },
+  {
+    "query": "Am I eligible for F1 visa with a 3-year bachelor’s degree?"
+  },
+  {
+    "query": "Am I eligible for Schengen work visa with 1 year experience?"
+  },
+  {
+    "query": "My US citizen sister invited me, and I have sufficient ties and travel history. Am I eligible for B2 visa?"
+  },
+  {
+    "query": "Can I apply for PR as a cook under NOC?"
+  },
+  {
+    "query": "Am I eligible for work permit if salary is paid in cash?"
+  },
+  {
+    "query": "Do I qualify for Schengen Visa if I’m self-employed?"
+  },
+  {
+    "query": "Am I eligible for Ireland work permit as a chef?"
+  },
+  {
+    "query": "I am a registered nurse with a UK Health & Care Worker job offer and salary £27,000. Am I eligible?"
+  },
+  {
+    "query": "Can I apply for short stay visa with no travel history?"
+  },
+  {
+    "query": "Can I switch from UK student visa to skilled worker visa without completing my degree?"
+  },
+  {
+    "query": "Am I eligible for a UK Transit Visa while traveling to Canada?"
+  },
+  {
+    "query": "My UK Master’s degree is completed and I have the final mark sheet. Am I eligible for the Graduate Route?"
+  },
+  {
+    "query": "Am I eligible for job seeker visa in Ireland?"
+  },
+  {
+    "query": "Am I eligible for US visa if my passport has only 1 year validity left?"
+  },
+  {
+    "query": "Am I eligible for a UK Health and Care Worker visa with 1 year experience as a nurse?"
+  },
+  {
+    "query": "Can I apply for H1B if my employer is a small startup?"
+  },
+  {
+    "query": "Am I eligible for B1 visa for business meeting with only invitation letter?"
+  },
+  {
+    "query": "Am I eligible for Dependent/Partner visa without marriage registered?"
+  },
+  {
+    "query": "Am I eligible for work permit if my employer is not verified?"
+  },
+  {
+    "query": "Am I eligible for re-entry visa as an Indian?"
+  },
+  {
+    "query": "Can I apply for Express Entry with 1 year experience as a data analyst?"
+  },
+  {
+    "query": "Can I apply if I’m already holding UK visa?"
+  },
+  {
+    "query": "Am I eligible for a UK startup visa if I’m already running my company from India?"
+  },
+  {
+    "query": "Am I eligible for a UK Skilled Worker visa if my salary is £28,000 and I have a job offer in Manchester?"
+  },
+  {
+    "query": "Can I travel on B1/B2 for attending my sister’s wedding?"
+  },
+  {
+    "query": "I earn £30,000 and my wife and I are legally married. Can she apply for a dependent visa?"
+  },
+  {
+    "query": "Can I travel to UK with Ireland visa?"
+  },
+  {
+    "query": "Can I apply for Critical Skills Permit with 2 years experience only?"
+  },
+  {
+    "query": "I hold a valid US visa and have good travel history. Am I eligible for Schengen tourist visa?"
+  },
+  {
+    "query": "Can I apply for business visa with only invitation email?"
+  },
+  {
+    "query": "Am I eligible for Schengen study visa for short course?"
+  },
+  {
+    "query": "Am I eligible for Canada Study Permit with 5.5 IELTS in one module?"
+  },
+  {
+    "query": "Can I apply for F1 Visa with IELTS score instead of TOEFL?"
+  },
+  {
+    "query": "I have £10,000 funds and CAS from a UK university for September intake. Am I eligible for UK Student Visa?"
+  },
+  {
+    "query": "Can I bring my spouse under open work permit while I study?"
+  },
+  {
+    "query": "Am I eligible for Canada work visa as a truck driver?"
+  },
+  {
+    "query": "Do I need job experience to get H1B?"
+  },
+  {
+    "query": "Am I eligible for L1 visa if my company does not have a US branch?"
+  },
+  {
+    "query": "Can I apply for Ireland visa if my passport expires soon?"
+  },
+  {
+    "query": "I have IELTS 7.0 in all bands and CRS score 490. Am I eligible for Express Entry?"
+  },
+  {
+    "query": "Can I apply for H1B transfer without paystubs?"
+  },
+  {
+    "query": "My spouse is on H1B and has an approved I-140. Am I eligible for H4 EAD?"
+  },
+  {
+    "query": "I am an international award-winning researcher with strong citation record. Am I eligible for O1 visa?"
+  },
+  {
+    "query": "Am I eligible for study visa with Duolingo score?"
+  },
+  {
+    "query": "Can I apply for spouse visa without marriage certificate?"
+  },
+  {
+    "query": "Can I apply for a UK Graduate Route visa if my results are not declared but course is completed?"
+  },
+  {
+    "query": "Can I get Schengen visa if I have US visa refusal?"
+  },
+  {
+    "query": "I have a job offer above €30,000 and degree qualification. Am I eligible for General Work Permit?"
+  },
+  {
+    "query": "Am I eligible if my salary is in foreign currency?"
+  },
+  {
+    "query": "Am I eligible for internship visa?"
+  },
+  {
+    "query": "Can I apply for HPI visa? I studied in top university in India."
+  },
+  {
+    "query": "I want to visit Canada and have funds, job, and travel history. Am I eligible for visitor visa?"
+  },
+  {
+    "query": "Can I bring my dependent on Stamp 2 visa?"
+  },
+  {
+    "query": "Am I eligible for a US tourist visa if I am a student with no job?"
+  },
+  {
+    "query": "Can I get PR through PNP with 2 years of experience?"
+  },
+  {
+    "query": "My company has an office in Ireland and wants to transfer me. Am I eligible for intra-company permit?"
+  },
+  {
+    "query": "I completed 2 years on Stamp 1G and have full-time job offer. Am I eligible for Stamp 1?"
+  },
+  {
+    "query": "Can I apply for Schengen without travel insurance?"
+  },
+  {
+    "query": "Am I eligible for Super Visa if my income is below LICO?"
+  },
+  {
+    "query": "Am I eligible for CUAET if I’m not Ukrainian?"
+  },
+  {
+    "query": "My partner is British and we meet the £29,000 income requirement. Am I eligible for UK Spouse Visa?"
+  },
+  {
+    "query": "I studied online during Covid — can I still get PGWP?"
+  },
+  {
+    "query": "Can I apply through France if visiting Germany mostly?"
+  },
+  {
+    "query": "Am I eligible if I’m sponsored by company?"
+  },
+  {
+    "query": "Am I eligible for F1 visa with gap years?"
+  },
+  {
+    "query": "Am I eligible for SDS category if I don’t have GIC?"
+  },
+  {
+    "query": "I have a valid US visa and confirmed flight with 3-hour layover in London. Am I eligible for UK Transit Visa?"
+  },
+  {
+    "query": "Can I apply for work permit without LMIA?"
+  },
+  {
+    "query": "Can I apply for Schengen visa if I live in Dubai on work permit?"
+  },
+  {
+    "query": "I got admission to a US university, paid SEVIS fee, and have I-20. Am I eligible for F1 visa?"
+  },
+  {
+    "query": "Can I apply for O1 visa without international awards?"
+  },
+  {
+    "query": "I have booked a cruise covering Italy and Greece, and have full travel insurance. Am I eligible?"
+  }
+]

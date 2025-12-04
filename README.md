@@ -110,6 +110,13 @@ SwiftVisa/
         │   ├── prompt_builder.py      # Builds prompts for LLM
         │   └── retriever.py           # FAISS-based retrieval
         │
+        ├── logs/                       
+        │   └── decision_log.jsonl
+        │
+        ├── Milestone_docs/            # Contains the milestone documents              
+        │   ├── MileStone_1_Richa_Mishra.pdf
+        │   └── MileStone_2_Richa_Mishra.pdf
+        │
         ├── Test_Debug/                # Testing and debugging files
         │   ├── analyze_embeddings.py
         │   ├── debug.py 
