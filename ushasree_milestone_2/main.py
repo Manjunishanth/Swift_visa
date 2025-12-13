@@ -18,7 +18,7 @@ OUTPUT_FAISS = "faiss_index_final.bin"
 OUTPUT_EMB = "embeddings_final.npy"
 OUTPUT_CHUNKS = "chunks_final.txt"
 TOP_K = 5
-API_KEY = "AIzaSyAV3GyxKL7A85csdiwSmG_YIsiHQNUzKlQ"  # Replace with your Gemini API key
+API_KEY = "Api"  # Replace with your Gemini API key
 OUTPUT_JSON = "visa_queries_output.json"
 
 # FUNCTIONS
