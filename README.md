@@ -1,21 +1,21 @@
-# Swift_visa
-This the repository where you should upload the files for the tasks
+Visa PDF Chunking & Embedding Generator
 
+This project reads PDF files, preprocesses the text, splits them into overlapping chunks, and generates embeddings (OpenAI or TF‑IDF).
 
-Hello everyone,
+Features
 
-I have created the GitHub repository for your Swift_visa project tasks.  
-Please follow these steps to submit your assignments:
+Reads up to 5 PDFs
 
-1. Fork the repository to your own GitHub account.
-2. Create a folder named <your_name_milestone_1> inside the repo.
-3. Upload:
-   - Raw files
-   - Python scripts (preprocessing, chunking, embeddings, etc.)
-   - Any output files
-   - A README explaining your work
-4. Commit and push to your fork.
-5. Create a Pull Request back to the main repository with the title:
-   "Milestone 1 – <Your Name>"
+Preprocessing (cleaning, hyphenation fixes)
 
-I will review your submission through the Pull Request.
+Character‑based chunking with overlap
+
+Saves chunks into organized folders
+
+Generates embeddings:
+
+OpenAI embeddings (optional)
+
+Offline TF‑IDF embeddings (fallback)
+
+Stores metadata & JSON output

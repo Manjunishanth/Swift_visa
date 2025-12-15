@@ -1,0 +1,6 @@
+pymupdf
+numpy
+scikit-learn
+openai
+python-dotenv
+faiss-cpu

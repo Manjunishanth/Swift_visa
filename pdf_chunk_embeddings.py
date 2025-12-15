@@ -1,20 +1,3 @@
-"""
-pdf_chunk_embeddings.py
-
-Reads up to 5 PDF files from an input folder, preprocesses the text, splits it into overlapping character-based chunks,
-optionally saves chunks to per-PDF folders, prints each chunk with its character count, and computes embedding vectors.
-
-Embedding options:
- - If OPENAI_API_KEY is present in the environment and `use_openai=True`, the script will call OpenAI embeddings API.
- - Otherwise a local fallback using TfidfVectorizer (scikit-learn) is used as a cheap embedding surrogate (no internet).
-
-Usage:
- python pdf_chunk_embeddings.py --input_dir ./pdfs --output_dir ./chunks_out --chunk_size 1000 --overlap 200 --save_chunks
-
-Dependencies:
- pip install pymupdf numpy scikit-learn openai (openai only if you plan to call OpenAI)
-
-"""
 
 import os
 import sys
@@ -24,10 +7,10 @@ import re
 from pathlib import Path
 from typing import List, Tuple
 
-import fitz  # PyMuPDF
+import fitz  
 import numpy as np
 
-# Optional imports (may be absent)
+
 try:
     import openai
 except Exception:
@@ -38,10 +21,6 @@ try:
 except Exception:
     TfidfVectorizer = None
 
-
-# -----------------------------
-# Utilities
-# -----------------------------
 
 def read_pdf_text(path: Path) -> str:
     """Read PDF and return extracted text (all pages concatenated)."""
@@ -60,22 +39,18 @@ def preprocess_text(text: str) -> str:
       - normalize whitespace
       - remove non-printable characters
     """
-    # fix hyphenation that appears as "word-\nword"
+    
     text = re.sub(r"-\n\s*", "", text)
-    # replace any kind of newline with single newline
     text = text.replace('\r\n', '\n').replace('\r', '\n')
-    # collapse repeated whitespace (but keep paragraph breaks)
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = re.sub(r"[ \t]+", " ", text)
-    # strip leading/trailing
     text = text.strip()
-    # remove control chars
     text = re.sub(r"[\x00-\x09\x0B\x0C\x0E-\x1F]+", "", text)
     return text
 
 
 def chunk_text_charwise(text: str, chunk_size: int = 1000, overlap: int = 200) -> List[str]:
-    """Create overlapping character-based chunks from text."""
+   
     if chunk_size <= 0:
         raise ValueError("chunk_size must be > 0")
     if overlap >= chunk_size:
@@ -94,9 +69,6 @@ def chunk_text_charwise(text: str, chunk_size: int = 1000, overlap: int = 200) -
     return chunks
 
 
-# -----------------------------
-# Embedding helpers
-# -----------------------------
 
 def get_openai_embeddings(texts: List[str], model: str = "text-embedding-3-small") -> List[List[float]]:
     if openai is None:
@@ -105,9 +77,7 @@ def get_openai_embeddings(texts: List[str], model: str = "text-embedding-3-small
     if not key:
         raise RuntimeError("OPENAI_API_KEY environment variable not set")
     openai.api_key = key
-    # batch-safe approach
     embeddings = []
-    # OpenAI may accept a list directly; for robust code we call per-batch
     resp = openai.Embedding.create(model=model, input=texts)
     for item in resp["data"]:
         embeddings.append(item["embedding"])
@@ -126,9 +96,6 @@ def fallback_tfidf_embeddings(texts: List[str]) -> np.ndarray:
     return X.toarray()
 
 
-# -----------------------------
-# Main processing for one PDF
-# -----------------------------
 
 def process_pdf(path: Path, output_dir: Path, chunk_size: int, overlap: int, save_chunks: bool, use_openai: bool):
     print(f"\nProcessing: {path.name}")
@@ -138,18 +105,15 @@ def process_pdf(path: Path, output_dir: Path, chunk_size: int, overlap: int, sav
 
     print(f"  Extracted {len(chunks)} chunks (chunk_size={chunk_size}, overlap={overlap})")
 
-    # Print chunks with char counts
     for i, c in enumerate(chunks, start=1):
         print(f"  Chunk {i}: {len(c)} chars")
 
-    # Optionally save chunks to disk
     out_pdf_dir = output_dir / path.stem
     if save_chunks:
         out_pdf_dir.mkdir(parents=True, exist_ok=True)
         for i, c in enumerate(chunks, start=1):
             fname = out_pdf_dir / f"chunk_{i:03d}.txt"
             fname.write_text(c, encoding="utf-8")
-        # save metadata
         meta = {"source_pdf": path.name, "n_chunks": len(chunks), "chunk_size": chunk_size, "overlap": overlap}
         (out_pdf_dir / "metadata.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  Saved chunks to folder: {out_pdf_dir}")

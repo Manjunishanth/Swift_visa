@@ -1,0 +1,37 @@
+# llm_client.py
+import os
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+try:
+    import openai
+except Exception:
+    openai = None
+
+def generate_with_openai(messages, model="gpt-4o-mini", temperature=0.2, max_tokens=512):
+    if openai is None:
+        raise RuntimeError("openai package not installed. pip install openai")
+    if not OPENAI_API_KEY:
+        raise RuntimeError("OPENAI_API_KEY not set in environment (.env or env var)")
+    openai.api_key = OPENAI_API_KEY
+    resp = openai.ChatCompletion.create(
+        model=model,
+        messages=messages,
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
+    text = resp["choices"][0]["message"]["content"]
+    return text.strip()
+
+def generic_generate(prompt, provider="openai", **kwargs):
+    if provider == "openai":
+        messages = [{"role":"user","content":prompt}]
+        return generate_with_openai(messages, **kwargs)
+    else:
+        raise NotImplementedError("Add provider integration (Gemini etc.)")
+≈
