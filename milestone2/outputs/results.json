@@ -1,0 +1,134 @@
+[
+  {
+    "question": "What is a Temporary Resident Visa (TRV) according to IRCC?",
+    "answer": "No data found in the provided visa policy.",
+    "retrieved_chunks": [
+      {
+        "id": 108,
+        "text": "t obtain a temporary resident visa (TRV) before arriving, except where an exception is granted \nto citizens of selected countries under section 1901 of the IRP Regulations. Any changes in visa \nrequirements are grounded in CIC’s visitor visa framework. Ongoing monitoring, country reviews \nand consultations are carried out to inform visa policy recommendations (whether citizens from a \nparticular country require a visa or not).  \nImplementation component  \nA foreign national needs to apply for a TRV at a Canadian visa office abroad. If the application is \naccepted, the TRV is issued to the applicant and they may travel to Canada, subject to the \ndetermination of entry by the Canada Border Ser",
+        "source": "Canada_merged.txt",
+        "score": 0.5164989233016968
+      },
+      {
+        "id": 254,
+        "text": "to TRV processing. In particular, because visa processing units are \nstaffed based on permanent resident applications processing levels, TRVs are treated as a lesser \npriority. The focus is to ensure that the processing of permanent resident applications allows CIC \nto meet the stated permanent immigration targets. There are no targets associated with TRVs. Due \nto the fact that staffing is done through an interdepartmental committee for overseas staff, creating \none position in the field takes about one year. This results in a lack of flexibility or responsiveness as \nit is a cumbersome process to reassign permanent staff to missions and even more difficult to add \na position. Instead, reso",
+        "source": "Canada_merged.txt",
+        "score": 0.6956481337547302
+      },
+      {
+        "id": 110,
+        "text": "Section 190 of the IRP Regulations identifies which countries do not require a visa to enter Canada. In addition, \npersons described in R39 and holders of Temporary Resident Permits (TRPs) are also exempted from the TRV \nrequirement; however, those exemptions are outside the scope of this evaluation. \n \n- iii - \nMethodology \nThe key areas of study are the following: \n CIC’s country-level visa policy: focuses on the assessment of the policy framework and the \nevidence gathered to support recommendations for visitor visa requirement changes;  \n Implementation of visa regulations: an examination of visa processing activities in missions \nabroad and related communications activities; and \n M",
+        "source": "Canada_merged.txt",
+        "score": 0.7558796405792236
+      }
+    ],
+    "timestamp": "2025-12-21T21:00:21.391654Z",
+    "user_profile": {}
+  },
+  {
+    "question": "Which identity documents can citizens of Nepal and Bhutan use to enter India?",
+    "answer": "Citizens of Nepal and Bhutan can use the following identity documents to enter India:\n\n*   Nepalese/ Bhutanese Passport;\n*   Nepalese/ Bhutanese Citizenship Certificate;\n*   Voter Identification Card issued by the Election Commission of Nepal / Bhutan;\n*   Limited validity photo-identity certificate issued by Nepalese Mission / Royal Bhutanese Mission in India when deemed necessary.",
+    "retrieved_chunks": [
+      {
+        "id": 834,
+        "text": "s required for citizens of Nepal and Bhutan for travelling to India \n \n(A) A citizen of Nepal or Bhutan entering India by land or air over the Nepal or the Bhutan \nborder does not require a passport or visa for entry into India.  However, he/she should be \nin possession of any of the following identity documents -    \n \n (i)  Nepalese/ Bhutanese Passport;  or  \n \n (ii)  Nepalese/ Bhutanese Citizenship Certificate; or  \n \n (iii)  Voter Identification Card issued by the Election Commission of Nepal / Bhutan; \nor  \n \n (iv)  Limited v alidity photo -identity certificate issued by Nepalese Mission / Royal \nBhutanese Mission in India when deemed necessary.    \n \n (v) For children between age group",
+        "source": "India_merged.txt",
+        "score": 0.35124635696411133
+      },
+      {
+        "id": 849,
+        "text": "DG, then he/ she may be required to undergo medical screening or additional measures \nas decided by the Ministry of Health and Family Welfare. \n \n \n20  Identity documents required for Indian Citizens travelling to Nepal \n \nA citizen of India entering Nepal by land or air does not require a passport or visa for entry. \nHowever, while travelling by air between India and Nepal, he/she is required to be in possession \nof any of the following identity documents –  \n \n (i)   Valid National Passport; or  \n \n(ii)  Photo Identity card issued by the Government of India/State Govt./UT Administration in \nIndia to their employees or Election ID card issued by the Election Commission of India; \nor  \n \n(ii",
+        "source": "India_merged.txt",
+        "score": 0.3851873278617859
+      },
+      {
+        "id": 833,
+        "text": "1 \n \nGENERAL POLICY GUIDELINES RELATING TO INDIAN VISA \n \n1 Possession of travel documents  \n \nIn terms of the  provisions in the Passport (Entry into India) Act, 1920, and the Rules made \nthereunder, every foreigner entering India must be in possession of a valid national passport or \nany other internationally recognised travel document establishing his/her nationality and identity \nand bearing -  (a) his/ her photograph, and  (b) a valid visa for India granted by an authoris ed \nIndian representative abroad  (except to the extent mentioned in paras 2, 4 and  5  below). \n \n2 Identity documents required for citizens of Nepal and Bhutan for travelling to India \n \n(A) A citizen of Nepal or Bhu",
+        "source": "India_merged.txt",
+        "score": 0.4375872015953064
+      }
+    ],
+    "timestamp": "2025-12-21T21:01:46.394883Z",
+    "user_profile": {}
+  },
+  {
+    "question": "Can a visa-on-arrival or e-visa be converted to an Entry Visa? Under what conditions?",
+    "answer": "No data found in the provided visa policy.",
+    "retrieved_chunks": [
+      {
+        "id": 587,
+        "text": "35 Conversion of ‘E-3X’ visas to ‘E’ visas of the spouse of an employee on intra -company \ntransfer. \n \n The conversion of ‘E-3X’ (Entry) visa of the spouse of an employee on intra -company transfer \ninto Employment Visa may be  permitted within the country , subject to the applicant fulfilling all \nthe conditions laid down for grant of Employment Visa , with prior approval of the Ministry of \nHome Affairs.  \n \n36  Conversion of ‘X -2’ Visa of nationals of Bangladesh married to Indian nationals into \nEmployment Visa. \n \n‘X-2’ Visa of nationals of Bangladesh married to Indian nationals, but not entitled to registration \nas OCI cardholder,  may be converted into Employment Visa, on applicat",
+        "source": "india visa.txt",
+        "score": 1.001220941543579
+      },
+      {
+        "id": 840,
+        "text": "ctivities permitted on a visa \n \nForeign nationals shall be required to strictly adhere to the purpose of visit declared while \nsubmitting the visa application.   However, a foreign national  (other than a Pakistani national)  \ncoming to India on any type of visa will be allowed to avail acti vities permitted under Tourist \nVisa.  \n \n11 For all visa related services within India  like registration, extension of visa, exit permission \netc.,  application is to be submitted online to the Foreigners Regional Registration Officer \n(FRRO)/ Foreigners Registration Officer (FRO) concerned.  For this purpose, please \nvisit \nhttps://indianfrro.gov.in  \n \n12 Conversion of e-visa/ Visa-on-Arrival/ Touri",
+        "source": "India_merged.txt",
+        "score": 1.0340707302093506
+      },
+      {
+        "id": 586,
+        "text": "are \notherwise eligible for grant of such a visa.  Dependent visa of the family members/ dependents of \nsuch foreign national can be extended by the FRRO/ FRO concerned for a total period of 5 years \nfrom the date of issue of the initial visa, co-terminus with the visa of the principal Visa holder.  \n \n34          Conversion of Employment Visa \n \nEmployment Visa will  be non-convertible to any other type of visa  except in specific cases.  \nRegarding conversion of Employment visa to other categories of visa, please see the general \npolicy guidelines relating to Indian visa on this website.   \n \n35 Conversion of ‘E-3X’ visas to ‘E’ visas of the spouse of an employee on intra -company \ntransf",
+        "source": "india visa.txt",
+        "score": 1.0598294734954834
+      }
+    ],
+    "timestamp": "2025-12-21T21:02:31.027539Z",
+    "user_profile": {}
+  },
+  {
+    "question": "What conditions must an applicant meet to be granted a Canadian visitor visa?",
+    "answer": "To be granted a Canadian visitor visa, an applicant must satisfy the visa officer that:\n*   Their visit to Canada is temporary.\n*   They will not overstay their approved time in Canada.\n*   They hold a passport or travel document.\n*   They have sufficient financial means to support their stay in Canada.\n*   They are in good health.\n*   They do not have a criminal record.\n*   They are not a security risk to Canadians.",
+    "retrieved_chunks": [
+      {
+        "id": 236,
+        "text": "e given as much priority as possible within the restraints imposed by other \nprocessing priorities at the visa office. All applications are reviewed and decided on a case-by-case basis. \nThe applicant is required to satisfy the visa officer that their visit to Canada is temporary, they will \nnot overstay their approved time in Canada, they hold a passport or travel document, have \nsufficient financial means to support their stay in Canada, are in good health, do not have a criminal \nrecord, and that they are not a security risk to Canadians.  \nEach application for a visitor visa is processed abroad, but each person is also examined, to various \ndegrees, at the port of entry by the border off",
+        "source": "Canada_merged.txt",
+        "score": 0.5903492569923401
+      },
+      {
+        "id": 190,
+        "text": "p and Immigration has the ultimate authority for the \nestablishment of visa requirements. However, other departments and agencies have mandates that \nalign to varying degrees with the Visitor Visa Program’s objectives of facilitating and securing \nforeign travellers’ access to Canada.  \nA review of the mandates of CIC, Canada Border Services Agency (CBSA) and the Department of \nForeign Affairs and International Trade (DFAIT), and the opinions of most interviewees suggest \n \n11 \nthat the objectives of the Visitor Visa Program are most explicitly aligned with the mandate of CIC. \nThese objectives (facilitation and protection) are not as directly aligned with the mandates of \nDFAIT or CBSA; DFA",
+        "source": "Canada_merged.txt",
+        "score": 0.6866154670715332
+      },
+      {
+        "id": 145,
+        "text": "2 Section 190 of the IRP Regulations identifies which countries do not require a visa to enter Canada.  In addition, \npersons described in R39 and holders of Temporary Resident Permits (TRPs) are also exempted from the TRV \nrequirement; however, those exemptions are outside the scope of this evaluation.   \n \n2 \nwhile visa requirements were introduced for five countries. Citizens of 55 countries and territories \nare currently visa-exempt for travel to Canada, while citizens of 142 countries and territories are \nvisa-required.  \nFor the countries for which a visitor visa is required, the processing of visitor visa applications from \npersons i",
+        "source": "Canada_merged.txt",
+        "score": 0.739217221736908
+      }
+    ],
+    "fallback_used": false,
+    "timestamp": "2025-12-21T21:05:36.379876Z",
+    "user_profile": {}
+  },
+  {
+    "question": "What is a Schengen short-stay visa and what is the 90/180-day rule?",
+    "answer": "A Schengen short-stay visa is an authorisation issued by one of the Member States of the Schengen Area with a view to transit through or an intended stay in the territory of the Member States.\n\nThe 90/180-day rule means that short stays are stays of no more than 90 days within any 180-day period.",
+    "retrieved_chunks": [
+      {
+        "id": 968,
+        "text": "1 \n \n \n \n \n \n \nCOMMON INFORMATION SHEET \nFOR SCHENGEN VISA APPLICANTS IN INDIA \n \n \nWHAT IS A SCHENGEN SHORT STAY VISA? \n \nIt is an authorisation issued by one of the Member States of the Schengen Area with a view to transit \nthrough or an intended stay in the territory of the Member States of a duration of no more than 90 \ndays (short stay) in any 180 day period. \n \nThe processing of visa applications is based on the VISA CODE (Regulation (EC) No 810/2009 of \nthe European Parliament and of the Council of 13 July 2009, last amended by Regulation (EU) \n2019/1155 of 20 June 2019). Information given below is also based on this Regulation. \n \nLong stay visas are issued according to the national",
+        "source": "SCHENGEN_merged.txt",
+        "score": 0.5073070526123047
+      },
+      {
+        "id": 1027,
+        "text": "Short stays are stays of no more than 90 days within any 180-day period. \nYour visa indicates how long you can stay.\n Other types of visas are governed by the national law of Member States. \n Every Schengen State decides who enters its territory. Therefore, it is \nimportant to make sure that you provide the correct information in the visa \napplication and when entering the Schengen Area.\n Schengen visa application is a transparent process governed by European \nlaw: no arbitrary process, no visa refusal for political reasons.\nSchengen Member States:\n29 member countries: 25 EU Member States and 4 non-EU countries: \nIceland, Norway, Switzerland and Liechtenstein.\nMake your visa process smooth b",
+        "source": "SCHENGEN_merged.txt",
+        "score": 0.590121328830719
+      },
+      {
+        "id": 1026,
+        "text": "://ec.europa.eu/dgs/home-affairs/what-we-do/policies/borders-and-visas/index_en.htm \n \n \nISSUES TO BE CONSIDERED WHEN APPLYING FOR A\nSCHENGEN VISA\nIn 2024, a record-breaking 1.1 million Schengen visas were \nissued in Türkiye.\nDifference between Schengen and national visas: \nA Schengen visa is an authorisation issued by a Schengen State that allows \ntravellers to enter the Schengen area for:\n•Intended short stays in or transit through the territory of a Schengen State \n(short stay visa)\n• Transit through the international transit areas of airports of the Schengen \nStates (airport transit visa)\nShort stays are stays of no more than 90 days within any 180-day period. \nYour visa indicates how lo",
+        "source": "SCHENGEN_merged.txt",
+        "score": 0.859521746635437
+      }
+    ],
+    "fallback_used": false,
+    "timestamp": "2025-12-21T21:06:16.712960Z",
+    "user_profile": {}
+  }
+]

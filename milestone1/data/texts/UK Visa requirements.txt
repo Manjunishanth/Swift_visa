@@ -1,0 +1,270 @@
+UK VISA REQUIREMENTS 
+ALL nationals of the countries and territories listed below in red (underlined) need visas to enter or transit the UK. 
+ALL nationals of the countries and territories listed below in black need visas to enter or transit the UK landside.  
+   ALL visa nationals may transit the UK without a visa (TWOV) in certain circumstances. Please see below for details.  
+ 
+UK visas may now be in either physical form, or a digital eVisa. If a passenger holds a digital eVisa, the receipt of a ‘0A - Valid Permission to Travel Found’ response message,  
+via iAPI messaging, Direct REST or web user interfaces is satisfactory evidence of a passenger’s permission to travel to the UK. 
+  
+Afghanistan 
+Albania 
+Algeria 
+Angola 
+Armenia 
+Azerbaijan 
+Bangladesh 
+Belarus 
+Benin 
+Bhutan 
+Bolivia 
+Bosnia and  
+     Herzegovina 
+Botswana  
+Burkina Faso 
+Burundi 
+Cambodia 
+Cameroon 
+Cape Verde 
+Central African  
+     Republic 
+Chad 
+China (People’s  
+     Republic of) (1) 
+Colombia  
+Comoros 
+ 
+Congo  
+Congo Dem.  
+     Republic 
+Cuba 
+Cyprus northern 
+     part of (2) 
+Djibouti 
+Dominica  
+Dominican Republic 
+Ecuador 
+Egypt 
+El Salvador  
+Equatorial Guinea 
+Eritrea 
+Eswatini (Swaziland) 
+Ethiopia 
+Fiji 
+Gabon 
+Gambia 
+Georgia  
+Ghana 
+Guinea 
+Guinea-Bissau 
+Haiti 
+Honduras  
+ 
+India (3) 
+Indonesia  
+Iran 
+Iraq 
+Ivory Coast 
+Jamaica 
+Jordan 
+Kazakhstan 
+Kenya 
+Korea (Dem.  
+     People’s Republic) 
+Kosovo 
+Kyrgyzstan 
+Laos 
+Lebanon 
+Lesotho 
+Liberia 
+Libya 
+Madagascar  
+Malawi 
+Mali 
+Mauritania 
+Moldova 
+Mongolia 
+Montenegro 
+ 
+Morocco 
+Mozambique 
+Myanmar (Burma) 
+Namibia  
+Nepal 
+Niger 
+Nigeria 
+North Macedonia  
+Pakistan 
+Palestine 
+Philippines 
+Russia  
+Rwanda 
+Sao Tome e  
+     Principe 
+Senegal 
+Serbia  
+Sierra Leone 
+Somalia (2) 
+South Africa (7)  
+South Sudan 
+Sri Lanka 
+Sudan 
+Surinam 
+ 
+Syria (6) 
+Taiwan (4) 
+Tajikistan 
+Tanzania 
+Thailand 
+Timor–Leste  
+Togo 
+Trinidad and 
+Tobago 
+Tunisia 
+Turkey (7) 
+Turkmenistan 
+Uganda 
+Ukraine 
+Uzbekistan  
+Venezuela (non  
+     biometric) 
+Venezuela  
+     (biometric) 
+Vanuatu  
+Vietnam (5) 
+Yemen 
+Zambia 
+Zimbabwe                        
+Please note, ETA eligible countries and requirements are not listed here. 
+Guidance regarding ETA (Electronic Travel Authorisation) can be found here: 
+www.gov.uk/electronictravelauthorisation 
+ 
+Airside Transit (where available): 
+Airside transit passengers are those who do not need to change airports and do not need to 
+pass through the UK border. Passengers cannot transit AIRSIDE to the Republic of Ireland 
+or anywhere within the common travel area. 
+ 
+Transit without visa (TWOV) 
+ALL visa nationals seeking to transit the United Kingdom AIRSIDE without a visa must:  
+(i) arrive and depart by air; and 
+(ii) have a confirmed onward flight departing the same day from the same airport; and  
+(iii) hold the correct documents for their destination (e.g. a visa for that country if required) 
+ 
+Nationals of the countries shown in RED (underlined) above need a visa to transit 
+AIRSIDE unless they hold one of the following: 
+(i) a valid visa for entry to Australia, Canada, New Zealand or the USA (whether or not 
+the holder is travelling to or from these countries); or 
+(ii) a visa for entry to Australia, Canada, New Zealand or the USA as part of a 
+reasonable journey FROM the country in respect of which the visa is held and it is 
+less than 6 months since the holder last entered that country with a valid entry visa. 
+(iii) a valid permanent residence permit issued by: 
+(a) Australia 
+(b) Canada, issued after 28 June 2002 
+(c) New Zealand 
+(d) USA issued after 21 April 1998; or a valid US Immigrant visa endorsed with a 
+US arrival stamp  (a wet-ink/ADIT stamp version will NOT be accepted by UK 
+border control); or an expired I -551 Permanent Residence card provided it is 
+accompanied by a valid I -797 letter authorising extension; or a standalone US 
+Immigration Form 155A/155B (attached to a sealed brown envelope); or 
+(iv) a valid common format residence permit issued by an EEA state or Switzerland; or 
+(v) a valid common format category D visa for entry to an EEA state or Switzerland; or 
+(vi) a valid Irish biometric visa endorsed BC or BC BIVS (in order to transit to a 
+destination other than the Republic of Ireland or the Common Travel Area); or 
+(vii) a valid Sch engen Approved D estination Scheme (ADS) group tourism visa where 
+the holder is travelling TO the country that issued it; or 
+(viii) a valid airline ticket FROM the Schengen area; provided the holder can demonstrate 
+they entered there no more than 30 days previously on the basis of a valid Schengen 
+ADS visa. 
+NB: Other countries’ e-visas or e-residence permits are not acceptable unless the airline is 
+able to verify it with the issuing country.     
+ 
+ 
+ 
+ 
+ 
+Landside Transit: 
+Landside transit passengers are those who need or wish to pass through the UK border and 
+enter the UK (e.g. to change airport, to collect baggage or arrive at airports where no airside 
+transfer is possible)  
+ 
+Transit without visa (TWOV)  
+ALL visa nationals seeking to transit the United Kingdom LANDSIDE without a visa must:  
+(iv) arrive and depart by air; and 
+(v) have a confirmed onward flight that departs before 23:59hrs the following day; and  
+(vi) hold the correct documents for their destination (e.g. a visa for that country if required) 
+ 
+Nationals of ALL countries (RED [underlined] and BLACK above) need a visa to 
+transit LANDSIDE unless they hold one of the following: 
+(i) a valid visa for entry to Australia, Ca nada, New Zealand or the USA and a valid 
+airline ticket via the UK as part of a reasonable journey TO that country; or 
+(ii) a valid visa for entry to Australia, Canada, New Zealand or the USA and a valid 
+airline ticket via the UK as part of a reasonable journey FROM that country; or 
+(iii) a visa for entry to Australia, Canada, New Zealand or the USA as part of a 
+reasonable journey FROM the country in respect of which the visa is held and it is 
+less than 6 months since the holder last entered that country with a valid entry visa; 
+or 
+(iv) a valid permanent residence permit issued by: 
+(a) Australia 
+(b) Canada, issued after 28 June 2002 
+(c) New Zealand 
+(d) USA issued after 21 April 1998; or a valid US Immigrant visa  endorsed with a 
+US arrival stamp  (a wet-ink/ADIT stamp version will NOT be accepted by UK 
+border control); or an expired I -551 Permanent Residence card provided it is 
+accompanied by a valid I -797 letter authorising extension; or a standalone US 
+Immigration Form 155A/155B (attached to a sealed brown envelope); or 
+(v) a valid common format residence permit issued by an EEA state or Switzerland; or 
+(vi) a valid common format category D visa for entry to an EEA state or Switzerland; or 
+(vii) a valid Irish biometric visa endorsed BC or BC BIVS and travelling TO the Republic 
+of Ireland; or 
+(viii)        an Irish biometric visa endorsed BC or BC BIVS and travelling FROM the Republic  
+               of Ireland provided it is less than 3 months since the holder last entered there. 
+  NB: Other countries’ e-visas or e-residence permits are NOT acceptable for landside transit. 
+ 
+ 
+ 
+UK permanent residents 
+If a visa national is permanently resident in the UK they do not need a visa, as long as they return to the UK within two years of their last departure. 
+Passengers with the right of abode in the UK 
+If a visa national has a ‘certificate of entitlement to the right of abode’ label in their valid passport they do not need a visa. 
+Holders of non-national and refugee travel documents 
+If the passenger holds a refugee travel document issued by the UK they do not need a visa. If the passenger holds any other non-national or refugee travel document they need a visa to enter the UK. 
+Whether holders of non -national and refugee travel documents require a direct airside transit visa ( DATV) depends on their original nationality, and whether they qualify for one of the exemptions 
+listed above. Persons recognised as stateless under the 1954 UN Convention relating to the Status of Stateless Persons are not required to hold a DATV and may transit airside without a visa. 
+Seafarer 
+A seafarer travelling on duty, who is a visa national (including those in transit through the UK) does not need a visa if they hold a valid seafarer’s book issued by one of these countries  which also 
+contains a statement that it is issued under ILO108  (or convention of 1958)  or ILO185, having previously ratified ILO108  (or convention of 2003 ): Algeria, Anguilla, Angola, Antigua and Barbuda, 
+Azerbaijan, Barbados, Belarus, Belize, Bermuda, Brazil, British Virgin Isles, Bulgaria, Cameroon, Canada, Cuba, Czech Republic, Denmark, Djibouti, Dominica, Estonia, Fiji, Finland, France, Ghana, 
+Greece, Grenada, Guatemala, Guinea -Bissau, Guyana, Honduras, Iceland, Ind ia, Iran, Iraq, Ireland, Italy , Kyrgyzstan, Latvia, Liberia, Lithuania, Luxembourg, Malta,  Mauritius, Mexico, Moldova 
+(Republic of), Montserrat, Morocco, Norway, Panama, Poland, Portugal, Romania, the Russian Federatio n, Seychelles, Slovenia, Solomon Islands, Spain, Sri Lanka,  St Lucia, St Vincent and  the 
+Grenadines, Sweden, Tajikistan, Tanzania, Tunisia, Turkey, Ukraine, United Kingdom  (including the Falkland  Islands and Gibraltar), Uruguay. The seafarer does not need to be a national  of the 
+country that issued the document.  
+ 
+ 
+ 
+ 
+ Carrier Support Hub lines are for use by carriers and operators only. “Check if a passenger needs a UK visa service” to determine if a passenger requires a visa, here:  
+Check if you need a UK visa - GOV.UK (www.gov.uk) 
+ 
+ 
+1. Diplomatic or Service passport holders  may transit 
+airside without a visa. 
+2. Passport not recognised by HM Government – visa 
+should be issued on a Form for Affixing a Visa (FAV). 
+3. Diplomatic or official passport holders may transit 
+without a visa. 
+4. Passports that include a personal ID number on the 
+biodata page are exempt from the visa requirement. 
+5. Diplomatic or Official passport holders may transit 
+airside without a visa. 
+6. Holders may not use a B1/B2 USA visa to transit the 
+UK. 
+7. Diplomatic passport holders may transit airside 
+without a visa. 
+ 
+ 
+ 
+ 
+ 
+The decision to allow a passenger to transit without a visa (TWOV) under the scheme is decided by an immigration officer at the UK border 
+Carriers and operators can seek advice about a passenger’s permission to travel, by calling the UK Border Force Carrier Support Hub 
+ 
+    Produced by: CARRIERS LIAISON SECTION, HOME OFFICE                               This poster was last updated November 2025 
