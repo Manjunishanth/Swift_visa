@@ -1,0 +1,182 @@
+
+---
+
+---
+
+# ✅ **DOCUMENT 4 — CANADA — VISA ELIGIBILITY (CLEAN TEXT)**
+
+**Covers:** Study Visa, Work Permit (LMIA-based), Express Entry (simplified eligibility rules for RAG).
+
+---
+
+## **Canada Study Permit Eligibility**
+
+1. **Letter of Acceptance (LOA)** from DLI institution.
+2. Proof of financial support:
+
+   * Tuition + **$10,000 CAD** living cost.
+3. Ties to home country.
+4. No criminal or medical inadmissibility.
+
+**Case:**
+
+* LOA without financial proof → high chance of refusal.
+
+---
+
+## **Canada Work Permit (LMIA-based)**
+
+1. Job offer from employer approved under LMIA.
+2. LMIA approval.
+3. Applicant with relevant skills/work experience.
+4. No major criminal/medical issues.
+
+**Notes:**
+
+* Applicant’s home-country income does not matter.
+
+---
+
+## **Express Entry (High Level)**
+
+Eligibility influenced by:
+
+* Age
+* Degree
+* Work experience
+* Language test
+* CRS points
+
+But it does NOT give “visa” directly; it gives PR.
+
+
+Canada — Visa & permit eligibility reference (Work permits, Study permits, Visitor)
+
+OVERVIEW
+Summarizes core Canadian program rules: employer-driven work permits (LMIA where required), study permits (DLIs, proof of funds), visitor rules.
+
+Work permits (LMIA / employer-specific)
+- Many employer-specific work permits require a positive Labour Market Impact Assessment (LMIA) demonstrating a need for a foreign worker; other streams are LMIA-exempt and use offer/employer portals. Employer obligations and the LMIA process are detailed on Canada.ca. :contentReference[oaicite:15]{index=15}
+
+Study permits — proof of funds
+- Applicants must be enrolled at a Designated Learning Institution (DLI) and show proof they have enough money to cover tuition, living expenses for themselves and accompanying family, and return transportation. Canada has a Student Direct Stream (SDS) with GIC requirements (e.g., specific GIC amounts like CAN$20,635 for certain periods) and revised guidance on living-cost thresholds. Exact amounts and accepted proof documents are posted by IRCC. :contentReference[oaicite:16]{index=16}
+
+Visitor / short stays
+- Evidence of funds, travel purpose, and intent to leave at end of authorized stay are central. For some temporary worker permits, employer support documents (contract, LMIA) are required.
+
+HEALTH / AGE / FAMILY /INCOME
+- Health checks required when indicated (e.g., long stays, certain nationalities). No universal age limit — eligibility depends on program conditions. Proof of funds amounts (e.g., Express Entry minimum settlement funds) are published and vary by family size. :contentReference[oaicite:17]{index=17}
+
+CANADA — COMPLETE VISA & ELIGIBILITY REFERENCE
+(File: Canada_Eligibility_Full.txt)
+
+SCOPE
+This document contains clear, authoritative eligibility rules for major Canadian temporary entry routes (study, work, visitor) and immediate-dependent work options. It is written to be unambiguous and suitable for a retrieval-augmented pipeline (RAG). All factual claims that are likely to change (amounts, named programs) are cited to the official Government of Canada pages.
+
+SOURCES: IRCC (Immigration, Refugees and Citizenship Canada) and ESDC (Employment and Social Development Canada). Key pages cited inline.
+
+────────────────────────────────────────────────────────────
+SECTION 1 — STUDY PERMITS (GENERAL PRINCIPLES)
+────────────────────────────────────────────────────────────
+Who needs a study permit?
+• Most foreign nationals need a study permit to study at a Canadian Designated Learning Institution (DLI). See IRCC “Study permit: How to apply.” :contentReference[oaicite:0]{index=0}
+
+Must show proof of funds
+• All study-permit applicants must **show proof of financial support** sufficient to cover:
+  - tuition (as shown on the Letter of Acceptance), AND
+  - living expenses for themselves and any accompanying family members, AND
+  - return transportation.
+  Accepted proofs include recent bank statements, a bank draft, letters of financial support, scholarship letters, and certain guaranteed investment certificates (GIC) where specified. :contentReference[oaicite:1]{index=1}
+
+Student Direct Stream (SDS) — guaranteed investment (GIC)
+• For applicants eligible for the Student Direct Stream (SDS), IRCC requires a qualifying GIC amount of **CAD $20,635** (this is IRCC’s SDS-eligible GIC amount stated on the SDS page). SDS applicants must otherwise meet SDS eligibility criteria. :contentReference[oaicite:2]{index=2}
+
+Notes:
+• SDS availability and eligibility are governed by IRCC; checks your eligibility on the IRCC SDS page before applying. SDS provides expedited processing for applicants from participating countries if they meet SDS conditions (e.g., language score, proof of tuition payment, GIC). :contentReference[oaicite:3]{index=3}
+
+────────────────────────────────────────────────────────────
+SECTION 2 — WORK PERMITS (KEY ROUTES)
+────────────────────────────────────────────────────────────
+
+A) Employer-specific work permit (LMIA required in many cases)
+• Many temporary work permits require the employer to apply for a Labour Market Impact Assessment (LMIA) from ESDC. A **positive LMIA** confirms that no Canadian worker is available for the job and that hiring a foreign worker will have a neutral or positive effect on the labour market. IRCC then issues a work permit using the LMIA and the job offer. :contentReference[oaicite:4]{index=4}
+
+• Employer responsibilities: advertising the job, applying for LMIA, paying required fees, meeting recruitment requirements for LMIA (where applicable). See ESDC guidance on which type of LMIA to submit. :contentReference[oaicite:5]{index=5}
+
+B) LMIA-exempt work permits
+• Some work permits are LMIA-exempt under international agreements, intra-company transfers (L-1 equivalent via Canadian rules), or other IRCC-specified exemptions. Confirm exemption details on IRCC pages. :contentReference[oaicite:6]{index=6}
+
+C) Open work permits
+• Open work permits let a person work for most employers without a specific job offer. Eligibility is limited to specific groups (examples: certain spouses/partners, some study-permit holders’ spouses depending on rules, refugee claimants, etc.). IRCC lists who can apply for open work permits and the applicable conditions. :contentReference[oaicite:7]{index=7}
+
+D) Spouses / partners of study & work permit holders
+• Certain family members (spouses/common-law partners) of some international students or temporary workers may be eligible to apply for open work permits (policy and eligibility criteria change — always check the IRCC spouse/partner pages). IRCC guidance explains the current eligibility; confirm at time of application. :contentReference[oaicite:8]{index=8}
+
+────────────────────────────────────────────────────────────
+SECTION 3 — VISITOR (TEMPORARY RESIDENT) VISAS
+────────────────────────────────────────────────────────────
+• Standard visitor permits (tourist/business) require applicants to show purpose of visit, ties to home country, sufficient funds, and intent to leave after the visit. Detailed documents include bank statements, employment letters, travel itinerary, and invitation letters where relevant. IRCC visitor guidance is authoritative. :contentReference[oaicite:9]{index=9}
+
+────────────────────────────────────────────────────────────
+SECTION 4 — PROOF OF FUNDS — WHAT SATISFIES IRCC (STUDY)
+────────────────────────────────────────────────────────────
+IRCC describes acceptable ways to show proof of financial support. The applicant must provide documentation showing funds available for tuition and living costs. Common acceptable proofs include:
+• Bank statements for the last 4 months (applicant or sponsor).  
+• A bank draft convertible to Canadian dollars.  
+• Letter from the person or institution giving money, accompanied by supporting documents.  
+• Proof of scholarship or funding from Canadian source.  
+• A qualifying GIC (for SDS where required). :contentReference[oaicite:10]{index=10}
+
+────────────────────────────────────────────────────────────
+SECTION 5 — HEALTH & MEDICAL EXAM
+────────────────────────────────────────────────────────────
+• A medical exam by an IRCC-designated panel physician may be required for some temporary resident applications (students/workers) depending on length of stay and activities (e.g., work with vulnerable persons, or prolonged stay). IRCC explains who needs a medical exam. :contentReference[oaicite:11]{index=11}
+
+────────────────────────────────────────────────────────────
+SECTION 6 — EVIDENCE CHECKLISTS (SHORT, FOR RAG SNIPPETS)
+────────────────────────────────────────────────────────────
+Use these short labeled snippets in your corpus so the RAG system can retrieve exact items:
+
+1. STUDY_checklist:
+   - Letter of Acceptance (DLI), proof tuition paid (or invoice), bank statements (4 months), GIC (if SDS/CAN$20,635), proof of return travel, explanation letter. :contentReference[oaicite:12]{index=12}
+
+2. WORK_LMIA_checklist:
+   - Employer’s LMIA (positive letter) or LMIA exemption code, job offer contract, employer recruitment evidence, salary details, job duties. :contentReference[oaicite:13]{index=13}
+
+3. OPEN_WORK_SPOUSE_checklist:
+   - Proof of relationship (marriage / common-law evidence), principal applicant’s status, sponsor documentation, application forms per IRCC open-work rules. :contentReference[oaicite:14]{index=14}
+
+────────────────────────────────────────────────────────────
+SECTION 7 — COMMON DECISION RULES (HOW TO ANSWER USER Qs)
+────────────────────────────────────────────────────────────
+Design your decision logic for the assistant as follows (strict, no hallucination):
+1. For eligibility on **student**: confirm applicant has (A) letter of acceptance from DLI, (B) proof of tuition, (C) proof of funds (examples above). If ANY of these missing → “Insufficient information” or “Not eligible” depending on severity. If SDS pathway is invoked, require GIC=CAD $20,635 (per IRCC SDS page). :contentReference[oaicite:15]{index=15}
+
+2. For **work permit** eligibility: check whether job requires LMIA or is LMIA-exempt. If LMIA required and employer has no LMIA → “Not eligible until employer obtains LMIA.” If employer offers LMIA-exempt category with evidence → proceed to document checks. :contentReference[oaicite:16]{index=16}
+
+3. For **spouse work** eligibility: verify spouse/partner’s current status and whether the principal’s status triggers open-work eligibility (IRCC lists eligible families). If unclear, return “Insufficient information — need principal’s permit type and status.” :contentReference[oaicite:17]{index=17}
+
+────────────────────────────────────────────────────────────
+SECTION 8 — EXAMPLE USER QUESTIONS & HOW TO ANSWER (RULES FOR AGENT)
+────────────────────────────────────────────────────────────
+Q: “My income is CAD 50,00,000 per year and company will sponsor H-1B equivalent — am I eligible?”  
+A: (Canada equivalent translation) — ask which Canadian permit is intended (employer-specific work permit, LMIA, or a provincial program). Then check: (a) does employer need & have LMIA? (b) is job in LMIA-exempt category? (c) provide exact checklist. *Do not* claim eligibility without employer LMIA/exemption evidence. :contentReference[oaicite:18]{index=18}
+
+Q: “I’m a student, I have an I-20 and no funding letters, am I eligible for a Canadian study permit?”  
+A: I-20 is US-specific — for Canada you need a Letter of Acceptance from a DLI and proof of funds per IRCC. If funding proof missing → “Not eligible” or “Insufficient information” until funds are provided. Point to IRCC proof-of-funds list. :contentReference[oaicite:19]{index=19}
+
+────────────────────────────────────────────────────────────
+SECTION 9 — CAUTIONS (NO HALLUCINATION)
+────────────────────────────────────────────────────────────
+• Always cite IRCC/ESDC pages when giving numeric amounts or program names.  
+• If user provides only home-country income but no Canadian job offer, do not conclude eligibility — Canadian permits require job offer/LMIA or study funding as per IRCC. :contentReference[oaicite:20]{index=20}
+
+────────────────────────────────────────────────────────────
+SECTION 10 — AUTHORITATIVE LINKS (for your RAG index)
+────────────────────────────────────────────────────────────
+• Student Direct Stream (SDS) — eligibility & GIC: IRCC SDS page. :contentReference[oaicite:21]{index=21}  
+• Study permit — proof of financial support / documents: IRCC “Get the right documents” & “How to apply.” :contentReference[oaicite:22]{index=22}  
+• Labour Market Impact Assessment (LMIA) guidance (ESDC/IRCC): ESDC / IRCC LMIA pages. :contentReference[oaicite:23]{index=23}  
+• Open work permits & spouse rules: IRCC spouse/partner open work permit pages. :contentReference[oaicite:24]{index=24}
+
+END OF FILE — Canada_Eligibility_Full.txt

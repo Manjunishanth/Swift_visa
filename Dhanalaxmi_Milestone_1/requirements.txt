@@ -1,0 +1,8 @@
+pdfplumber
+sentence-transformers
+faiss-cpu
+numpy
+reportlab
+torch
+
+

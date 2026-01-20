@@ -2,6 +2,7 @@
 __pycache__/
 .env
 *.npy
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

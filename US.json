@@ -1,0 +1,120 @@
+{
+  "country": "United States",
+  "last_updated": "November 2025",
+  "overview": {
+    "system_description": "U.S. visas are broadly divided into Non-Immigrant visas (temporary) and Immigrant visas (for permanent residence)",
+    "non_immigrant_categories": ["Business/Tourist", "Work", "Student", "Exchange"],
+    "immigrant_categories": ["Family-based", "Employment-based", "Diversity lottery", "Fiancé (K) visas"]
+  },
+  "key_updates_2025": {
+    "visa_integrity_fee": {
+      "amount": "US$250",
+      "applies_to": ["B-1/B-2", "F-1", "H-1B", "J-1"],
+      "refund_conditions": "Refundable under strict conditions (obey visa terms, do not overstay more than 5 days after I-94 expiration)"
+    },
+    "interview_waiver_changes": {
+      "effective_date": "2 September 2025",
+      "requirement": "Most non-immigrant visa applicants (H, L, F, M, J, O) require in-person interviews",
+      "age_exemption": "Removed - even applicants under 14 or over 79 must generally interview"
+    }
+  },
+  "non_immigrant_visas": {
+    "visitor_business": {
+      "types": ["B-1", "B-2", "B-1B-2"],
+      "purpose": ["Tourism", "Meetings", "Visiting family", "Medical travel"],
+      "fees": {
+        "mrv_fee": "~US$185",
+        "integrity_fee": "US$250"
+      },
+      "passport_validity": "Usually must be valid for at least 6 months beyond intended stay",
+      "validity_entries": "Multiple entry possible; depends on consular decision",
+      "duration_of_stay": "Determined by CBP at port of entry (often up to 6 months)",
+      "required_documents": ["Valid Passport", "DS-160 form", "Recent photograph", "Proof of financial means", "Travel itinerary or invitation letter", "Evidence of ties to home country"],
+      "special_conditions": ["No employment allowed on B visas", "Overstay or misrepresentation can lead to bans or future visa denial"]
+    },
+    "student": {
+      "types": ["F (academic)", "M (vocational/non-academic)"],
+      "fees": {
+        "mrv": "~US$185",
+        "sevis_i901": "~US$350",
+        "integrity_fee": "US$250"
+      },
+      "passport_validity": "Recommended minimum 6 months beyond stay",
+      "validity": "Tied to the duration of the program + possible grace period",
+      "required_documents": ["Form I-20 (for F)", "DS-160", "SEVIS fee receipt", "Admission letter from U.S. institution", "Proof of finances", "Passport + photo"],
+      "dependents": {
+        "types": "F-2 / M-2 visas for spouse or children",
+        "work_restriction": "Usually no work for dependents (F-2)"
+      },
+      "special_notes": ["Must maintain full-time enrollment", "Intent to return home may be scrutinized"]
+    },
+    "exchange_visitor": {
+      "type": "J",
+      "purpose": ["Cultural exchange", "Interns", "Scholars", "Trainees", "Au pairs"],
+      "fees": {
+        "mrv": "~US$185",
+        "integrity_fee": "US$250"
+      },
+      "passport_validity": "At least 6 months beyond stay generally required",
+      "validity": "Based on DS-2019 form (program duration) + grace period",
+      "documents": ["DS-2019", "DS-160", "Program sponsor letter", "Financial proof", "Passport + photo"],
+      "dependents": {
+        "type": "J-2 visa for spouse/kids",
+        "work_authorization": "J-2 may apply for work authorization via Form I-765"
+      },
+      "special_conditions": "Some J-1 visa holders subject to 2-year home-residence requirement"
+    },
+    "work": {
+      "types": ["H-1B (specialty occupation)", "L-1 (intra-company transferee)", "O (extraordinary ability)", "P (artists, athletes)", "Q (cultural exchange)", "R (religious workers)"],
+      "fees": {
+        "mrv": "~US$205",
+        "premium_processing": "~US$2,500",
+        "integrity_fee": "US$250",
+        "petition_uscis_fees": "Depend on visa type"
+      },
+      "passport_validity": "Usually >= 6 months beyond stay",
+      "validity_duration": "Depends on petition; often 1-3 years initially, renewable",
+      "documents": ["Approved USCIS petition (e.g., I-129)", "DS-160", "Passport + photo", "Employer offer letter", "Proof of qualifications/experience"],
+      "dependents": {
+        "types": ["H-4", "L-2", "O-3", "P-4", "Q-2", "R-2"],
+        "work_authorization": "Depends (e.g., H-4 EAD possible in some cases)"
+      },
+      "special_notes": ["Visa is employer-specific (tied to the sponsoring employer)", "Risk of denial if petition invalid or applicant does not meet eligibility"]
+    },
+    "other_non_immigrant": {
+      "types": ["I-Visa (media/journalists)", "T-Visa (victims of trafficking)", "U-Visa (victims of certain crimes)", "E-Visa (treaty trader/investor)", "Border Crossing Card (BCC)"],
+      "fees": "Varies by subclass + possibly Integrity Fee",
+      "requirements": "Depend heavily on visa subclass"
+    }
+  },
+  "immigrant_visas": {
+    "types": ["Family-based (e.g., I-130)", "Employment-based (EB categories)", "Diversity Visa (DV) Lottery", "K-visas (K-1 fiancé, K-3 spouse)"],
+    "fees": {
+      "petition_fees": "USCIS petition fees + immigrant visa application costs",
+      "integrity_fee": "Usually applies to non-immigrant, not immigrant"
+    },
+    "passport_validity": "Must be valid; typically 6 months beyond as required by consulate",
+    "documents": ["Approved petition (I-130, I-140, I-129F, etc.)", "DS-260 (Immigrant Visa)", "Birth/marriage certificates", "Police certificates", "Medical examination report", "Passport + photos"],
+    "processing": {
+      "steps": ["USCIS petition processing", "Embassy/Consulate interview", "Visa issuance"],
+      "timeline": "Depends on visa category, country, quota backlog"
+    },
+    "special_notes": ["After visa, holder becomes Lawful Permanent Resident ('Green Card')", "Some visa categories (like EB-visa) have long waiting times due to quota"]
+  },
+  "general_requirements": {
+    "passport_validity": "Generally must be valid at least 6 months beyond intended stay",
+    "forms": ["DS-160 required for non-immigrant visa", "DS-260 for immigrant visa"],
+    "supporting_documents": ["Financial proof", "Invitation", "Job letters"],
+    "dependents": "Spouse/children usually need separate visa applications"
+  },
+  "processing_logistics": {
+    "interviews": "As of September 2, 2025, most non-immigrant visa applicants need in-person interviews",
+    "administrative_processing": "Some visas may go into 'administrative processing' causing delays",
+    "passport_return": "Via pickup or courier (depending on consulate)",
+    "compliance": "Visa holders must comply with visa conditions (stay duration, no unauthorized work)"
+  },
+  "risks_tips": {
+    "common_denial_reasons": ["Weak proof of ties to home country", "Insufficient financial proof", "Incomplete or inaccurate DS-160 / petition", "Overstaying or violating past visas"],
+    "tips": ["Be transparent & accurate in documentation", "Pay the Integrity Fee if applicable and keep proof", "Prepare for interview (purpose, finances, itinerary)", "Maintain compliance during visa validity for possible refund of Integrity Fee"]
+  }
+}

@@ -1,0 +1,212 @@
+# 🇪🇺 Schengen Area — Comprehensive Visa Eligibility Reference Document
+
+*(Short-stay Schengen C visas, National D visas, residence & work rules, travel, funds, insurance, family, study — same structure as previous country docs)*
+
+> **Scope & accuracy:** This document describes stable, general Schengen visa rules and member-state practice that are appropriate for a visa-agent style RAG system. It **avoids** volatile numeric details (national fees, exact minimum bank balances) except where a single pan-Schengen rule exists (e.g., insurance minimum). Use country-specific documents (one per Schengen state) for precise, changing numbers.
+
+---
+
+## 1. Overview — What “Schengen” means
+
+* The **Schengen Area** is a group of European countries that have abolished systematic internal border controls for travelers moving between them.
+* A **Schengen short-stay visa (Type C)** permits stays in the Schengen Area for **up to 90 days in any 180-day period** for tourism, business, family visits, short studies, or transit.
+* **National (D) visas** are issued by individual member states for longer stays (work, study, family reunification, long-term residence). Rules for D visas are decided by each member state.
+
+---
+
+## 2. Key Universal Rules (Apply across Schengen)
+
+### 2.1 The 90/180 Rule (Short-stay limit)
+
+* A non-EU/EEA national may stay in the Schengen Area for **a maximum of 90 days within any rolling 180-day period**.
+* This is cumulative across all Schengen states (not per country). The 180-day window is rolling (count backwards from each day of intended stay).
+
+### 2.2 Visa Types (Short summary)
+
+* **Type C (Schengen short-stay):** tourism, business, family visit, short studies up to 90/180.
+* **Type D (National):** long-stay (>90 days) for study, work, family reunification, residence. Issued by individual member states; may allow limited travel within Schengen for short periods.
+* **Airport Transit Visa (Type A):** transit through international transit zones at airports (rare; many nationals exempt).
+
+### 2.3 Biometric & Application Basics
+
+* Applicants normally **must provide biometric data** (fingerprints + photo) at the visa application center (VFS/consulate), once per 59 months (approx.) unless exempt.
+* Schengen visas require a **personal application** (rare exceptions for children or specific categories).
+
+### 2.4 Travel Medical Insurance (Mandatory for short-stay)
+
+* For Schengen Type C visas, travel medical insurance is **mandatory** and must cover **medical emergency and repatriation**.
+* **Minimum cover**: **€30,000** (this is the commonly required minimum across Schengen consulates). Insurance must be valid for the entire period of intended stay and across the whole Schengen area.
+
+### 2.5 Purpose & Supporting Documents (Short-stay)
+
+Typical required documents (vary by consulate / nationality):
+
+* Valid passport (valid for at least 3 months beyond intended departure from Schengen; with at least two blank pages).
+* Completed and signed visa application form.
+* Recent passport-style photos.
+* Proof of purpose: invitation letter, hotel bookings, conference confirmation, enrolment for short course.
+* Proof of financial means to cover stay.
+* Proof of travel medical insurance.
+* Return/onward travel tickets or reservation.
+* Proof of accommodation.
+* Visa fee (varies).
+* For minors: birth certificate, parental consent, custody proof.
+
+---
+
+## 3. Financial Requirements / Proof of Means
+
+* **No single EU-wide fixed bank balance** is mandated; consulates evaluate whether the applicant has sufficient means for the duration and purpose of visit.
+* Acceptable evidence includes: recent bank statements, salary slips, sponsorship letter (formal obligation by host), confirmed paid hotel reservation, prepaid tours, or proof of financial sponsorship.
+* Typical practice: consulates look for bank statements covering the **last 3 months** and at least modest, proportional funds relative to the trip length and destination cost-of-living.
+* If invited/sponsored, a **formal obligation** or invitation letter combined with sponsor’s bank proof may replace applicant funds.
+
+---
+
+## 4. Visitor / Tourist Visa (Type C) — Practical Rules
+
+* Purpose: tourism, visiting friends/family, business meetings, cultural/sports events, short study (<90 days).
+* **Proof of ties to home country** is important: employment letter, property, family, enrolment.
+* **Intent to return** is assessed; lack of return ties increases refusal risk.
+* **Travel insurance** and itinerary/reservations are required.
+* **Invitation letters** should include host details, relationship, duration and accommodation commitment.
+
+---
+
+## 5. Short-Term Study & Training
+
+* For courses **<90 days**: short-stay (Type C) is appropriate. Provide course confirmation, tuition payment proof, accommodation.
+* For degree programs or courses **>90 days** → apply for national long-stay (D) student visa at the specific country consulate.
+
+---
+
+## 6. Work & Long-Stay (National D Visas & Residence Permits)
+
+* **Employment authorizations are country-specific.** Each Schengen state has its own work permit and national visa rules (e.g., Blue Card, skilled worker permit, seasonal worker permit).
+* Typical pattern:
+
+  * Employer obtains work permit or labor clearance (varies by state).
+  * Applicant applies for **national D visa** for entry/initial stay.
+  * After arrival, applicant applies for a residence permit with local authorities.
+* **Salary & labor market tests** are decided by the issuing member state; your bot must consult the country-specific document for numeric thresholds or occupation lists.
+
+---
+
+## 7. Study Long-Stay (National Student Visas)
+
+* For degree studies (>90 days), applicants need an acceptance letter from an accredited institution, proof of funds to cover tuition and living costs (amount varies by state), proof of accommodation, and health insurance.
+* Work while studying: rules vary by country (commonly 10–20 hours/week during term; full-time during breaks) — consult national doc.
+
+---
+
+## 8. Family Reunification & Dependent Visas
+
+* Family reunification rules differ by state but commonly cover:
+
+  * Spouses/registered partners
+  * Minor children
+  * Dependent adult children or dependent parents (in some cases)
+* Sponsor’s obligations: proof of accommodation, income sufficiency, relation proof, sometimes integration orientation / language proof.
+* For long stays, family members typically apply for **national visas** and then residence permits.
+
+---
+
+## 9. Health & Vaccination Rules
+
+* No general EU-wide vaccination requirements for entry; however some member states may request medical checks for long-term residence.
+* Travel insurance with medical evacuation is mandatory for short-stay visa.
+
+---
+
+## 10. Special Categories & Practical Notes
+
+* **Visa-free travelers:** Many nationalities are exempt for short stays (e.g., U.S., Canada, Japan); check country-specific visa exemption lists. (Your RAG must consult per-country docs.)
+* **ETIAS (coming/operational):** Citizens of visa-exempt third countries may be required to obtain an ETIAS travel authorization in future — treat as external policy (not a visa).
+* **Refusal & Appeals:** Each member state has appeal or review mechanisms; timelines and procedures are country-specific.
+
+---
+
+## 11. Fingerprints / Biometrics / Interviews
+
+* Biometrics are typically collected for short-stay visa applications and stored for **~59 months**.
+* Interviews are rare but may be requested at the consulate.
+
+---
+
+## 12. What Information the Assistant MUST ask the User (to give definitive yes/no)
+
+For Schengen short-stay eligibility and clear decisions, the assistant should request:
+
+**Mandatory for clear decision:**
+
+1. **Nationality** (passport country).
+2. **Purpose of travel** (tourism, business, study <90d, family visit, transit).
+3. **Dates / intended length of stay** (to check 90/180 rule).
+4. **Planned Schengen countries and itinerary** (which states will be visited; main destination matters).
+5. **Evidence of accommodation** (hotel booking / host address).
+6. **Proof of funds or sponsor details.**
+7. **Travel medical insurance details** (provider, coverage amount, validity).
+8. **Return/onward travel** (ticket/reservation).
+9. **Criminal history** (if any).
+10. **Previous Schengen refusals or overstays.**
+
+**For long-stay (D visa) or work/study:**
+
+* Job offer / employer name / contract (for work).
+* Acceptance letter, tuition (for study).
+* Proof of relevant qualifications, language ability (if required).
+* Employer work-permit details (if applicable).
+
+---
+
+## 13. How the Assistant Should Decide (Decision Logic, Non-Hallucinated)
+
+* **If user is visa-exempt for short stays → return “Visa not required” (but check ETIAS/entry rules).**
+* **If user lacks any mandatory document (insurance, funds, passport validity, return ticket) → “Not Eligible / Insufficient documentation.”**
+* **If itinerary exceeds 90 days in 180 days or overlaps previous Schengen stays → “Not Eligible: 90/180 exceeded.”**
+* **If user has missing ties or suspicious intent to overstay → mark as “High risk” and request more evidence.**
+* **For national long-stay/working permission → check country-specific criteria (salary, labor test, institution acceptance).**
+* **Always ask for country-specific details, then consult that country doc before stating numeric thresholds.**
+
+---
+
+## 14. Example Responses / Templates (Agent Style)
+
+* **Yes (clear):** “Based on your nationality X, purpose = tourism, planned stay 7 days, valid passport and travel insurance with €30,000 cover, and proof of funds/ticket, you are eligible to apply for a Schengen short-stay visa. This is subject to consulate review.”
+* **No (clear):** “Your planned stay totals 120 days in the Schengen Area within 180 days. Under the 90/180 rule you are not eligible for a Schengen short-stay visa for that itinerary.”
+* **Insufficient information:** “I need the passport nationality, intended dates/duration, travel medical insurance details (provider & €30,000 cover), and proof of accommodation to decide.”
+
+---
+
+## 15. RAG / Retrieval Guidance (How to use this doc in your pipeline)
+
+* Index this file as a **single cleaned text** source (as requested). Do **not** chunk before indexing if you want retrieval to return whole doc slices; but chunking improves targeted citations.
+* For short-stay queries, retrieve sections: (a) 90/180 rule, (b) insurance, (c) required docs, (d) funds rules — these yield clear answers.
+* For country-specific numeric thresholds or work permits, chain to that country’s national doc (e.g., “Germany work permit doc”, “France student visa doc”).
+
+---
+
+## 16. Frequently Asked Questions (that should be answerable from this doc)
+
+* “How long can I stay in Schengen without a visa?”
+* “Do I need travel insurance for Schengen?”
+* “Is 120 days tourism in multiple Schengen countries allowed?”
+* “What documents must I present for a family visit?”
+* “Do I need a national (D) visa for a 6-month course?”
+* “How much money do I need to show for a 2-week trip?” (Answer: no fixed EU wide amount; give guidance on typical weekly needs and ask for bank statements.)
+* “What is the 90/180 rule?” (Exact rule provided.)
+
+---
+
+## 17. Summary Checklist (for the bot to ask & validate)
+
+* Passport nationality & expiry date (>= 3 months beyond departure).
+* Purpose of travel.
+* Exact travel dates and itinerary (main destination).
+* Proof of accommodation.
+* Travel medical insurance (provider name, coverage €30k+, valid dates).
+* Proof of financial means (last 3 months bank statements or sponsor proof).
+* Return/onward ticket.
+* Prior Schengen history (previous refusals/overstays).
+* Biometric/consulate appointment readiness.
+

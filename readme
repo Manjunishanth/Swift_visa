@@ -1,0 +1,24 @@
+## 🔄 Workflow – End-to-End RAG Pipeline Execution
+
+```python
+# 1️⃣ Load PDF documents
+from document_loader import load_documents
+documents = load_documents("data/")
+```
+
+# 2️⃣ Split documents into text chunks
+from chunker import split_into_chunks
+chunks = split_into_chunks(documents)
+
+# 3️⃣ Generate embeddings and store in FAISS
+from embeddings import embed_and_store
+embed_and_store(chunks, "faiss_index")
+
+# 4️⃣ Run a query through the RAG pipeline
+from rag_pipeline import answer_query
+
+query = "What are the age and salary limits for US Visa Screening?"
+response = answer_query(query)
+
+print("LLM Output:")
+print(response)

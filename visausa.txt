@@ -1,0 +1,178 @@
+============================================================
+U.S. Visa Types & Requirements – Updated Guide (Nov 2025)
+============================================================
+
+1. Overview of U.S. Visa System
+--------------------------------
+- U.S. visas are broadly divided into *Non‑Immigrant visas* (temporary) and *Immigrant visas* (for permanent residence).  
+- Non‑immigrant visas include categories like Business/Tourist, Work, Student, Exchange, etc.  
+- Immigrant visas include family-based, employment-based, diversity lottery, fiancé (K) visas, etc.
+
+------------------------------------------------------------
+2. Key 2025‑Specific Updates
+------------------------------------------------------------
+- *Visa Integrity Fee: An additional **US$ 250* applies to many non‑immigrant visa categories from FY 2025.   
+  - Applies to B‑1/B‑2, F‑1, H‑1B, J‑1, etc.   
+  - Refundable under strict conditions (e.g., obey visa terms, do not overstay more than 5 days after I‑94 expiration).   
+- *Interview Waiver (“Dropbox”) Changes: From **2 September 2025, most non‑immigrant visa applicants (H, L, F, M, J, O) require *in‑person interviews.   
+- *Age exemption removed*: Even applicants under 14 or over 79 must generally interview, unless very limited exemptions.   
+
+------------------------------------------------------------
+3. Non‑Immigrant Visas — Detailed Breakdown
+------------------------------------------------------------
+
+3.1 *Visitor / Business Visas (B‑1 / B‑2 / B‑1B‑2)*
+- *Purpose*: Tourism, meetings, visiting family, medical travel  
+- *Fees*:  
+  - Standard MRV fee: ~US$ 185 (most non‑petition non‑immigrant visas)  
+  - + US$ 250 Integrity Fee (as above)  
+- *Passport Validity: Usually must be valid for at least **6 months beyond intended stay*  
+- *Validity / Entries*: Multiple entry possible; depends on consular decision  
+- *Duration of Stay*: Determined by Customs and Border Protection (CBP) at port of entry (often up to 6 months)  
+- *Required Documents*:  
+  - Valid Passport  
+  - DS‑160 form  
+  - Recent photograph per U.S. visa photo specifications  
+  - Proof of financial means (bank statements, salary, assets)  
+  - Travel itinerary or invitation letter  
+  - Evidence of ties to home country (job, property, family)  
+- *Special Conditions / Risks*:  
+  - No employment allowed on B visas  
+  - Overstay or misrepresentation can lead to bans or future visa denial  
+
+3.2 *Student Visas (F / M)*
+- *Purpose*: F for academic; M for vocational / non‑academic programs  
+- *Fees*:  
+  - MRV: ~US$ 185  
+  - SEVIS (I‑901): ~US$350 (for many F / M)  
+  - Integrity Fee: US$ 250 (if applicable)  
+- *Passport Validity*: Recommended minimum 6 months beyond stay  
+- *Validity*: Tied to the duration of the program + possible grace period  
+- *Required Documents*:  
+  - Form I‑20 (for F) or equivalent for M  
+  - DS‑160  
+  - SEVIS fee receipt  
+  - Admission letter from U.S. institution  
+  - Proof of finances (tuition, living costs)  
+  - Passport + photo  
+- *Dependents*: F‑2 / M‑2 visas for spouse or children  
+  - Usually no work for dependents (F‑2)  
+- *Special Notes*:  
+  - Must maintain full-time enrollment  
+  - Intent to return home may be scrutinized  
+
+3.3 *Exchange Visitor Visa (J)*
+- *Purpose*: Cultural exchange, interns, scholars, trainees, au pairs, etc.  
+- *Fees*:  
+  - MRV: ~US$185  
+  - Integrity Fee: US$ 250 may apply (non‑immigrant)  
+- *Passport Validity*: At least 6 months beyond stay generally required  
+- *Validity*: Based on DS‑2019 form (program duration) + grace period  
+- *Documents*:  
+  - DS‑2019  
+  - DS‑160  
+  - Program sponsor letter  
+  - Financial proof  
+  - Passport + photo  
+- *Dependents*:  
+  - J‑2 visa for spouse / kids  
+  - J‑2 may apply for work authorization via Form I‑765  
+- *Special Conditions*:  
+  - Some J‑1 visa holders subject to 2‑year home‑residence requirement  
+
+3.4 *Work Visas (H, L, O, P, Q, R)*
+- *Types*:  
+  - H‑1B (specialty occupation)  
+  - L‑1 (intra‑company transferee)  
+  - O (extraordinary ability)  
+  - P (artists, athletes)  
+  - Q (cultural exchange)  
+  - R (religious workers)  
+- *Fees*:  
+  - MRV (visa app): ~US$205 for many petition-based visas  
+  - Premium Processing (optional for some): ~US$2,500 (or as per USCIS rules)  
+  - Integrity Fee: US$ 250 (for many non‑immigrant visas)  
+  - Petition / USCIS fees: depend on visa type  
+- *Passport Validity*: Usually >= 6 months beyond stay  
+- *Validity / Duration*: Depends on petition; often 1–3 years initially, renewable  
+- *Documents*:  
+  - Approved USCIS petition (e.g., I‑129)  
+  - DS‑160  
+  - Passport + photo  
+  - Employer offer letter  
+  - Proof of qualifications / experience  
+- *Dependents*:  
+  - H‑4, L‑2, O‑3, P‑4, Q‑2, R‑2 visas for family  
+  - Work authorization: depends (e.g., H‑4 EAD possible in some cases)  
+- *Special Notes*:  
+  - Visa is employer‑specific (tied to the sponsoring employer)  
+  - Risk of denial if petition invalid or applicant does not meet eligibility  
+
+3.5 *Other Non‑Immigrant Visas*
+- *I‑Visa*: For media / journalists  
+- *T‑Visa*: For victims of trafficking  
+- *U‑Visa*: For victims of certain crimes  
+- *E‑Visa*: Treaty trader / investor  
+- *Border Crossing Card (BCC)*: For some nationalities  
+- *Fees*: Varies by subclass + possibly Integrity Fee (if non‑immigrant)  
+- *Requirements*: Depend heavily on visa subclass  
+
+------------------------------------------------------------
+4. Immigrant Visas (Permanent)
+------------------------------------------------------------
+- *Types*:  
+  - Family-based (e.g., I‑130)  
+  - Employment-based (EB categories)  
+  - Diversity Visa (DV) Lottery  
+  - K‑visas (K‑1 fiancé, K‑3 spouse)  
+- *Fees*:  
+  - Petition fees (USCIS) + immigrant visa application costs  
+  - Integrity Fee: Usually applies to non-immigrant, not immigrant (check for specific law)  
+- *Passport Validity*: Must be valid; typically 6 months beyond as required by consulate  
+- *Documents*:  
+  - Approved petition (I‑130, I‑140, I‑129F, etc.)  
+  - DS‑260 (Immigrant Visa)  
+  - Birth / marriage certificates  
+  - Police certificates  
+  - Medical examination report  
+  - Passport + photos  
+- *Processing*:  
+  - USCIS petition processing → Embassy / Consulate interview → Visa issuance  
+  - Timeline depends on visa category, country, quota backlog  
+- *Special Notes*:  
+  - After visa, holder becomes Lawful Permanent Resident (“Green Card”)  
+  - Some visa categories (like EB‑visa) have long waiting times due to quota  
+
+------------------------------------------------------------
+5. Passport, Document & General Requirements
+------------------------------------------------------------
+- Passport generally must be valid at least 6 months beyond intended stay (or per consulate).  
+- DS‑160 form required for non‑immigrant visa.  
+- Supporting documents vary by visa type: financial proof, invitation, job letters, etc.  
+- Dependents (spouse / children) usually need separate visa applications.  
+
+------------------------------------------------------------
+6. Processing, Interviews & Logistics
+------------------------------------------------------------
+- Interviews: As of September 2, 2025, most non‑immigrant visa applicants need to attend in-person interviews.   
+- Administrative Processing: Some visas may go into “administrative processing” causing delays.  
+- Passport Return: Via pickup or courier (depending on consulate).  
+- Compliance: Visa holders must comply with visa conditions (stay duration, no unauthorized work).
+
+------------------------------------------------------------
+7. Risks, Denial Causes & Tips
+------------------------------------------------------------
+- *Common Denial Reasons*:  
+  - Weak proof of ties to home country  
+  - Insufficient financial proof  
+  - Incomplete or inaccurate DS‑160 / petition  
+  - Overstaying or violating past visas  
+- *Tips*:  
+  - Be transparent & accurate in documentation  
+  - Pay the Integrity Fee if applicable and keep proof  
+  - Prepare for interview (purpose, finances, itinerary)  
+  - Maintain compliance during visa validity for possible refund of Integrity Fee  
+
+============================================================
+End of U.S. Visa Guide (Nov 2025)
+============================================================

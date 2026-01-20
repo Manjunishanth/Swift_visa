@@ -1,0 +1,229 @@
+# 🇮🇪 **Ireland – Complete Visa Eligibility & Requirements Document**
+
+This document covers **study**, **work**, **temporary work**, **business**, **family**, **tourist**, and **long-term residency** visas.
+All information is consolidated based on Ireland’s non-hallucinatory, general, non-changing eligibility framework.
+
+---
+
+# **1. General Eligibility Factors for All Ireland Visas**
+
+### ✔️ **Age Requirements**
+
+* **Tourist/Visit visa:** No minimum age, but minors require parental consent.
+* **Student visa:** No strict minimum age; most higher-education visas assume **18+**.
+* **Work visas:** Must be **18+**.
+* **Family reunification:** No upper or lower strict age limit for sponsors.
+
+### ✔️ **Health Requirements**
+
+* Must **not pose a public health risk**.
+* Long-stay applicants (over 90 days) must show:
+
+  * No serious contagious disease.
+  * Ability to purchase **private health insurance**.
+
+### ✔️ **Character Requirements**
+
+* Must have **no serious criminal convictions**.
+* May require police clearance for long-term visas.
+
+### ✔️ **Financial / Funding Requirements**
+
+Each visa type has different requirements:
+
+| Visa Type                | Required Funds                                                                    |
+| ------------------------ | --------------------------------------------------------------------------------- |
+| **Tourist / Visit**      | Enough to support stay (no fixed amount; usually **€500–€700/week** recommended). |
+| **Student**              | Minimum **€10,000–€12,000 per year** for living costs + tuition paid.             |
+| **Work Visa**            | No personal funds required; **salary must meet permit minimums**.                 |
+| **Family Reunification** | Sponsor must meet income thresholds depending on family size.                     |
+
+---
+
+# **2. Ireland Work Visas (Highly Detailed)**
+
+Ireland has two primary employment permits:
+
+## **A. Critical Skills Employment Permit (CSEP)**
+
+**Best for: IT, Engineering, Healthcare, Finance professionals**
+
+### ✔️ **Eligibility**
+
+1. **Job must be on the Critical Skills Occupations List**, such as:
+
+   * Software Engineer
+   * Data Analyst
+   * QA Engineer
+   * Network Architect
+   * Electrical/Mechanical Engineer
+   * Registered Nurse
+     *(Your pipeline will detect specialty occupations based on these categories.)*
+
+2. **Minimum Salary Requirements**
+
+   * If the job is **on the Critical Skills List** → minimum **€32,000/year**
+   * If the job is **NOT on the list but is highly skilled** → **€64,000/year**
+
+3. **Qualifications**
+
+   * Usually **Level 7 Bachelor’s Degree or higher** in the relevant field.
+
+4. **Labour Market Test:**
+
+   * **Not required** for CSEP.
+
+5. **Contract:**
+
+   * Must be **2 years or longer**.
+
+### ✔️ **Outcome / Benefits**
+
+* Eligible for **Stamp 4 (permanent residency-type permission) after 2 years**.
+* Immediate family reunification allowed.
+
+---
+
+## **B. General Employment Permit (GEP)**
+
+### ✔️ **Eligibility**
+
+1. Job must **not** be on the *Ineligible Occupations List*
+   (e.g., low-skilled roles, basic admin, retail, hospitality).
+
+2. **Salary Requirements**
+
+   * Standard minimum: **€30,000/year**
+   * Some exceptions allow **€27,000/year** (graduate positions or restricted sectors).
+   * Certain health roles require **€27,000–€30,000** depending on job type.
+
+3. **Labour Market Needs Test**
+
+   * Employer must advertise the job for **28 days**.
+   * Required **except** for certain categories (e.g., critical healthcare roles).
+
+4. **Contract**
+
+   * Must be **1 year or longer**.
+
+### ✔️ **Outcome**
+
+* Eligible for Stamp 4 after **5 years** of residence.
+
+---
+
+## **C. Intra-Company Transfer Permit (ICT)**
+
+### ✔️ Eligibility
+
+* Must be transferring from a multinational’s branch abroad.
+* Salary must meet **€40,000+/year** (varies by role).
+* Must have worked in the company **6 months+** overseas.
+
+---
+
+# **3. Ireland Student Visa (Study Visa 'D')**
+
+### ✔️ **Eligibility**
+
+1. Acceptance into an Irish university/college.
+2. Proof of tuition payment.
+3. **Minimum funds:**
+
+   * At least **€10,000–€12,000** for living expenses for one year.
+4. Private medical insurance.
+5. English language proof (IELTS/TOEFL/PTE).
+
+### ✔️ Part-time Work Authorization
+
+* Up to **20 hours/week** during term.
+* Up to **40 hours/week** during holidays.
+
+---
+
+# **4. Temporary Work Visas (Working Holiday / Short-term Work)**
+
+### ✔️ A) Working Holiday Visa
+
+Available only to specific nationalities (not India).
+
+### ✔️ B) Atypical Working Scheme
+
+For **short-term work** (less than 90 days):
+
+Requirements:
+
+* Salary proportional to Irish standards.
+* Employer approval from Immigration.
+* No job on ineligible list.
+
+---
+
+# **5. Tourist / Visit Visa (Short-Stay C Visa)**
+
+### ✔️ Eligibility
+
+* Proof of return to home country.
+* Bank statements showing financial sufficiency.
+* Travel itinerary + accommodation booking.
+* Travel health insurance.
+
+---
+
+# **6. Family & Dependent Visas**
+
+### ✔️ Eligibility Criteria
+
+Different Stamp categories:
+
+| Category                        | Who It Applies To                      |
+| ------------------------------- | -------------------------------------- |
+| **Family of CSEP holders**      | Immediate family can join immediately. |
+| **Family of GEP holders**       | After **1 year** of employment.        |
+| **EU/EEA family reunification** | Follows EU Freedom of Movement rules.  |
+
+### ✔️ Sponsor Income Requirements
+
+Ireland checks “capacity to support dependents,” typically:
+
+* **€30,000–€40,000+ household income** depending on dependents.
+
+*(No exact fixed amount publicly mandated, but immigration officers follow income thresholds based on social welfare & living costs.)*
+
+---
+
+# **7. Long-Term Residency (Stamp 4 & Citizenship)**
+
+### ✔️ Eligibility
+
+* **2 years** for CSEP holders.
+* **5 years** for GEP/other workers.
+* Proof of stable employment.
+* Clean immigration history.
+
+---
+
+# **8. Funds, Salary, Job Role, and Educational Criteria (Clear & Explicit)**
+
+### **Specialty Occupations (in Ireland sense) include:**
+
+* Software engineers & developers
+* Data scientists
+* Cybersecurity analysts
+* Doctors & nurses
+* Engineers (all fields)
+* Finance professionals
+* Pharmaceutical scientists
+* AI/ML specialists
+
+### **Specialized Education Requirements**
+
+* Bachelor’s degree (Level 7+)
+* In field connected to job duties
+* Higher-paid roles may allow alternative experience
+
+### **Sufficient Funds Definitions**
+
+* Student: **€10,000–€12,000/year and above**
+* Tourist: Enough to cover stay (cases typically approve above **€500–€700/week and above**)
+* Worker: Salary paid by employer → no personal funds needed
