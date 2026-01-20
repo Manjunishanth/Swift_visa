@@ -1,0 +1,394 @@
+# ✅ **DOCUMENT 1 — UNITED STATES (USA) — VISA ELIGIBILITY (CLEAN TEXT)**
+
+**Covers:** H-1B, F-1 (Student), B-2 (Tourist) — the most common decision types for your RAG system.
+
+---
+
+## **H-1B (Skilled Worker) Eligibility**
+
+**Basic Requirements:**
+
+1. A **valid job offer** from a US employer.
+2. The job must require a **specialty occupation** (bachelor’s degree or higher in a specific field).
+3. The applicant must meet the **educational requirements** (degree or equivalent practical experience).
+4. The employer must file a **Labor Condition Application (LCA)** with the US Department of Labor.
+5. The employer must file **Form I-129** (H-1B petition).
+6. Selection in the **H-1B lottery** (if subject to cap).
+
+**Important Notes for Eligibility Queries:**
+
+* **Income of the applicant does not affect H-1B eligibility.**
+* **Age does not affect H-1B eligibility.**
+* **Eligibility depends mainly on employer sponsorship + education + specialty occupation.**
+* Visa approval is based on:
+
+  * Job role → degree match
+  * Employer compliance
+  * Non-immigrant intent (usually)
+
+**Eligibility Yes/No Logic:**
+
+* If job is specialty occupation → likely eligible.
+* If employer is sponsoring + filing LCA/I-129 → eligible.
+* If degree does not match job → likely NOT eligible.
+* If employer is fraudulent / unknown → not eligible.
+
+---
+
+## **F-1 (Student Visa) Eligibility**
+
+**Required:**
+
+1. Acceptance into a **SEVP-approved school**.
+2. Issued **Form I-20**.
+3. Ability to prove **financial capability** for tuition + living expenses.
+4. Strong ties to home country (non-immigrant intent).
+5. Valid passport.
+
+**Important Edge Case for Your RAG:**
+
+* If the student **has an I-20 but no funding proof**, consular officer may deny the visa.
+* Eligibility **requires**:
+
+  * Bank statements OR funding letters OR scholarship OR sponsor documents.
+
+**Eligibility Yes/No Logic:**
+
+* Has I-20 + funding → eligible.
+* Has I-20 but **no financial proof** → NOT eligible (high risk of denial).
+* Has sufficient funds but weak ties → risk of denial.
+
+---
+
+## **B-2 (Tourist Visa) Quick Eligibility**
+
+1. Purpose of visit must be **temporary**.
+2. Show ability to **pay expenses**.
+3. Show strong home-country ties.
+4. No intent to work.
+
+
+USA — Visa eligibility reference (work, study, visitor, key evidence)
+
+OVERVIEW
+This document summarizes the main eligibility rules, required evidence, and common evaluation points for U.S. non-immigrant visas commonly used by applicants: H-1B (work - specialty occupation), F-1 (student), J-1 (exchange), and short stay (B-1/B-2). Use this only as guidance — final decisions rest with USCIS / consular officers.
+
+H-1B (Specialty Occupation) — Core criteria
+- A “specialty occupation” requires the theoretical and practical application of a body of highly specialized knowledge AND normally requires at least a bachelor’s degree (or equivalent) in a specific field as the minimum entry requirement. Employers petition via Form I-129 and must generally attest to wage and labor conditions. :contentReference[oaicite:0]{index=0}
+- Key evidentiary elements: detailed job description showing specialized duties; educational credentials (U.S. degree or equivalent foreign degree) or equivalency documentation; employer’s Labor Condition Application (LCA); and an employment offer. If degree not held, evidence of equivalent education + progressive work experience may be considered. :contentReference[oaicite:1]{index=1}
+
+F-1 (Student) — Core criteria & funds
+- To get an F-1 visa, applicant must be accepted by a SEVP-certified school and receive Form I-20 (Certificate of Eligibility). The school will require proof of sufficient funds before issuing an I-20. :contentReference[oaicite:2]{index=2}
+- “Proof of sufficient funds” commonly means documentation that covers: first year’s tuition (or full tuition paid), living expenses for the duration of study, and return transportation. Acceptable documents: bank statements, guaranteed investment certificates (where relevant), scholarship/loan letters, sponsor affidavits, or evidence of paid tuition. There is no single universal dollar amount; expectations depend on school tuition and living cost. :contentReference[oaicite:3]{index=3}
+
+Visitor (B-1/B-2) / Short stays
+- The visitor visa requires showing purpose of visit (tourism, business), ties to home country, and sufficient funds for the stay. Strong evidence of intent to return (employment, property, family) helps but is assessed case-by-case. See State Dept guidance. :contentReference[oaicite:4]{index=4}
+
+WHAT MATTERS / WHAT DOES NOT
+- Matters: valid job offer + LCA + degree (H-1B); acceptance + I-20 + proof of funds (F-1); clear purpose + funds + ties to home country (B-1/B-2). Decisions influenced by documentation quality, consistency, and officer discretion. :contentReference[oaicite:5]{index=5}
+- Typically NOT automatic disqualifiers: age alone (no public universal age limit), marital status, prior home-country income (except as proof of funds where required). These may be relevant only to the extent they affect credibility or financial sufficiency.
+
+ADDITIONAL NOTES FOR RAG CONTENT
+- Include short canonical sections: (1) H-1B — definition + evidence checklist; (2) F-1 — I-20 + funds checklist; (3) short stays — required docs list; (4) common interpretations (e.g., what proves “specialized education” or “sufficient funds”).
+- Use only explicit policy text and examples; avoid asserting a specific numeric threshold for “sufficient funds” unless quoting a school or program amount.
+
+UNITED STATES — COMPLETE VISA ELIGIBILITY REFERENCE (WORK, STUDY, VISITOR, DEPENDENTS, HEALTH, FUNDS)
+
+------------------------------------------------------------
+SECTION 1 — OVERVIEW OF U.S. NON-IMMIGRANT VISA CATEGORIES
+------------------------------------------------------------
+This document covers major U.S. visa categories relevant to typical eligibility questions:
+
+• WORK VISAS  
+  - H-1B (Specialty Occupation)  
+  - L-1A/L-1B (Intracompany transferees)  
+  - O-1 (Extraordinary Ability)  
+  - TN (Canada/Mexico – USMCA)
+
+• STUDENT VISAS  
+  - F-1 (Academic Student)  
+  - M-1 (Vocational Student)  
+  - J-1 (Exchange Visitor categories)
+
+• SHORT VISIT VISAS  
+  - B-1 (Business)  
+  - B-2 (Tourism)
+
+• FAMILY/DEPENDENT CATEGORIES  
+  - H-4, L-2, O-3, F-2, J-2
+
+Each section clarifies age rules, education requirements, job criteria, salary/funding rules, documents required, special definitions, and decision criteria used by USCIS and consular officers.
+
+
+------------------------------------------------------------
+SECTION 2 — WORK VISA CATEGORY DETAILS
+------------------------------------------------------------
+
+============================================================
+A) H-1B — SPECIALTY OCCUPATION (EMPLOYER SPONSORED)
+============================================================
+
+1. **Purpose**
+   Allows U.S. employers to employ foreign workers in “specialty occupations” that require highly specialized knowledge.
+
+2. **Eligibility Criteria (All must be met)**  
+   A worker qualifies only if ALL of the following are met:
+
+   (1) **Specialty Occupation Requirement**  
+       The job must require:
+       • Theoretical & practical application of highly specialized knowledge  
+       • Minimum of **Bachelor’s degree or higher** in a specific specialty directly related to the job  
+       (Examples: Computer Science, Engineering, Finance, Architecture, Medicine, etc.)
+
+   (2) **Educational Qualification Requirement**
+       Applicant must have:
+       • A U.S. bachelor’s degree OR  
+       • A foreign equivalent degree (evaluated by credential evaluators) OR  
+       • Equivalent combination of education + progressive experience  
+         → 3 years of experience = 1 academic year (industry standard accepted by USCIS evaluations)
+
+   (3) **Employer Requirements**
+       Employer must:
+       • File an approved **Labor Condition Application (LCA)** with the U.S. Department of Labor  
+       • Pay **the higher of**:  
+         - Prevailing wage for the occupation in that region  
+         - Actual wage paid to similar employees  
+       • Provide a legitimate job offer with detailed duties  
+       • Demonstrate the need for specialty knowledge
+
+   (4) **H-1B Cap / Lottery (for cap-subject employers)**
+       • Annual quota: 65,000 regular + 20,000 U.S. master’s cap  
+       • Some employers are cap-exempt (universities, research orgs)
+
+3. **Specialty Occupation Definition (USCIS criteria — must meet one)**  
+   The job qualifies if **ANY one** of the following is true:
+   • Bachelor’s degree is normally the minimum requirement  
+   • Degree requirement is common to the industry  
+   • Employer normally requires a degree for this position  
+   • Duties are specialized & complex requiring degree-level knowledge
+
+4. **Evidence Required**
+   • Detailed job description showing specialized duties  
+   • Degree certificates, transcripts, credential evaluation  
+   • Employer support letter  
+   • LCA approval  
+   • Offer letter with wage & job details  
+   • Resume, experience letters  
+   • Passport and immigration history
+
+5. **Age Requirement**
+   • **No minimum or maximum age rule**  
+   • Age may be questioned only if documents appear inconsistent
+
+6. **Income / Salary**
+   • Must meet prevailing wage for occupation & location  
+   • No upper age salary adjustments  
+   • No minimum personal income requirement for the applicant
+
+7. **Common Reasons for Rejection**
+   • Job does NOT require a specialized degree  
+   • Degree is not related to the job  
+   • Employer did not justify specialty knowledge  
+   • Weak description (“generic IT support”, “assistant”)  
+   • Insufficient wage documentation  
+   • Incomplete evidence of employer-employee relationship
+
+------------------------------------------------------------
+
+============================================================
+B) L-1 — INTRACOMPANY TRANSFEREE
+============================================================
+
+1. **Purpose**
+   Allows employees of multinational companies to transfer to U.S. offices.
+
+2. **Types**
+   • **L-1A**: Managers/executives  
+   • **L-1B**: Specialized knowledge workers
+
+3. **Eligibility**
+   • Must have worked **1 continuous year** for the foreign entity (last 3 years)  
+   • Company must have a qualifying relationship (parent, subsidiary, affiliate)  
+   • Applicant must meet definition of manager/executive/specialized knowledge
+
+4. **Age**
+   • No minimum or maximum age restriction
+
+5. **Evidence**
+   • Organizational chart  
+   • Detailed description of duties  
+   • Proof of qualifying relationship  
+   • Payroll/experience documents  
+
+------------------------------------------------------------
+
+============================================================
+C) O-1 — EXTRAORDINARY ABILITY
+============================================================
+
+1. **Fields Covered**
+   Science, Education, Business, Athletics (O-1A)  
+   Arts, Film/TV (O-1B)
+
+2. **Eligibility**
+   Must show extraordinary ability — proven by national/international recognition.
+
+3. **Evidence Examples**
+   • Awards, publications, press recognition  
+   • Original contributions of major significance  
+   • Leading roles in organizations  
+   • High salary compared to peers  
+
+------------------------------------------------------------
+
+============================================================
+D) TN — NAFTA/USMCA PROFESSIONAL WORKERS (Canada/Mexico)
+============================================================
+Requires job offer in an occupation listed in the USMCA agreement  
+Requires degree or credentials specified for each occupation  
+No age rule  
+Evidence: offer letter + qualifications
+
+
+------------------------------------------------------------
+SECTION 3 — STUDENT VISA CATEGORY DETAILS
+------------------------------------------------------------
+
+============================================================
+A) F-1 — ACADEMIC STUDENTS
+============================================================
+
+1. **Eligibility Requirements**
+   • Admission to a **SEVP-certified institution**  
+   • Form **I-20** issued by the school  
+   • Proof of sufficient funds for **first-year tuition + living costs**  
+   • Intent to return to home country after studies  
+   • English proficiency (if required by school)
+
+2. **Funding Requirements — Must Cover**
+   • Tuition (full or as indicated in I-20)  
+   • Living expenses (school publishes SEVIS cost breakdown)  
+   • Books, supplies  
+   • Health insurance (if required)  
+   • Travel/transportation costs  
+
+   **No universal national amount — it depends on school’s stated annual cost.**
+
+3. **Acceptable Proof of Funds**
+   • Recent bank statements  
+   • Sponsor affidavit + sponsor bank statements  
+   • Scholarships, grants, assistantships  
+   • Education loan sanction letters  
+   • Fixed deposit statements  
+   • GIC (for Canadian applicants — not applicable to U.S.)
+
+4. **Age**
+   • No minimum or maximum age rule for F-1  
+   • Officers may check academic continuity if age gap is large, but it is **not a disqualification**
+
+5. **Common Reasons for Rejection**
+   • Insufficient funds proof  
+   • Inability to explain academic plan  
+   • Unclear intent to return  
+   • Missing documentation
+
+------------------------------------------------------------
+
+============================================================
+B) M-1 — VOCATIONAL STUDENTS
+============================================================
+Similar to F-1 but for non-academic programs.  
+Funds must cover entire course duration.  
+
+------------------------------------------------------------
+
+============================================================
+C) J-1 — EXCHANGE VISITORS
+============================================================
+Requires DS-2019  
+Requires program sponsor  
+Some categories require proof of home-country ties  
+Some categories have **2-year home residency rule**
+
+
+------------------------------------------------------------
+SECTION 4 — VISITOR VISAS
+------------------------------------------------------------
+
+============================================================
+A) B-1 / B-2 — BUSINESS / TOURISM
+============================================================
+
+1. **Purpose**
+   • Business meetings, training (NOT labor)  
+   • Tourism, family visit  
+   • Medical treatment
+
+2. **Eligibility Requirements**
+   • Purpose of visit is legitimate  
+   • Sufficient funds for travel & stay  
+   • Strong ties to home country  
+   • Clear intent to return
+
+3. **Evidence**
+   • Bank statements  
+   • Employment letters  
+   • Property papers  
+   • Family ties documents  
+   • Travel itinerary  
+   • Invitation letters (optional)
+
+4. **Age**
+   • No age restrictions  
+
+
+------------------------------------------------------------
+SECTION 5 — HEALTH REQUIREMENTS
+------------------------------------------------------------
+• No routine medical exam for non-immigrant categories except special circumstances  
+• Vaccination requirements apply mainly to immigrant visas  
+• Medical documentation needed if seeking medical treatment in U.S.  
+• TB or communicable disease checks may be required if flagged  
+
+
+------------------------------------------------------------
+SECTION 6 — DEPENDENT VISAS
+------------------------------------------------------------
+• **H-4**: dependents of H-1B  
+• **L-2**: dependents of L-1 (spouses can work automatically)  
+• **F-2**: dependents of F-1 (cannot work)  
+• **J-2**: dependents of J-1 (may work with EAD)  
+
+Evidence required:
+• Marriage/birth certificates  
+• Primary applicant’s status documents  
+
+
+------------------------------------------------------------
+SECTION 7 — COMMON VISA REFUSAL REASONS
+------------------------------------------------------------
+• 214(b) — Failure to show nonimmigrant intent (F-1 & B-1/B-2)  
+• Insufficient financial documentation  
+• Job not qualifying as specialty occupation (H-1B)  
+• Degree not related to job  
+• Employer not legitimate  
+• Incomplete documentation  
+• Inconsistency during interview  
+
+
+------------------------------------------------------------
+SECTION 8 — FREQUENT USER QUESTIONS ANSWERED
+------------------------------------------------------------
+
+Q1: **Is age 35–50 a problem for H-1B or F-1?**  
+A: No. The U.S. has **no age limit rule**.
+
+Q2: **My company is sponsoring H-1B but I have 10+ years experience and no degree — am I eligible?**  
+A: Possibly. USCIS may accept 3 years experience = 1 year education equivalency if proven properly and job duties require degree-level expertise.
+
+Q3: **I am a student with I-20 but no funding letters — can I get an F-1?**  
+A: You must show **your own** or **sponsor’s** financial capacity. I-20 alone is insufficient.
+
+Q4: **Does income in my home country matter?**  
+A: Only for funding proof and credibility. Home-country income does **not** define visa eligibility.
+

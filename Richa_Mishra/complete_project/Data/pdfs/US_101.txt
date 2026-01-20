@@ -1,0 +1,226 @@
+# 🇺🇸 **H-1B Salary & Specialty Occupation Rules (Clean, Accurate, No Hallucination)**
+
+## 1. Overview
+
+The H-1B visa requires the employer to:
+
+* Offer a **specialty occupation** job.
+* Pay at least the **prevailing wage**.
+* Ensure the beneficiary meets all **qualification criteria**.
+
+This document provides general rules used by USCIS and the U.S. Department of Labor (DOL).
+It does **not** contain exact wage numbers (because they vary by location and change yearly).
+
+---
+
+## 2. What Counts as a Specialty Occupation
+
+A job qualifies as a specialty occupation if **any** of the following are true:
+
+1. **A bachelor’s degree or higher (or equivalent experience) is normally the minimum requirement** for the occupation.
+2. The degree requirement is **common within the industry** for similar positions.
+3. The employer normally requires a degree for that role.
+4. The specific duties are so specialized and complex that a bachelor’s degree is required.
+
+### Common Specialty Occupation Fields
+
+These commonly qualify:
+
+* Software Engineer, Developer, Programmer
+* IT Analyst, Systems Analyst
+* Data Scientist, ML/AI roles
+* Electrical/Mechanical/Computer Engineer
+* Accountants (with specific criteria)
+* Financial analysts
+* Architects
+* Medical professionals
+* University-level researchers
+* Specialty managers (if degree-related)
+
+### Minimum Educational Requirement
+
+* U.S. **Bachelor’s degree** or foreign **equivalent** (evaluated).
+* Or **12 years of experience** = equivalent to bachelor’s (3 years = 1 year of degree)
+* Degree must be **directly related** to the job field.
+
+---
+
+## 3. SOC Codes Commonly Used
+
+Software-related occupations typically fall under:
+
+* **15-1252 Software Developers**
+* **15-1256 Software QA/Testers**
+* **15-1211 Computer Systems Analysts**
+* **15-1221 Data Scientists**
+
+These SOC codes determine prevailing wage levels.
+
+---
+
+## 4. Prevailing Wage Requirement (General Rules)
+
+### The employer must pay **the higher of**:
+
+* The **actual wage** paid to similar employees at the company, OR
+* The **prevailing wage** determined by DOL for that **occupation + location + level**.
+
+### Factors that affect prevailing wage:
+
+1. **Job location (city/county/MSA)**
+
+   * Large tech hubs have higher wages.
+2. **Wage Level (1–4)** based on:
+
+   * Required experience
+   * Job complexity
+   * Level of supervision
+3. **SOC code**
+
+### General Wage Level Meaning (Conceptual Only)
+
+* **Level 1 (Entry)** – Basic tasks, close supervision.
+* **Level 2 (Qualified)** – Moderate experience.
+* **Level 3 (Experienced)** – Advanced duties.
+* **Level 4 (Expert)** – Complex, leadership-level.
+
+---
+
+## 5. General Salary Expectations (Safe, Non-Numeric Range Explanation)
+
+To avoid hallucinating any specific wage values, the following are **accurate generalizations**:
+
+* In **high-cost cities** (e.g., San Francisco, NYC, Seattle), prevailing wages for software roles are **significantly higher** than in mid-cost areas.
+* In **mid-cost cities** (Austin, Denver, Atlanta), Level-1 wages for software roles are **moderate** and can be met by many early-career salaries.
+* In **low-cost areas**, Level-1 wages are **lower**, and even lower salaries may suffice.
+
+### Key point for your chatbot:
+
+**A salary cannot be evaluated without the location AND job level.**
+
+---
+
+## 6. How USCIS Evaluates Salary Eligibility
+
+USCIS examines:
+
+1. Employee’s job duties
+2. SOC code assignment
+3. Job location
+4. Selected wage level (1–4)
+5. Offered salary
+
+If the offered salary is **lower than the prevailing wage**, the petition is usually denied or requires correction.
+
+---
+
+## 7. Required Information to Determine if Salary Is Enough
+
+For ANY salary-eligibility question, the assistant must ask or check:
+
+### Mandatory:
+
+* **Job location (city/state)**
+* **Job title**
+* **Job duties (brief)**
+* **Experience required**
+* **Degree field**
+* **Salary offered**
+
+## 1. Why Salary Matters for H-1B
+
+For H-1B visas, the employer must pay at least the **“actual wage”** or the **“prevailing wage”**, whichever is higher.
+
+* Actual wage: what current employees in similar positions earn at the same employer.
+* Prevailing wage: set by U.S. Department of Labor (DOL) based on job location, SOC code, experience level (Level 1–4).
+
+Because prevailing wages vary significantly by geography, industry, and job level, there is **no fixed universal wage threshold**. Instead we can reason using **salary bands**.
+
+---
+
+## 2. Salary Band Guidelines (for Software / Engineering / Common Tech Jobs)
+
+These bands are approximate, meant to help eligibility reasoning. They are not legal thresholds.
+
+| **Band**           | **Approx Annual Salary (USD, before tax)** | **Likely Corresponding Settings**                                                                   |
+| ------------------ | ------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| **Low Band**       | ≈ 70,000 – 90,000                          | Entry-level Software Engineer/Developer in low-to-mid cost regions; Level-1–2 wage levels.          |
+| **Mid Band**       | ≈ 90,000 – 120,000                         | Junior-to-mid-level roles in mid-cost metro areas; Level-2 or low Level-3.                          |
+| **Upper-Mid Band** | ≈ 120,000 – 150,000                        | Mid-to-senior roles in moderately expensive cities; Level-3 wage level.                             |
+| **High Band**      | ≈ 150,000 – 200,000                        | Senior / specialized roles, in high-cost metro areas (e.g., coastal tech hubs), Level-3/4.          |
+| **Top Band**       | > 200,000                                  | Senior/lead/architect/manager roles in high-cost metro regions or high-demand specialties; Level-4. |
+
+> **Important caveats:**
+>
+> * These bands are **guidelines**, not legal minima.
+> * Final wage eligibility depends on **job location, SOC code, required level, employer pay scales, benefits**.
+> * For low-band wages, acceptance depends on **low cost-of-living area** and verifying employer’s “actual wage.”
+
+---
+
+## 3. When Low or Mid-Band Might Be Accepted
+
+H-1B may still be approved at **low or mid-band** wages if:
+
+* Job location is in a **low or mid-cost area** (lower prevailing wage).
+* Role is **entry-level or junior** (Level 1 or 2).
+* Employer’s “actual wage” to similar staff is in that range (not just minimum).
+* The job duties match entry-level complexity (not senior/architect-level).
+* Employer provides proper documentation (LCA, wage attestation).
+
+In such cases, $75,000–85,000 in a small or mid-cost city could be valid; but in high-cost cities $100,000 might be borderline.
+
+---
+
+## 4. When Wage Must Be Upper-Mid or Higher
+
+Wage should be in **Upper-Mid / High / Top Band** if:
+
+* Job location is a **high-cost metro** (e.g., San Francisco Bay Area, New York City, Seattle, Boston, Los Angeles).
+* Role demands **specialized or senior-level skills** (senior engineer, architect, management, specialized niche).
+* Experience level is high (senior, 5+ years).
+* Job responsibilities involve leadership, design, high responsibility, or niche domain expertise.
+
+In such cases, $120,000–150,000 may be considered entry-level for that region/role; lower might risk denial.
+
+---
+
+## 5. Guidelines for Using Salary Bands in RAG / LLM Reasoning
+
+When a user asks: *“My salary offer is $X, am I eligible?”* — your assistant should:
+
+1. Ask: **“What is the job location (city/state)?”** — because prevailing wage depends strongly on location.
+2. Ask: **“What is your job title & experience level (junior / mid / senior)?”** — determines the expected band.
+3. Then compare X with **band ranges**, and respond with:
+
+   * **Yes** (if X is comfortably within or above band for that location & level),
+   * **Maybe / Borderline** (if X lies in lower band but location & level are low/entry),
+   * **No** (if X is below band for given location & level or role is senior but wage is low).
+4. Provide **explanation + caveats** (need employer’s actual wage report, SOC matching, and LCA approval).
+
+If user does not provide location or level, the bot should return **“Need more information (location + level of role)”** rather than giving a definitive yes/no.
+
+---
+
+## 6. How to Incorporate in RAG Indexing
+
+* Save this document as **clean text** (not chunked) in your Data folder.
+* When you build embeddings, include it so RAG retrieval can fetch these guidelines.
+* In prompt builder, ensure that if user asks about salary → these lines are part of retrieved context.
+* This allows the LLM to make **evidence-based reasoning** rather than guesswork.
+
+---
+
+## 7. Example Agent-style Answer Templates
+
+* **If user gives salary + location + role:**
+
+  > “For a mid-cost city and junior Software Engineer role, your offered salary of US$85,000 falls in the lower end of acceptable band; assuming prevailing wage for that region is not significantly higher, this may be acceptable. You still need employer’s LCA/actual-wage attestation.”
+
+* **If user gives salary but no location/level:**
+
+  > “I need to know the job’s location (city/state) and your level (junior, mid, senior) to check against prevailing wage bands. Please provide those details.”
+
+* **If user proposes senior role with low salary:**
+
+  > “Your salary offer is below typical high-cost area senior-level ranges — this is unlikely to meet prevailing wage requirements. Consider negotiating higher pay or choosing a lower-cost region.”

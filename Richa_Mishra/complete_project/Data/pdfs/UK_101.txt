@@ -1,0 +1,340 @@
+Perfect.
+Here is the **UK Skilled Worker + Student + Visitor + Family + Temporary Work Visa – Master Eligibility Document**, following **the exact same structure and style** as the US document you approved.
+
+This is a **clean, expanded, non-hallucinated text document**, ready to save as `.txt` and use directly in your RAG pipeline.
+
+---
+
+# 🇬🇧 **UNITED KINGDOM — VISA ELIGIBILITY MASTER DOCUMENT**
+
+*(Skilled Worker | Health & Care | Student | Temporary Work | Visitor | Family Route)*
+
+---
+
+# 1. Skilled Worker Visa Eligibility
+
+The UK Skilled Worker visa allows individuals to work for a licensed UK employer in an eligible skilled occupation.
+
+## 1.1 Job Eligibility (Skill Requirements)
+
+A job qualifies as a “Skilled Worker” role if all of the following are true:
+
+* The job must appear in the **Home Office “Appendix Skilled Occupations”** list.
+* It must be at **RQF Level 3** or above (equivalent to A-level or higher).
+* The employer must be a **Home Office–approved sponsor**.
+* The applicant must have a valid **Certificate of Sponsorship (CoS)** specifying:
+
+  * job title
+  * occupation code
+  * salary
+  * work address
+  * start and end dates
+
+### 1.1.1 Examples of Skilled Occupations (non-exhaustive)
+
+* Software Developer
+* Data Analyst
+* Civil Engineer
+* Mechanical Engineer
+* Accountant
+* Nurse
+* Healthcare worker roles (various)
+* Secondary school teacher
+* Electrician
+* Marketing Associate (if SOC code is approved)
+
+Roles like **driver**, **cashier**, **general laborer**, **waiter**, **receptionist**, or **delivery rider** are *not* eligible unless tied to a specific approved SOC code.
+
+---
+
+# 1.2 Salary Eligibility
+
+To qualify, the salary must meet **whichever is highest** of:
+
+1. **General salary threshold:**
+
+* £38,700 per year (current standard threshold)
+
+2. **The “going rate”** for the job’s SOC code
+
+* Each occupation code has its own minimum salary (hourly or annual).
+* Some technical and STEM jobs have lower going rates.
+
+3. **Hourly minimum**
+
+* Must be at least £11.90/hour unless exempt.
+
+### 1.2.1 Cases where lower salaries are allowed
+
+Lower salary thresholds apply only if the applicant meets specific exceptions:
+
+* **New entrant to the labor market**
+
+  * under age 26
+  * switching from student visa
+  * within 2 years of graduation
+    → threshold may reduce to **70% of the going rate**.
+
+* **STEM PhD relevant to the role**
+  → may use 80–90% of the going rate.
+
+* **Health & Care visa route**
+  → Reduced salary thresholds apply for eligible NHS roles.
+
+If none of the above apply, the **full salary** rules must be met.
+
+---
+
+# 1.3 Education Eligibility
+
+* Minimum requirement: **At least RQF Level 3 skills**, not necessarily a degree.
+* For many roles (IT, engineering, science, finance, construction), a **bachelor’s degree or equivalent experience** is standard.
+* Some roles require **regulated qualifications**, e.g.:
+
+  * nurses → NMC registration
+  * teachers → QTS in some cases
+  * doctors → GMC registration
+
+---
+
+# 1.4 English Language Requirement
+
+Must meet one of:
+
+* IELTS UKVI (minimum CEFR level B1 or B2 depending on route)
+* Degree taught in English (verified via ECCTIS)
+* Nationality from an English-speaking country (not applicable to India)
+
+---
+
+# 1.5 Financial/Personal Funds
+
+Applicant must show they can support themselves **unless** their sponsor certifies maintenance.
+
+Standard requirement:
+
+* **£1,270** in bank account for 28 days (if not sponsored for maintenance).
+* Additional funds apply for dependents.
+
+---
+
+# 1.6 Job Offer Requirements
+
+The job offer must:
+
+* Come from a **licensed sponsor**
+* Match an **eligible SOC code**
+* Meet **salary threshold**
+* Include a **Certificate of Sponsorship**
+
+---
+
+# 1.7 Health Requirements
+
+* Mandatory **TB test certificate** for applicants from India.
+* Must pay **Immigration Health Surcharge (IHS)** (except Health & Care Visa).
+* Some roles require medical clearance (e.g., healthcare workers).
+
+---
+
+# 1.8 Age Requirements
+
+No strict minimum/maximum age, but:
+
+* “New entrant” salary benefits apply only if **under 26** OR a recent graduate.
+
+---
+
+# 1.9 Factors That Affect Eligibility
+
+* Criminal record (serious offenses may cause refusal)
+* Prior visa compliance history
+* Gaps in employment documentation
+* Mismatched job titles and SOC codes
+* Insufficient salary or incorrect job code
+* Failure to prove English language proficiency
+
+---
+
+# 1.10 When Skilled Worker Visa Is Not Possible
+
+Not eligible if:
+
+* Job is not in an eligible SOC code
+* Salary is below the required threshold
+* Employer is not licensed
+* Incorrect or missing CoS
+* Wrong or invalid TB test
+* Cannot meet English language requirement
+
+---
+
+# 2. Health and Care Worker Visa (Special Route)
+
+A simplified version of Skilled Worker for health professionals.
+
+## 2.1 Occupations Eligible
+
+Examples:
+
+* Nurses
+* Doctors
+* Healthcare assistants (if on eligible SOC code)
+* Physiotherapists
+* Radiographers
+* Paramedics
+* Lab technicians (health-related)
+
+## 2.2 Benefits
+
+* Reduced salary threshold
+* Reduced visa fees
+* **No Immigration Health Surcharge (IHS)**
+* Fast-track decision processing
+
+---
+
+# 3. Student Visa Eligibility (UK)
+
+For full-time study at an approved institution.
+
+## 3.1 Education Requirements
+
+* CAS (Confirmation of Acceptance for Studies) from licensed institution
+* Valid academic offer
+* Course must meet minimum study level requirements (RQF Level 3+)
+
+## 3.2 Financial Requirements
+
+Required funds:
+
+* Tuition fees for year 1
+* Living costs:
+
+  * **£1,334/month** in London
+  * **£1,023/month** outside London
+* Must show financial proof **for 28 days**
+* Funds must be in an acceptable financial institution
+
+## 3.3 English Requirement
+
+* IELTS UKVI (normally CEFR B2 for degree courses)
+* Equivalent approved tests accepted
+
+## 3.4 Other Conditions
+
+* TB test required
+* Parental consent required if under 18
+* No full-time work allowed (only limited hours)
+
+---
+
+# 4. Temporary Worker Visas (T5)
+
+Includes:
+
+* Charity worker
+* Creative worker
+* Religious worker
+* International agreements
+* Youth Mobility Scheme (not available to India today)
+
+Eligibility depends on:
+
+* Valid Certificate of Sponsorship
+* Meeting maintenance funds
+* Meeting route-specific rules
+
+---
+
+# 5. Visitor Visa (Tourist/Short Stay)
+
+## 5.1 General Eligibility
+
+* Purpose must be tourism, business meetings, medical treatment, or short study
+* Must show intent to return
+* Must show sufficient funds for stay
+* Invitation letter (optional but helpful)
+
+## 5.2 Financial Requirements
+
+No fixed amount, but must show:
+
+* Bank balance supporting the trip
+* Accommodation plan
+* Travel funds
+
+## 5.3 Restrictions
+
+Cannot:
+
+* Work
+* Switch to another visa
+* Marry (unless using Marriage Visitor Visa)
+
+---
+
+# 6. Family Visa (Spouse/Partner)
+
+## 6.1 Eligibility Requirements
+
+* Relationship must be genuine
+* Must meet financial requirement:
+
+  * **£29,000/year** income (increasing to £38,700 in phases)
+* English requirement: CEFR A1/A2/B1 depending on stage
+* Accommodation proof required
+
+## 6.2 Documents Needed
+
+* Marriage certificate
+* Photos / chat logs (optional)
+* Proof of cohabitation
+* Bank statements or payslips
+* Sponsor’s proof of employment
+* TB test for applicants from India
+
+---
+
+# 7. Summary of Required User Information (For RAG Pipeline)
+
+Your assistant should check for:
+
+* Country applying to
+* Visa category
+* Job role
+* SOC/occupation code (if Skilled Worker)
+* Salary amount (yearly & hourly)
+* Work location (affects going rate)
+* Age (important for “new entrant”)
+* Education level
+* English test status
+* Available funds
+* Family/dependents
+* Sponsor license status
+* Whether user holds CAS/CoS
+* TB test status
+
+---
+
+# 8. What the System Should Answer "YES" or "NO" To
+
+The assistant can answer definitively when:
+
+* Job matches a skilled code
+* Salary meets or does not meet the threshold
+* English requirement is met
+* Funds match required amounts
+* Age fits “new entrant” criteria
+* TB test is required or not
+
+The assistant should answer "Insufficient information" when:
+
+* Missing SOC code
+* Missing job location
+* Missing salary breakdown (per year/hour)
+* Missing funds amount
+* Missing degree info
+* Missing CoS/CAS
+* Missing English test score
+
