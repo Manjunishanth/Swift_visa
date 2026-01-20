@@ -1,0 +1,99 @@
+--- CHUNK 1 ---
+{
+  "visa_type": "Canada",
+  "last_updated": "November 2025",
+  "overview": {
+    "categories": [
+      "Temporary resident visas (visitor, study, work)",
+      "Permanent Residence options"
+    ],
+    "managing_authority": "IRCC (Immigration, Refugees and Citizenship Canada)"
+  },
+  "key_fees_2025": {
+    "right_of_permanent_residence": "CA$575",
+    "biometric_fee": "CA$85 per person"
+  },
+  "visa_permit_types": {
+    "visitor_trv": {
+      "purpose": [
+        "Tourism",
+
+
+--- CHUNK 2 ---
+        "Business visits",
+        "Family visits",
+        "Transit"
+      ],
+      "fee": "CA$100",
+      "entries": "Single or multiple entry",
+      "required_documents": [
+        "Passport",
+        "Proof of financial means",
+        "Travel plan",
+        "Ties to home country"
+      ]
+    },
+    "eta": {
+      "purpose": "For visa-exempt nationals traveling by air",
+      "fee": "CA$7",
+      "validity": "Up to 5 years or until passport expiry",
+
+
+--- CHUNK 3 ---
+      "limitations": "Does not allow work or study"
+    },
+    "study_permit": {
+      "fee": "CA$150",
+      "financial_requirements": "Proof of sufficient funds for tuition + living costs",
+      "required_documents": [
+        "Acceptance letter from DLI",
+        "Proof of funds",
+        "Biometric info"
+      ]
+    },
+    "work_permits": {
+      "types": [
+        "Employer-specific",
+        "Open Work Permit",
+        "International Experience Canada"
+      ],
+      "fees": {
+
+
+--- CHUNK 4 ---
+        "employer_specific": "CA$155",
+        "open_work_permit": "CA$100"
+      },
+      "processing_times": {
+        "in_canada": "~120 days",
+        "outside_canada": "~60 days (varies)"
+      }
+    },
+    "super_visa": {
+      "purpose": "For parents/grandparents of Canadian citizens/PRs",
+      "fee": "CA$100",
+      "stay_length": "Up to 2 years per visit",
+      "requirements": [
+        "Invitation from child/grandchild",
+        "Medical insurance",
+        "Medical exam"
+      ]
+
+
+--- CHUNK 5 ---
+    },
+    "permanent_residence": {
+      "streams": [
+        "Economic (Express Entry)",
+        "Provincial Nominee Programs",
+        "Family Sponsorship"
+      ],
+      "fees": {
+        "rprf": "CA$575",
+        "dependent_child": "CA$175"
+      }
+    }
+  }
+}
+
+

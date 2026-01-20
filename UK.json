@@ -1,0 +1,93 @@
+{
+  "country": "United Kingdom",
+  "last_updated": "November 2025",
+  "overview": {
+    "system_description": "The UK offers various visa routes: Visitor, Student, Work, Family / Settlement, Post-Study (Graduate), ILR, etc.",
+    "key_changes": "Major revision to visa fees came into effect on 9 April 2025",
+    "premium_services": "Priority and Super Priority services remain in use"
+  },
+  "key_updates_2025": {
+    "fee_increase_date": "9 April 2025",
+    "specific_changes": {
+      "cos_admin_fee": "£525 (Skilled Worker / Global Business Mobility)",
+      "ilr_fee": "£3,029 (raised from £2,885)",
+      "priority_services": {
+        "priority": "£500 (unchanged)",
+        "super_priority": "£1,000 (unchanged)"
+      }
+    }
+  },
+  "visa_types": {
+    "visitor_short_term": {
+      "purpose": ["Tourism", "Business", "Short study", "Transit"],
+      "fees": {
+        "short_6_months": "£127",
+        "long_2_year": "£475",
+        "long_5_year": "£848",
+        "long_10_year": "£1,059"
+      },
+      "work_permitted": false,
+      "document_requirements": ["Passport", "Proof of financial means", "Travel plan", "Ties to home country"],
+      "validity": "Multiple entry possible, depending on visa type"
+    },
+    "student": {
+      "routes": ["Full Student Route (degree-level, long-term)", "Short-Term Student (English courses, 6-11 months)", "Child Student (under 18)"],
+      "fees": {
+        "main_plus_dependents": "£524",
+        "short_term_6_11_months": "£214"
+      },
+      "immigration_health_surcharge": "Depends on visa length; charged per year (~£1,035/year for worker)",
+      "requirements": ["Confirmation of Acceptance for Studies (CAS)", "English language test (if required)", "Financial maintenance funds", "Passport, photos, other identity documents"],
+      "dependents": "Possible on many student visas (spouse, children)",
+      "validity": "Duration of course + extension allowed for certain post-study routes"
+    },
+    "work": {
+      "skilled_worker": {
+        "requirements": "Job offer from a licensed UK sponsor",
+        "fees": {
+          "outside_uk_up_to_3_years": "£769",
+          "outside_uk_over_3_years": "£1,519",
+          "in_uk_up_to_3_years": "£885",
+          "in_uk_over_3_years": "£1,751"
+        },
+        "cos_admin_fee": "£525",
+        "other_charges": {
+          "priority": "+£500",
+          "super_priority": "+£1,000",
+          "immigration_skills_charge": "Depends on employer and size"
+        }
+      },
+      "other_work_visas": ["Health & Care Worker", "Global Business Mobility", "Scale-up", "Innovator Founder"],
+      "general_requirements": ["Certificate of Sponsorship (CoS)", "Passport, job offer, salary minimum", "English language (if required)", "Criminal / background checks (if required)"]
+    },
+    "graduate_post_study": {
+      "purpose": "Allows graduates from UK institutions to stay and work / look for work after their course",
+      "fee": "Follows 'Work Visa' rules depending on route / duration",
+      "rights": "Work full-time, no requirement for specific sponsor (depending on route)",
+      "dependents": "Possible, subject to visa conditions"
+    },
+    "family_settlement": {
+      "types": ["Spouse / partner visas", "Children", "Parent visas"],
+      "ilr_fee": "£3,029",
+      "requirements": ["Proof of genuine relationship (spouse / partner)", "Financial requirement (income threshold)", "Accommodation requirement", "English language (in many cases)"],
+      "additional": "Biometric Residence Permit (BRP) may be required"
+    },
+    "other_special": {
+      "types": ["Start-up / Innovator", "Youth Mobility", "Global Talent"],
+      "note": "Refer to UKVI for specific 2025 rates and rules"
+    }
+  },
+  "processing_services": {
+    "processing_times": "Varies by visa route: use UKVI / VFS for current estimates",
+    "premium_services": {
+      "priority": "+£500 (non-settlement)",
+      "super_priority": "+£1,000"
+    },
+    "biometric_enrollment": "Required for most visa categories",
+    "digital_evisa": "Many visa decisions / status handled via online portals"
+  },
+  "risks_tips": {
+    "common_denial_reasons": ["Insufficient finances (sponsorship or personal)", "Weak proof of relationship (for family visas)", "Incomplete or inaccurate application forms", "Failing to meet English language requirement"],
+    "tips": ["Use the latest fee table (post April 2025) when calculating costs", "Maintain strong documentation (job offer, financial proof, sponsor letters)", "Consider priority services if you need faster decisions", "Track biometric appointment & keep documentation ready", "Understand healthcare surcharge (IHS) commitment"]
+  }
+}

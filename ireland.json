@@ -1,0 +1,100 @@
+{
+  "country": "Ireland",
+  "last_updated": "November 2025",
+  "overview": {
+    "system_description": "Ireland visas are classified broadly into short-stay visas (Type C) and long-stay visas (Type D)",
+    "visa_categories": ["Visitors / Tourists", "Study (Student Visas)", "Work Permits", "Re-entry"],
+    "managing_authorities": ["Irish Immigration Service Delivery (ISD)", "Local Irish embassies", "VFS"],
+    "biometric_requirement": "Biometric capture (fingerprints + photo) is required for many visa applicants"
+  },
+  "key_updates_2025": {
+    "student_financial_requirements": {
+      "living_expenses": "€10,000 per year (or equivalent)",
+      "tuition_payment": "Must pay at least €6,000 of tuition before visa application if total course fee is > €6,000"
+    },
+    "english_language_requirement": "Required when applying for long-term study visas",
+    "fee_structure": {
+      "short_stay_single_entry": "€60",
+      "short_stay_multiple_entry": "€100",
+      "re_entry_visa_single": "€60",
+      "re_entry_visa_multiple": "€100",
+      "emergency_application": "Higher fees (e.g., +€100 admin)"
+    }
+  },
+  "visa_types": {
+    "short_stay_type_c": {
+      "purpose": ["Tourism", "Business visits", "Short study (< 90 days)", "Transit"],
+      "fees": {
+        "single_entry": "€60",
+        "multiple_entry": "€100"
+      },
+      "passport_validity": "Passport must be valid; visa validity depends on consulate decision",
+      "required_documents": ["Valid Passport", "Proof of funds for stay", "Travel itinerary / invitation", "Travel / health insurance (may be requested)"],
+      "special_conditions": ["Visa fee is non-refundable even if the visa is refused"]
+    },
+    "student_visas": {
+      "types": {
+        "short_term_c": "For 3-month courses",
+        "long_term_d": "For courses longer than 3 months / degree-level programs"
+      },
+      "fees": {
+        "single_entry": "€60",
+        "multiple_entry": "€100",
+        "note": "Some sources for Indian students / particular visa-offices have slightly different 'local currency' equivalent"
+      },
+      "financial_requirements": {
+        "living_costs": "€10,000 per year",
+        "tuition_payment": "Pay at least €6,000 of tuition before visa application if total course fee is > €6,000"
+      },
+      "english_language": "Required where applicable (test like IELTS / TOEFL, per course / school)",
+      "work_rights": {
+        "during_term": "Up to 20 hours/week",
+        "during_holidays": "Up to 40 hours/week",
+        "permission_type": "Valid Stamp 2 or relevant immigration permission"
+      },
+      "post_study_rights": "Some students may apply for 'Third Level Graduate Programme' to stay and work / search for work after course completion",
+      "required_documents": ["Letter of Acceptance / Offer from Irish institution", "Proof of funds (bank statements, sponsor, scholarship)", "Tuition fee payment / deposit proof (if required)", "Passport + photos", "Visa application form (AVATS system)"],
+      "registration_after_arrival": "Non-EEA students must register with Immigration Service Delivery / GNIB and get a GNIB / IRP card",
+      "medical_insurance": "While not always absolutely required for the visa application, having health insurance is highly recommended"
+    },
+    "work_employment_permits": {
+      "permit_types": ["Critical Skills Employment Permit (for highly skilled roles)", "General Employment Permit (for other jobs)", "Intra-company Transfer Permit", "Internship Permit"],
+      "fees": {
+        "employment_permit_application": "€1,000 for many categories"
+      },
+      "salary_requirements": {
+        "critical_skills_permit": "€44,000 annually"
+      },
+      "validity": "Depends on permit type (up to 2 years or more; renewal possible)",
+      "required_documents": ["Valid passport", "Job offer / contract from Irish employer", "Proof of qualifications and relevant experience", "Application form for the specific employment permit"],
+      "dependents_family": "Some work permit types allow spouse / children to apply for dependent permissions (depends on permit)",
+      "conditions_risks": ["Non-compliance may lead to permit cancellation", "Must follow conditions tied to the permit"]
+    },
+    "re_entry_visa": {
+      "purpose": "For non-EEA nationals who hold an Irish Residence Permit (IRP) and need a visa to re-enter",
+      "fees": {
+        "single_entry": "€60",
+        "multiple_entry": "€100",
+        "emergency_application": "Higher fees (e.g., +€100 admin)"
+      },
+      "validity": "Multiple-entry re-entry visa validity is tied to the IRP card's validity",
+      "required_documents": ["Passport + IRP card", "Evidence that IRP is still valid / in use", "Application form + any required photos / attachments"]
+    }
+  },
+  "general_requirements": {
+    "passport_validity": "Passport should be valid when applying; good practice is to have a reasonably valid travel document",
+    "application_system": "AVATS online system for long-term visas",
+    "biometric_data": "Required for many visa categories (fingerprint + photo)",
+    "supporting_documents": ["Financial proof", "Job / admission letter", "Accommodation plan", "Travel itinerary"],
+    "fee_policy": "Application Fee is non-refundable even if visa is refused / withdrawn"
+  },
+  "processing_logistics": {
+    "processing_times": "Vary by visa office (embassy / consulate) and volume; delays are possible depending on documents / verification needed",
+    "post_arrival_registration": "Non-EEA nationals must register with Irish immigration and get an IRP / GNIB card",
+    "application_process": "For student visa applicants (especially Indian / Nepal nationals), applying via VFS is common, and AVATS printout + biometrics are needed"
+  },
+  "risks_tips": {
+    "common_denial_reasons": ["Insufficient proof of funds (living + tuition)", "Incomplete / inaccurate documentation (acceptance letter, bank statements)", "Not meeting English-language requirement (if needed)", "Incorrect or missing visa application forms"],
+    "tips_for_applicants": ["Keep clear financial documentation: bank statements, sponsor letters, loan letters", "Pay required tuition / deposit (if applicable) before visa application to strengthen case", "Apply well in advance, especially for student visas (account for VFS appointment, biometrics, processing)", "Make sure to register with Irish immigration (IRP / GNIB) post-arrival", "Maintain valid insurance / funds for living cost during stay"]
+  }
+}
